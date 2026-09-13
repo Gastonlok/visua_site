@@ -1,0 +1,23 @@
+# Secrets et fichiers propres à la machine
+.env*
+!.env.example
+*.pem
+*.key
+.codex/
+.agents/
+# Exports historiques et diagnostics locaux
+/lint-results.json
+/MANIFESTE_EXPORT.json
+/LISEZ_MOI_EXPORT.md
+# Dépendances, builds et bases locales
+node_modules/
+.next/
+.next-e2e/
+.pnpm-store/
+.local-db/
+.wrangler/
+.vercel/
+outputs/
+test-results/
+playwright-report/
+*.tsbuildinfo

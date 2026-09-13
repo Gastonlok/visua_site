@@ -1,0 +1,3 @@
+import {LayoutDashboard,Files,Images,Inbox,Users,Settings,History,UserRound,ExternalLink,LogOut,Plus,FilePenLine,ClipboardCheck,BadgeCheck,Globe,Archive,ShieldCheck,ListChecks,type LucideIcon} from 'lucide-react';
+const icons:Record<string,LucideIcon>={overview:LayoutDashboard,contents:Files,media:Images,requests:Inbox,users:Users,settings:Settings,audit:History,account:UserRound,external:ExternalLink,logout:LogOut,create:Plus,draft:FilePenLine,review:ClipboardCheck,verified:BadgeCheck,published:Globe,archived:Archive,access:ShieldCheck,priorities:ListChecks};
+export default function DashboardIcon({name}:{name:string}){const Icon=icons[name]||Files;return <Icon className="dashboard-icon" size={19} strokeWidth={1.7} aria-hidden="true"/>}

@@ -1,0 +1,36 @@
+{
+  "provinces": [
+    "Bas-Uélé",
+    "Équateur",
+    "Haut-Katanga",
+    "Haut-Lomami",
+    "Haut-Uélé",
+    "Ituri",
+    "Kasaï",
+    "Kasaï-Central",
+    "Kasaï-Oriental",
+    "Kinshasa",
+    "Kongo Central",
+    "Kwango",
+    "Kwilu",
+    "Lomami",
+    "Lualaba",
+    "Mai-Ndombe",
+    "Maniema",
+    "Mongala",
+    "Nord-Kivu",
+    "Nord-Ubangi",
+    "Sankuru",
+    "Sud-Kivu",
+    "Sud-Ubangi",
+    "Tanganyika",
+    "Tshopo",
+    "Tshuapa"
+  ],
+  "source": {
+    "title": "Journal officiel RDC — Constitution, textes coordonnés du 5 février 2011, article 2",
+    "url": "https://faolex.fao.org/docs/pdf/cng128142.pdf#page=6",
+    "page": "Page 6, article 2"
+  },
+  "normalizationNote": "Liste des 25 provinces et de Kinshasa (statut de province), orthographe française normalisée pour affichage : accents sur Équateur et Uélé ; traits d’union dans Kasaï-Central et Kasaï-Oriental ; Kongo Central sans trait d’union."
+}

@@ -1,0 +1,1 @@
+ALTER TYPE "public"."fiche_status" ADD VALUE 'verified' BEFORE 'published';

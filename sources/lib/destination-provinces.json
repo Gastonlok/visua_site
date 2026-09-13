@@ -1,0 +1,356 @@
+[
+  {
+    "id": "kinshasa",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=47",
+        "page": "Pages imprimées 38, 39, 40, 42, 43 · PDF 47, 48, 49, 51, 52"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-virunga",
+    "provinces": [
+      "Nord-Kivu",
+      "Ituri",
+      "Sud-Kivu"
+    ],
+    "provinceNote": "Le parc est presque entièrement situé au Nord-Kivu, mais son extrême nord relève du territoire d’Irumu, aujourd’hui en Ituri, et l’île Tshegera du territoire de Kalehe au Sud-Kivu. Le rapport UNESCO/UICN 2018, p. 8, cite 98,83 % au Nord-Kivu, 1,13 % à Irumu (encore nommé Province Orientale) et 48 ha à Tshegera. Ces petites portions font partie du parc ; le classement provincial ne doit pas se limiter à son accès depuis Goma.",
+    "sources": [
+      {
+        "title": "UNESCO/UICN — Rapport de mission au Parc national des Virunga, 23–28 avril 2018",
+        "url": "https://whc.unesco.org/document/168176#page=8",
+        "page": "Page 8, Situation géographique"
+      },
+      {
+        "title": "CAID / Primature RDC — Province de l’Ituri, subdivisions administratives",
+        "url": "https://caid.cd/?page_id=12028"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=32",
+        "page": "Pages imprimées 23 · PDF 32"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-garamba",
+    "provinces": [
+      "Haut-Uélé"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=27",
+        "page": "Pages imprimées 18 · PDF 27"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-kahuzi-biega",
+    "provinces": [
+      "Nord-Kivu",
+      "Sud-Kivu",
+      "Maniema"
+    ],
+    "provinceNote": "Le siège et la zone touristique se trouvent près de Bukavu au Sud-Kivu ; le parc entier s’étend aussi au Nord-Kivu et au Maniema selon son gestionnaire officiel ICCN/WCS.",
+    "sources": [
+      {
+        "title": "Parc national de Kahuzi-Biega — site officiel ICCN/WCS, The Park",
+        "url": "https://www.kahuzibiega.com/en-us/About/THE-PARK",
+        "page": "Rubrique Geography"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=28",
+        "page": "Pages imprimées 19 · PDF 28"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-kundelungu",
+    "provinces": [
+      "Haut-Katanga"
+    ],
+    "sources": [
+      {
+        "title": "African Parks / ICCN — Kundelungu",
+        "url": "https://www.africanparks.org/the-parks/kundelungu"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=29",
+        "page": "Pages imprimées 20 · PDF 29"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-salonga",
+    "provinces": [
+      "Tshuapa",
+      "Mai-Ndombe",
+      "Sankuru",
+      "Kasaï"
+    ],
+    "provinceNote": "Le parc s’étend sur quatre provinces actuelles. La Tshuapa relève de l’ancienne province de l’Équateur ; ne pas employer Équateur pour désigner cette partie du parc aujourd’hui.",
+    "sources": [
+      {
+        "title": "ISCO — Programme agricole rural et de conservation du complexe de la Salonga",
+        "url": "https://internazionale.isco-sc.it/1046/"
+      },
+      {
+        "title": "Key Biodiversity Areas — Salonga National Park, périmètre légal et territoires",
+        "url": "https://www.keybiodiversityareas.org/en/site/factsheet/6060"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=31",
+        "page": "Pages imprimées 22 · PDF 31"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-lomami",
+    "provinces": [
+      "Maniema",
+      "Tshopo"
+    ],
+    "provinceNote": "Maniema et Tshopo désignent ici le parc national proprement dit, suivant la brochure du projet créateur TL2 et un appel ICCN de 2024. Les sources divergent : le cahier ANAPI 2026 (p. 24) ajoute la province de Lomami et donne une ancienne superficie ; la fiche indicative soumise par la RDC à l’UNESCO en 2024 ajoute Sankuru. Ces ajouts ne sont pas retenus faute de confirmation de leur inclusion dans le périmètre du parc ; les bassins des rivières Tshuapa et Lualaba et la zone tampon ne sont pas des synonymes des provinces traversées par le parc.",
+    "sources": [
+      {
+        "title": "Projet TL2 / Fondation Lukuru — Un nouveau parc national en RDC : Lomami",
+        "url": "https://www.bonoboincongo.com/wp-content/uploads/2016/12/161210_Brochure_Reduced_Size.pdf#page=4",
+        "page": "Page 4 : Où se trouve le nouveau Parc ?"
+      },
+      {
+        "title": "ICCN — Appel à consultation 2024, présentation du Parc national de Lomami, publié sur Radio Okapi",
+        "url": "https://www.radiookapi.net/offre-demploi/institut-congolais-pour-la-conservation-de-la-nature-iccn-contribution-lelaboration-du"
+      },
+      {
+        "title": "RDC / UNESCO — Liste indicative 2024, Parc National de la Lomami (PNL)",
+        "url": "https://whc.unesco.org/fr/listesindicatives/6699/"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=33",
+        "page": "Pages imprimées 24 · PDF 33"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-upemba",
+    "provinces": [
+      "Haut-Katanga",
+      "Haut-Lomami",
+      "Lualaba"
+    ],
+    "provinceNote": "Le parc entier s’étend sur trois provinces selon son gestionnaire : Haut-Katanga, Haut-Lomami et Lualaba. Lualaba seul, mentionné dans le cahier ANAPI, ne représente pas toute son étendue.",
+    "sources": [
+      {
+        "title": "Parc national de l’Upemba — site officiel, À propos",
+        "url": "https://www.upemba.org/fr/about"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=34",
+        "page": "Pages imprimées 25 · PDF 34"
+      }
+    ]
+  },
+  {
+    "id": "anapi-parc-mangroves",
+    "provinces": [
+      "Kongo Central"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=35",
+        "page": "Pages imprimées 26 · PDF 35"
+      }
+    ]
+  },
+  {
+    "id": "anapi-vallee-nsele",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "provinceNote": "Le gestionnaire situe le domaine dans la commune de Maluku, ville-province de Kinshasa.",
+    "sources": [
+      {
+        "title": "Parc de la Vallée de la N’sele — site officiel, Le Parc",
+        "url": "https://parcdelavalleedelansele.com/le-parc/"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=45",
+        "page": "Pages imprimées 36 · PDF 45"
+      }
+    ]
+  },
+  {
+    "id": "anapi-jardin-kinshasa",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=38",
+        "page": "Pages imprimées 29 · PDF 38"
+      }
+    ]
+  },
+  {
+    "id": "anapi-jardin-kisantu",
+    "provinces": [
+      "Kongo Central"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=38",
+        "page": "Pages imprimées 29 · PDF 38"
+      }
+    ]
+  },
+  {
+    "id": "anapi-jardin-eala",
+    "provinces": [
+      "Équateur"
+    ],
+    "sources": [
+      {
+        "title": "Woodwell Climate Research Center — Projet Équateur, partenaires",
+        "url": "https://www.woodwellclimate.org/project/projet-equateur/"
+      },
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=38",
+        "page": "Pages imprimées 29 · PDF 38"
+      }
+    ]
+  },
+  {
+    "id": "anapi-chutes-zongo",
+    "provinces": [
+      "Kongo Central"
+    ],
+    "provinceNote": "Rattachement au Kongo Central du site des chutes de l’Inkisi ; à distinguer de la ville de Zongo dans le Sud-Ubangi.",
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=46",
+        "page": "Pages imprimées 37 · PDF 46"
+      }
+    ]
+  },
+  {
+    "id": "anapi-grottes-mbanza-ngungu",
+    "provinces": [
+      "Kongo Central"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=53",
+        "page": "Pages imprimées 44 · PDF 53"
+      }
+    ]
+  },
+  {
+    "id": "anapi-musee-national-rdc",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=47",
+        "page": "Pages imprimées 38 · PDF 47"
+      }
+    ]
+  },
+  {
+    "id": "anapi-centre-culturel-ccapac",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=48",
+        "page": "Pages imprimées 39 · PDF 48"
+      }
+    ]
+  },
+  {
+    "id": "anapi-stade-tata-raphael",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=49",
+        "page": "Pages imprimées 40 · PDF 49"
+      }
+    ]
+  },
+  {
+    "id": "anapi-stade-martyrs",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=50",
+        "page": "Pages imprimées 41 · PDF 50"
+      }
+    ]
+  },
+  {
+    "id": "anapi-mausolee-lumumba",
+    "provinces": [
+      "Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=51",
+        "page": "Pages imprimées 42 · PDF 51"
+      }
+    ]
+  },
+  {
+    "id": "anapi-pont-marechal-matadi",
+    "provinces": [
+      "Kongo Central"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=52",
+        "page": "Pages imprimées 43 · PDF 52"
+      }
+    ]
+  },
+  {
+    "id": "anapi-baobab-boma",
+    "provinces": [
+      "Kongo Central"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=53",
+        "page": "Pages imprimées 44 · PDF 53"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2831 @@
+{
+  "groups": [
+    {
+      "id": "agri-cultures",
+      "label": "Cultures et horticulture",
+      "description": "Produire des aliments, des plantes et des cultures commerciales, du champ à la récolte."
+    },
+    {
+      "id": "agri-elevage",
+      "label": "Élevage et apiculture",
+      "description": "Élever des animaux, suivre leur reproduction et valoriser leurs productions."
+    },
+    {
+      "id": "agri-peche",
+      "label": "Pêche et pisciculture",
+      "description": "Pêcher en eaux intérieures et produire des poissons et des alevins."
+    },
+    {
+      "id": "agri-agronomie",
+      "label": "Agronomie, conseil et recherche",
+      "description": "Comprendre les systèmes agricoles, accompagner les producteurs et transmettre les savoirs."
+    },
+    {
+      "id": "agri-ressources",
+      "label": "Semences, sols et eau",
+      "description": "Améliorer le matériel végétal et préserver les ressources nécessaires aux cultures."
+    },
+    {
+      "id": "agri-equipements",
+      "label": "Machinisme et équipements",
+      "description": "Conduire, entretenir et concevoir les matériels utilisés par les exploitations."
+    },
+    {
+      "id": "agri-transformation",
+      "label": "Transformation et conservation",
+      "description": "Transformer les récoltes et les produits animaux, les conserver et contrôler leur qualité."
+    },
+    {
+      "id": "agri-gestion",
+      "label": "Commerce et gestion agricole",
+      "description": "Organiser les achats, les ventes et la gestion des exploitations et coopératives."
+    },
+    {
+      "id": "tour-hebergement",
+      "domain": "tourisme",
+      "label": "Accueil et hébergement",
+      "description": "Accueillir les voyageurs, préparer leur hébergement et organiser les services d’un établissement hôtelier."
+    },
+    {
+      "id": "tour-guides-patrimoine",
+      "domain": "tourisme",
+      "label": "Guides et patrimoine",
+      "description": "Accompagner les visiteurs et transmettre les connaissances sur les lieux, les cultures et les patrimoines."
+    },
+    {
+      "id": "tour-voyages",
+      "domain": "tourisme",
+      "label": "Agences et conception de voyages",
+      "description": "Conseiller les voyageurs, assembler des prestations et organiser la vente ainsi que le suivi des séjours."
+    },
+    {
+      "id": "tour-restauration",
+      "domain": "tourisme",
+      "label": "Cuisine et restauration",
+      "description": "Préparer les repas, assurer le service et gérer les établissements qui accueillent habitants et voyageurs."
+    },
+    {
+      "id": "tour-animation-evenementiel",
+      "domain": "tourisme",
+      "label": "Animation et événementiel",
+      "description": "Concevoir des activités, coordonner des rencontres et assurer leur réalisation auprès de différents publics."
+    },
+    {
+      "id": "tour-developpement-promotion",
+      "domain": "tourisme",
+      "label": "Développement et promotion touristique",
+      "description": "Faire connaître une destination, améliorer l’information des visiteurs et accompagner les acteurs touristiques."
+    },
+    {
+      "id": "env-conservation",
+      "domain": "environnement",
+      "label": "Biodiversité et conservation",
+      "description": "Observer les espèces, protéger les espaces naturels et restaurer le fonctionnement des écosystèmes."
+    },
+    {
+      "id": "env-forets",
+      "domain": "environnement",
+      "label": "Forêts et gestion forestière",
+      "description": "Connaître les peuplements forestiers, organiser leur gestion et réaliser les travaux nécessaires à leur renouvellement."
+    },
+    {
+      "id": "env-eau-assainissement",
+      "domain": "environnement",
+      "label": "Eau et assainissement",
+      "description": "Préserver les milieux aquatiques, distribuer l’eau et organiser le traitement ainsi que l’évacuation des eaux usées."
+    },
+    {
+      "id": "env-dechets-recyclage",
+      "domain": "environnement",
+      "label": "Déchets, réemploi et recyclage",
+      "description": "Collecter et trier les déchets, prolonger la vie des objets et développer la valorisation des matières."
+    },
+    {
+      "id": "env-pollution-hse",
+      "domain": "environnement",
+      "label": "Pollutions, hygiène et sécurité",
+      "description": "Mesurer les pollutions, prévenir les risques et accompagner la réduction des impacts des activités humaines."
+    },
+    {
+      "id": "env-energie-climat",
+      "domain": "environnement",
+      "label": "Énergie et climat",
+      "description": "Réduire les consommations, développer les énergies renouvelables et mesurer les émissions de gaz à effet de serre."
+    },
+    {
+      "id": "env-etudes-gouvernance",
+      "domain": "environnement",
+      "label": "Études et gouvernance environnementales",
+      "description": "Produire des analyses, éclairer les décisions et intégrer les enjeux environnementaux dans les projets et les organisations."
+    }
+  ],
+  "careers": [
+    {
+      "id": "agri-agriculteur-vivrier",
+      "slug": "agriculteur-vivrier",
+      "title": "Agriculteur vivrier",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Cultive plusieurs produits alimentaires pour nourrir les ménages et approvisionner les marchés.",
+      "body": "L’agriculteur vivrier organise des cultures comme le manioc, le haricot ou la patate douce. Il choisit les parcelles et adapte le calendrier au sol et aux pluies.\n\nIl prépare les terres, plante, entretient puis récolte. Il suit aussi les dépenses, conserve une partie de la production et prépare les quantités destinées à la vente.",
+      "skills": [
+        "Conduite des cultures",
+        "Observation du sol",
+        "Organisation",
+        "Gestion simple"
+      ],
+      "environment": "Exploitations familiales, champs et coopératives.",
+      "sources": [
+        {
+          "title": "Onisep — Agriculteur / Agricultrice",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agriculteur-agricultrice"
+        }
+      ]
+    },
+    {
+      "id": "agri-cerealier",
+      "slug": "cerealier",
+      "title": "Céréalier",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Produit des céréales destinées à l’alimentation humaine ou animale.",
+      "body": "Le céréalier suit le cycle de cultures telles que le maïs, le riz ou le sorgho, selon le milieu. Il planifie les semis et les interventions nécessaires.\n\nIl observe les parcelles, gère l’enherbement et organise la récolte. Le séchage, le stockage et la recherche d’acheteurs prolongent son travail après la moisson.",
+      "skills": [
+        "Itinéraires culturaux",
+        "Observation",
+        "Organisation des récoltes",
+        "Calcul des coûts"
+      ],
+      "environment": "Champs céréaliers et installations de stockage.",
+      "sources": [
+        {
+          "title": "Onisep — Céréalier / Céréalière",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/cerealier-cerealiere"
+        }
+      ]
+    },
+    {
+      "id": "agri-maraicher",
+      "slug": "maraicher",
+      "title": "Maraîcher",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Produit des légumes et des plantes aromatiques pour les marchés et la consommation locale.",
+      "body": "Le maraîcher associe et échelonne les cultures pour disposer de légumes à différents moments. Il choisit les variétés et prépare les planches de culture.\n\nSon quotidien alterne semis, repiquage, arrosage, désherbage et cueillette. Il trie les produits rapidement afin de préserver leur fraîcheur avant la vente.",
+      "skills": [
+        "Techniques maraîchères",
+        "Gestion de l’eau",
+        "Observation",
+        "Soin des récoltes"
+      ],
+      "environment": "Parcelles rurales ou périurbaines, plein champ et abris.",
+      "sources": [
+        {
+          "title": "Onisep — Maraîcher / Maraîchère",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/maraicher-maraichere"
+        }
+      ]
+    },
+    {
+      "id": "agri-arboriculteur-fruitier",
+      "slug": "arboriculteur-fruitier",
+      "title": "Arboriculteur fruitier",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Entretient des vergers et récolte les fruits au stade adapté à leur utilisation.",
+      "body": "L’arboriculteur installe et conduit des arbres fruitiers. Il intervient sur la taille, l’entretien du sol et la surveillance des maladies pour accompagner leur développement.\n\nIl suit la floraison et la maturation, organise la cueillette puis le tri. Ses choix se construisent sur plusieurs saisons, car un verger demande un suivi durable.",
+      "skills": [
+        "Connaissance des fruitiers",
+        "Taille",
+        "Observation",
+        "Organisation des cueillettes"
+      ],
+      "environment": "Vergers, pépinières fruitières et exploitations.",
+      "sources": [
+        {
+          "title": "Onisep — Agent / Agente arboricole",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agent-agente-arboricole"
+        }
+      ]
+    },
+    {
+      "id": "agri-planteur-cultures-tropicales",
+      "slug": "planteur-cultures-tropicales",
+      "title": "Planteur de cultures tropicales",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Conduit des plantations commerciales telles que caféiers, cacaoyers ou palmiers à huile.",
+      "body": "Le planteur entretient une culture pérenne adaptée au climat local. Il suit l’installation des plants, leur croissance et les opérations nécessaires à la production.\n\nIl organise l’entretien, la récolte et l’acheminement vers la première transformation. Les pratiques diffèrent selon l’espèce et peuvent intégrer des arbres d’ombrage.",
+      "skills": [
+        "Conduite des plantations",
+        "Observation",
+        "Organisation",
+        "Suivi de la qualité"
+      ],
+      "environment": "Plantations familiales, coopératives et entreprises agricoles.",
+      "sources": [
+        {
+          "title": "OIT — Nomenclature CITP-08, groupes 611 et 622",
+          "url": "https://webapps.ilo.org/surveyLib/index.php/catalog/8976/variable/FA_VUT_LFS_2025_FULL/VA137?name=mjj_occ_mtd_d"
+        },
+        {
+          "title": "FAO — Small-Scale Palm Oil Processing in Africa",
+          "url": "https://www.fao.org/4/y4355e/y4355e00.htm"
+        }
+      ]
+    },
+    {
+      "id": "agri-floriculteur",
+      "slug": "floriculteur",
+      "title": "Floriculteur",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Cultive des fleurs et des plantes ornementales destinées à la vente.",
+      "body": "Le floriculteur prépare des productions de fleurs coupées ou de plantes en pot. Il choisit le support de culture et accompagne la croissance des végétaux.\n\nIl réalise les semis ou boutures, entretient les plants et prépare les commandes. Une bonne présentation et des conseils d’entretien facilitent la relation avec les clients.",
+      "skills": [
+        "Multiplication végétale",
+        "Soin des plantes",
+        "Minutie",
+        "Relation client"
+      ],
+      "environment": "Ateliers horticoles, serres et cultures de plein air.",
+      "sources": [
+        {
+          "title": "Onisep — Horticulteur / Horticultrice",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/horticulteur-horticultrice"
+        }
+      ]
+    },
+    {
+      "id": "agri-pepinieriste",
+      "slug": "pepinieriste",
+      "title": "Pépiniériste",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Produit de jeunes arbres et plants pour les agriculteurs, les vergers et les jardins.",
+      "body": "Le pépiniériste multiplie et élève des végétaux jusqu’à leur plantation définitive. Il prépare les substrats et choisit une méthode adaptée : semis, bouturage ou greffage.\n\nIl arrose, rempote et surveille l’état des plants. Il sélectionne les sujets prêts, organise leur transport et explique les conditions de reprise après plantation.",
+      "skills": [
+        "Multiplication végétale",
+        "Greffage",
+        "Observation",
+        "Soin des plants"
+      ],
+      "environment": "Pépinières agricoles, fruitières ou ornementales.",
+      "sources": [
+        {
+          "title": "Onisep — Pépiniériste",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/pepinieriste"
+        }
+      ]
+    },
+    {
+      "id": "agri-champignonniste",
+      "slug": "champignonniste",
+      "title": "Champignonniste",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Produit des champignons comestibles dans un environnement de culture maîtrisé.",
+      "body": "Le champignonniste prépare les supports de culture et suit le développement des champignons. Son activité demande de contrôler l’humidité, l’aération et la propreté des locaux.\n\nIl surveille chaque lot, repère les contaminations et récolte au bon stade. Il conditionne ensuite les champignons et organise leur écoulement rapide.",
+      "skills": [
+        "Culture des champignons",
+        "Hygiène",
+        "Observation",
+        "Conditionnement"
+      ],
+      "environment": "Champignonnières et petits ateliers de production.",
+      "sources": [
+        {
+          "title": "France Travail — Champignonniste",
+          "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/A1437/champignonniste"
+        }
+      ]
+    },
+    {
+      "id": "agri-ouvrier-agricole",
+      "slug": "ouvrier-agricole",
+      "title": "Ouvrier agricole",
+      "domain": "agriculture",
+      "category": "agri-cultures",
+      "sector": "Cultures et horticulture",
+      "description": "Réalise les travaux quotidiens confiés sur une exploitation agricole.",
+      "body": "L’ouvrier agricole participe à la préparation des parcelles, aux plantations et à l’entretien des cultures. Ses missions varient avec la production et la saison.\n\nIl suit les consignes, utilise les outils appropriés et signale les anomalies. Il peut aussi récolter, trier les produits et entretenir le matériel courant.",
+      "skills": [
+        "Gestes agricoles",
+        "Respect des consignes",
+        "Travail en équipe",
+        "Polyvalence"
+      ],
+      "environment": "Exploitations, chantiers agricoles et coopératives.",
+      "sources": [
+        {
+          "title": "Onisep — Ouvrier / Ouvrière agricole",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ouvrier-ouvriere-agricole"
+        }
+      ]
+    },
+    {
+      "id": "agri-eleveur-bovin-viande",
+      "slug": "eleveur-bovin-viande",
+      "title": "Éleveur de bovins à viande",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Élève des bovins et organise leur alimentation, leur croissance et leur vente.",
+      "body": "L’éleveur conduit un troupeau destiné à la production de viande. Il prévoit les ressources fourragères et suit la reproduction ainsi que le développement des animaux.\n\nIl contrôle chaque jour l’eau, l’alimentation et l’état du troupeau. Il entretient les installations, tient les enregistrements et sollicite le vétérinaire lorsque nécessaire.",
+      "skills": [
+        "Conduite du troupeau",
+        "Alimentation animale",
+        "Observation",
+        "Gestion"
+      ],
+      "environment": "Pâturages, fermes et bâtiments d’élevage.",
+      "sources": [
+        {
+          "title": "Onisep — Responsable d’élevage agricole",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/responsable-d-elevage-agricole"
+        }
+      ]
+    },
+    {
+      "id": "agri-eleveur-laitier",
+      "slug": "eleveur-laitier",
+      "title": "Éleveur laitier",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Organise la production de lait et prend soin des animaux du troupeau.",
+      "body": "L’éleveur laitier suit l’alimentation, la reproduction et la santé des animaux producteurs de lait. Il recherche une production régulière en tenant compte des ressources disponibles.\n\nIl réalise ou supervise la traite, nettoie le matériel et suit les quantités produites. Il veille aux conditions de conservation avant collecte ou transformation.",
+      "skills": [
+        "Traite",
+        "Alimentation animale",
+        "Hygiène",
+        "Observation"
+      ],
+      "environment": "Fermes laitières et lieux de collecte du lait.",
+      "sources": [
+        {
+          "title": "Onisep — Éleveuse de vaches laitières",
+          "url": "https://oniseptv.onisep.fr/video/delphine-eleveuse-de-vaches-laitieres-mp4"
+        },
+        {
+          "title": "Onisep — Responsable d’élevage agricole",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/responsable-d-elevage-agricole"
+        }
+      ]
+    },
+    {
+      "id": "agri-eleveur-petits-ruminants",
+      "slug": "eleveur-petits-ruminants",
+      "title": "Éleveur de petits ruminants",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Élève des chèvres ou des moutons pour leurs produits et leur reproduction.",
+      "body": "Ce professionnel organise l’alimentation et le renouvellement d’un troupeau de petits ruminants. Il adapte les abris et les déplacements aux besoins des animaux.\n\nIl surveille les mises bas, accompagne les jeunes et suit l’état corporel du troupeau. Il entretient les équipements et prépare la vente des animaux ou des produits.",
+      "skills": [
+        "Conduite du troupeau",
+        "Observation",
+        "Alimentation",
+        "Organisation"
+      ],
+      "environment": "Élevages caprins ou ovins, pâturages et abris.",
+      "sources": [
+        {
+          "title": "Onisep — Dirigeant d’exploitation caprine",
+          "url": "https://oniseptv.onisep.fr/video/docu-fiction-360-apprenti-dirigeant-d-039-exploitation-caprine-2"
+        }
+      ]
+    },
+    {
+      "id": "agri-eleveur-porcin",
+      "slug": "eleveur-porcin",
+      "title": "Éleveur porcin",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Conduit un élevage de porcs depuis la reproduction ou l’achat jusqu’à la vente.",
+      "body": "L’éleveur porcin organise les différents lots d’animaux et adapte leurs rations. Il accorde une attention particulière à l’hygiène des bâtiments et aux entrées dans l’élevage.\n\nIl distribue l’alimentation, observe la croissance et surveille les mises bas selon l’atelier. Il consigne les mouvements, les dépenses et les événements sanitaires.",
+      "skills": [
+        "Conduite des lots",
+        "Alimentation",
+        "Hygiène",
+        "Tenue des registres"
+      ],
+      "environment": "Porcheries et exploitations d’élevage.",
+      "sources": [
+        {
+          "title": "Onisep — Employé / Employée d’élevage",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/employe-employee-d-elevage"
+        }
+      ]
+    },
+    {
+      "id": "agri-aviculteur",
+      "slug": "aviculteur",
+      "title": "Aviculteur",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Élève des volailles pour produire des œufs ou de la viande.",
+      "body": "L’aviculteur organise l’accueil et la conduite des volailles. Il adapte l’alimentation, l’eau et les conditions d’abri à l’âge et à la destination des animaux.\n\nIl observe les lots, entretient les équipements et suit la mortalité et la croissance. Selon l’activité, il collecte les œufs ou prépare la commercialisation des volailles.",
+      "skills": [
+        "Conduite avicole",
+        "Hygiène",
+        "Observation",
+        "Suivi des lots"
+      ],
+      "environment": "Poulaillers, élevages familiaux et fermes avicoles.",
+      "sources": [
+        {
+          "title": "FAO — Small-scale poultry production",
+          "url": "https://www.fao.org/4/y5169e/y5169e00.htm"
+        }
+      ]
+    },
+    {
+      "id": "agri-cuniculteur",
+      "slug": "cuniculteur",
+      "title": "Cuniculteur",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Élève des lapins en suivant leur reproduction, leur alimentation et leur croissance.",
+      "body": "Le cuniculteur organise les accouplements et le suivi des portées. Il veille au confort des animaux et prépare les espaces réservés aux jeunes et à l’engraissement.\n\nIl contrôle l’eau et les aliments, nettoie les installations et observe les comportements. Il suit les naissances, les sevrages et les ventes dans un registre.",
+      "skills": [
+        "Reproduction",
+        "Observation",
+        "Hygiène",
+        "Manipulation calme"
+      ],
+      "environment": "Clapiers et bâtiments adaptés à l’élevage de lapins.",
+      "sources": [
+        {
+          "title": "Onisep — Éleveuse de lapins",
+          "url": "https://oniseptv.onisep.fr/video/eleveuse-de-lapins"
+        }
+      ]
+    },
+    {
+      "id": "agri-apiculteur",
+      "slug": "apiculteur",
+      "title": "Apiculteur",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Élève des abeilles et récolte les produits de la ruche.",
+      "body": "L’apiculteur installe et suit des colonies d’abeilles dans des emplacements adaptés. Il observe leur développement et repère les difficultés qui fragilisent les ruches.\n\nIl entretient le matériel et organise la récolte du miel et de la cire. Il prépare les produits pour la vente en veillant à leur propreté et à leur conservation.",
+      "skills": [
+        "Connaissance des abeilles",
+        "Observation",
+        "Précision",
+        "Préparation du miel"
+      ],
+      "environment": "Ruchers, mielleries et espaces de commercialisation.",
+      "sources": [
+        {
+          "title": "Onisep — Apiculteur / Apicultrice",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/apiculteur-apicultrice"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-reproduction-animale",
+      "slug": "technicien-reproduction-animale",
+      "title": "Technicien en reproduction animale",
+      "domain": "agriculture",
+      "category": "agri-elevage",
+      "sector": "Élevage et apiculture",
+      "description": "Accompagne le suivi de la reproduction et réalise les interventions relevant de sa qualification.",
+      "body": "Ce technicien aide l’éleveur à organiser la reproduction du troupeau. Il utilise les informations sur les animaux et observe les périodes favorables aux interventions.\n\nIl prépare le matériel, réalise les actes autorisés et enregistre les résultats. Il échange avec l’éleveur et le vétérinaire pour suivre les gestations et améliorer l’organisation.",
+      "skills": [
+        "Reproduction animale",
+        "Précision",
+        "Hygiène",
+        "Suivi des données"
+      ],
+      "environment": "Élevages, centres de reproduction et services spécialisés.",
+      "sources": [
+        {
+          "title": "Onisep — Inséminateur / Inséminatrice",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/inseminateur-inseminatrice"
+        }
+      ]
+    },
+    {
+      "id": "agri-pecheur-eaux-interieures",
+      "slug": "pecheur-eaux-interieures",
+      "title": "Pêcheur en eaux intérieures",
+      "domain": "agriculture",
+      "category": "agri-peche",
+      "sector": "Pêche et pisciculture",
+      "description": "Capture des poissons dans les fleuves, rivières et lacs avec des techniques adaptées.",
+      "body": "Le pêcheur prépare son embarcation et son matériel en fonction du milieu et des espèces recherchées. Il tient compte des conditions de navigation et des règles locales de pêche.\n\nIl pose ou utilise les engins autorisés, relève les captures puis les trie. Il préserve leur qualité et entretient le matériel pour les prochaines sorties.",
+      "skills": [
+        "Techniques de pêche",
+        "Navigation",
+        "Observation du milieu",
+        "Conservation des captures"
+      ],
+      "environment": "Fleuves, rivières, lacs et débarcadères.",
+      "sources": [
+        {
+          "title": "OIT — Nomenclature CITP-08, groupes 611 et 622",
+          "url": "https://webapps.ilo.org/surveyLib/index.php/catalog/8976/variable/FA_VUT_LFS_2025_FULL/VA137?name=mjj_occ_mtd_d"
+        }
+      ]
+    },
+    {
+      "id": "agri-pisciculteur",
+      "slug": "pisciculteur",
+      "title": "Pisciculteur",
+      "domain": "agriculture",
+      "category": "agri-peche",
+      "sector": "Pêche et pisciculture",
+      "description": "Élève des poissons destinés à la consommation dans des étangs, bassins ou cages adaptés.",
+      "body": "Le pisciculteur planifie l’empoissonnement et la croissance des poissons. Il choisit une conduite adaptée à l’espèce, à l’eau disponible et aux débouchés.\n\nIl distribue les aliments, surveille l’eau et suit le développement des lots. Il entretient les installations, organise les pêches de récolte et prépare la vente.",
+      "skills": [
+        "Conduite piscicole",
+        "Qualité de l’eau",
+        "Observation",
+        "Suivi des lots"
+      ],
+      "environment": "Fermes piscicoles, étangs, bassins et cages.",
+      "sources": [
+        {
+          "title": "Onisep — Aquaculteur / Aquacultrice",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/aquaculteur-aquacultrice"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-ecloserie",
+      "slug": "technicien-ecloserie",
+      "title": "Technicien d’écloserie piscicole",
+      "domain": "agriculture",
+      "category": "agri-peche",
+      "sector": "Pêche et pisciculture",
+      "description": "Produit et élève les jeunes poissons qui approvisionnent les fermes piscicoles.",
+      "body": "Le technicien d’écloserie suit les reproducteurs et les premières étapes de vie des poissons. Son objectif est de fournir des alevins sains et homogènes.\n\nIl contrôle l’eau, surveille l’éclosion et distribue une alimentation adaptée. Il compte et trie les jeunes poissons avant leur transfert vers les unités de grossissement.",
+      "skills": [
+        "Biologie des poissons",
+        "Précision",
+        "Qualité de l’eau",
+        "Traçabilité"
+      ],
+      "environment": "Écloseries, stations d’alevinage et fermes piscicoles.",
+      "sources": [
+        {
+          "title": "FAO — Aquaculture en Afrique : semences et écloseries",
+          "url": "https://www.fao.org/fishery/docs/CDrom/aquaculture/a0844t/docrep/008/a0038e/a0038e06.htm"
+        },
+        {
+          "title": "Onisep — Aquaculteur / Aquacultrice",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/aquaculteur-aquacultrice"
+        }
+      ]
+    },
+    {
+      "id": "agri-agronome",
+      "slug": "agronome",
+      "title": "Agronome",
+      "domain": "agriculture",
+      "category": "agri-agronomie",
+      "sector": "Agronomie, conseil et recherche",
+      "description": "Étudie les systèmes agricoles et propose des améliorations techniques adaptées au terrain.",
+      "body": "L’agronome relie les connaissances sur les plantes, les animaux, les sols et l’économie de l’exploitation. Il cherche des solutions aux problèmes de production.\n\nIl réalise des diagnostics, analyse des résultats et prépare des recommandations. Il échange avec les producteurs et les équipes techniques pour évaluer les pratiques proposées.",
+      "skills": [
+        "Sciences agricoles",
+        "Analyse",
+        "Expérimentation",
+        "Communication"
+      ],
+      "environment": "Exploitations, recherche, bureaux d’études et organisations agricoles.",
+      "sources": [
+        {
+          "title": "Onisep — Agronome",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agronome"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-experimentation-vegetale",
+      "slug": "technicien-experimentation-vegetale",
+      "title": "Technicien en expérimentation végétale",
+      "domain": "agriculture",
+      "category": "agri-agronomie",
+      "sector": "Agronomie, conseil et recherche",
+      "description": "Met en place et suit des essais pour comparer des variétés ou des pratiques agricoles.",
+      "body": "Ce technicien applique un protocole d’expérimentation sur des cultures. Il prépare les parcelles, identifie les lots et s’assure que les interventions restent comparables.\n\nIl mesure la croissance, relève les observations et participe aux récoltes d’essai. Il vérifie les données puis les transmet aux responsables de recherche.",
+      "skills": [
+        "Rigueur expérimentale",
+        "Mesures de terrain",
+        "Saisie des données",
+        "Travail en équipe"
+      ],
+      "environment": "Stations de recherche, laboratoires et parcelles d’essai.",
+      "sources": [
+        {
+          "title": "Onisep — Technicien en expérimentation et production végétales",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-en-experimentation-et-production-vegetales"
+        }
+      ]
+    },
+    {
+      "id": "agri-conseiller-agricole",
+      "slug": "conseiller-agricole",
+      "title": "Conseiller agricole",
+      "domain": "agriculture",
+      "category": "agri-agronomie",
+      "sector": "Agronomie, conseil et recherche",
+      "description": "Accompagne les producteurs dans leurs choix techniques et l’organisation de leur activité.",
+      "body": "Le conseiller agricole commence par comprendre les objectifs et les difficultés de l’exploitation. Il propose des améliorations réalistes en tenant compte des moyens disponibles.\n\nIl visite les exploitations, compare les résultats et anime des échanges entre producteurs. Il suit les changements retenus et ajuste ses conseils avec les personnes concernées.",
+      "skills": [
+        "Diagnostic agricole",
+        "Écoute",
+        "Pédagogie",
+        "Analyse des résultats"
+      ],
+      "environment": "Services agricoles, coopératives, ONG et exploitations.",
+      "sources": [
+        {
+          "title": "Onisep — Conseiller / Conseillère agricole",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conseiller-conseillere-agricole"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-agroforesterie",
+      "slug": "technicien-agroforesterie",
+      "title": "Technicien en agroforesterie",
+      "domain": "agriculture",
+      "category": "agri-agronomie",
+      "sector": "Agronomie, conseil et recherche",
+      "description": "Accompagne l’association d’arbres avec les cultures ou l’élevage.",
+      "body": "Le technicien étudie comment intégrer des arbres utiles dans un système agricole. Il considère les productions attendues, l’espace disponible et les effets sur les sols.\n\nIl participe au choix des espèces, à la plantation et au suivi des parcelles. Il échange avec les producteurs sur l’entretien, l’ombrage et les résultats observés.",
+      "skills": [
+        "Connaissance des arbres",
+        "Observation écologique",
+        "Planification",
+        "Conseil"
+      ],
+      "environment": "Parcelles agroforestières, pépinières et projets ruraux.",
+      "sources": [
+        {
+          "title": "FAO — Agroforestry, sustainable forest management toolbox",
+          "url": "https://www.fao.org/sustainable-forest-management-toolbox/modules/agroforestry/en"
+        }
+      ]
+    },
+    {
+      "id": "agri-veterinaire-rural",
+      "slug": "veterinaire-rural",
+      "title": "Vétérinaire rural",
+      "domain": "agriculture",
+      "category": "agri-agronomie",
+      "sector": "Agronomie, conseil et recherche",
+      "description": "Prévient et traite les maladies des animaux d’élevage.",
+      "body": "Le vétérinaire rural examine les animaux et établit un diagnostic. Il conseille les éleveurs sur la prévention et intervient dans la protection sanitaire des troupeaux.\n\nIl réalise les soins nécessaires, organise des suivis et tient les dossiers des animaux. Ses visites permettent aussi d’aborder l’alimentation, la reproduction et les conditions d’élevage.",
+      "skills": [
+        "Médecine vétérinaire",
+        "Diagnostic",
+        "Observation",
+        "Relation avec les éleveurs"
+      ],
+      "environment": "Exploitations, services vétérinaires et structures de santé animale.",
+      "sources": [
+        {
+          "title": "Onisep — Vétérinaire",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/veterinaire"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-elevage",
+      "slug": "technicien-elevage",
+      "title": "Technicien d’élevage",
+      "domain": "agriculture",
+      "category": "agri-agronomie",
+      "sector": "Agronomie, conseil et recherche",
+      "description": "Suit les performances des animaux et aide à améliorer la conduite d’un élevage.",
+      "body": "Le technicien d’élevage collecte des informations sur le troupeau, sa croissance et ses résultats. Il apporte un appui technique à l’éleveur ou à un programme de sélection.\n\nIl observe et mesure les animaux, contrôle les enregistrements et analyse les écarts. Il propose des ajustements avec l’équipe et suit leurs effets dans le temps.",
+      "skills": [
+        "Zootechnie",
+        "Mesures",
+        "Analyse des données",
+        "Communication"
+      ],
+      "environment": "Élevages, organismes de sélection et services techniques.",
+      "sources": [
+        {
+          "title": "Onisep — Technicienne d’élevage en sélection",
+          "url": "https://oniseptv.onisep.fr/video/le-metier-de-marion-technicienne-d-elevage-en-selection"
+        }
+      ]
+    },
+    {
+      "id": "agri-formateur-agricole",
+      "slug": "formateur-agricole",
+      "title": "Formateur agricole",
+      "domain": "agriculture",
+      "category": "agri-agronomie",
+      "sector": "Agronomie, conseil et recherche",
+      "description": "Transmet des compétences agricoles par des exercices pratiques et des échanges de terrain.",
+      "body": "Le formateur construit des apprentissages adaptés aux besoins des participants. Il peut accompagner un champ-école où les producteurs observent et comparent des pratiques.\n\nIl prépare les activités, facilite les discussions et aide chacun à interpréter les résultats. Il évalue les acquis et adapte les séances aux problèmes rencontrés.",
+      "skills": [
+        "Pédagogie",
+        "Animation de groupe",
+        "Pratique agricole",
+        "Écoute"
+      ],
+      "environment": "Centres de formation, champs-écoles et organisations rurales.",
+      "sources": [
+        {
+          "title": "FAO — Farmer field school approach",
+          "url": "https://www.fao.org/agriculture/ippm/programme/ffs-approach/en/"
+        }
+      ]
+    },
+    {
+      "id": "agri-multiplicateur-semences",
+      "slug": "multiplicateur-semences",
+      "title": "Multiplicateur de semences et plants",
+      "domain": "agriculture",
+      "category": "agri-ressources",
+      "sector": "Semences, sols et eau",
+      "description": "Produit du matériel végétal destiné à être replanté par d’autres agriculteurs.",
+      "body": "Le multiplicateur conduit des parcelles pour obtenir des semences ou des plants conformes aux caractéristiques recherchées. Il suit un cahier des charges de production.\n\nIl surveille les cultures, retire les sujets indésirables et organise la récolte séparée des lots. Il conserve les informations permettant d’identifier l’origine des produits.",
+      "skills": [
+        "Conduite des cultures",
+        "Observation",
+        "Rigueur",
+        "Traçabilité"
+      ],
+      "environment": "Exploitations semencières, pépinières et organisations de producteurs.",
+      "sources": [
+        {
+          "title": "Intercéréales — Agriculteur multiplicateur de semences",
+          "url": "https://www.intercereales.com/le-metier-dagriculteur-multiplicateur-de-semence"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-qualite-semences",
+      "slug": "technicien-qualite-semences",
+      "title": "Technicien de contrôle des semences",
+      "domain": "agriculture",
+      "category": "agri-ressources",
+      "sector": "Semences, sols et eau",
+      "description": "Vérifie la qualité des lots de semences et contribue à leur traçabilité.",
+      "body": "Ce technicien examine des semences destinées à la commercialisation ou à la plantation. Il prépare les échantillons et applique les procédures de contrôle de sa structure.\n\nIl effectue des observations et des essais de qualité, enregistre les résultats et signale les écarts. Il travaille avec les équipes de production et de laboratoire.",
+      "skills": [
+        "Échantillonnage",
+        "Rigueur",
+        "Tests de qualité",
+        "Traçabilité"
+      ],
+      "environment": "Laboratoires semenciers, stations de production et services de contrôle.",
+      "sources": [
+        {
+          "title": "SEMAE — Métiers des semences et du végétal",
+          "url": "https://www.semae-pedagogie.org/metiers-semences-vegetal-formations/"
+        },
+        {
+          "title": "Intercéréales — Agriculteur multiplicateur de semences",
+          "url": "https://www.intercereales.com/le-metier-dagriculteur-multiplicateur-de-semence"
+        }
+      ]
+    },
+    {
+      "id": "agri-selectionneur-vegetal",
+      "slug": "selectionneur-vegetal",
+      "title": "Sélectionneur végétal",
+      "domain": "agriculture",
+      "category": "agri-ressources",
+      "sector": "Semences, sols et eau",
+      "description": "Crée ou sélectionne des variétés présentant des caractéristiques utiles aux producteurs.",
+      "body": "Le sélectionneur définit les qualités recherchées, comme l’adaptation au milieu ou la qualité du produit. Il compare des plantes et organise des croisements lorsque nécessaire.\n\nIl suit les générations, réalise des essais et analyse les caractères observés. Il conserve les lignées prometteuses et documente leurs performances avant les étapes de diffusion.",
+      "skills": [
+        "Génétique végétale",
+        "Expérimentation",
+        "Analyse",
+        "Patience"
+      ],
+      "environment": "Recherche agronomique, serres et entreprises semencières.",
+      "sources": [
+        {
+          "title": "Onisep — Le métier de sélectionneur",
+          "url": "https://oniseptv.onisep.fr/video/vocation-semencier-le-metier-de-selectionneur"
+        }
+      ]
+    },
+    {
+      "id": "agri-pedologue",
+      "slug": "pedologue",
+      "title": "Pédologue",
+      "domain": "agriculture",
+      "category": "agri-ressources",
+      "sector": "Semences, sols et eau",
+      "description": "Étudie les sols pour éclairer les choix agricoles et leur gestion durable.",
+      "body": "Le pédologue décrit la formation, la structure et les propriétés des sols. Il aide à comprendre leurs possibilités et leurs contraintes pour un usage agricole.\n\nIl réalise des observations de terrain et des prélèvements, puis interprète les analyses. Il produit des cartes ou des diagnostics utiles aux équipes d’aménagement et de production.",
+      "skills": [
+        "Sciences du sol",
+        "Échantillonnage",
+        "Analyse",
+        "Cartographie"
+      ],
+      "environment": "Terrain, laboratoires, recherche et bureaux d’études.",
+      "sources": [
+        {
+          "title": "Onisep — Pédologue",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/pedologue"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-irrigation",
+      "slug": "technicien-irrigation",
+      "title": "Technicien en irrigation",
+      "domain": "agriculture",
+      "category": "agri-ressources",
+      "sector": "Semences, sols et eau",
+      "description": "Évalue les besoins en eau des cultures et suit le fonctionnement de l’irrigation.",
+      "body": "Le technicien considère le climat, le sol et les cultures pour préparer un programme d’arrosage. Il aide à choisir une organisation compatible avec la ressource disponible.\n\nIl observe les parcelles, contrôle les apports et repère les dysfonctionnements. Il adapte les réglages avec les utilisateurs afin d’éviter les manques et les pertes d’eau.",
+      "skills": [
+        "Besoins hydriques",
+        "Mesures",
+        "Calcul",
+        "Conseil pratique"
+      ],
+      "environment": "Périmètres irrigués, exploitations et services techniques.",
+      "sources": [
+        {
+          "title": "FAO — Irrigation Water Management: Irrigation Water Needs",
+          "url": "https://www.fao.org/4/s2022e/s2022e00.htm"
+        }
+      ]
+    },
+    {
+      "id": "agri-technicien-protection-cultures",
+      "slug": "technicien-protection-cultures",
+      "title": "Technicien en protection des cultures",
+      "domain": "agriculture",
+      "category": "agri-ressources",
+      "sector": "Semences, sols et eau",
+      "description": "Observe les organismes nuisibles et aide à limiter leurs dégâts sur les cultures.",
+      "body": "Ce technicien distingue les ravageurs, maladies, adventices et organismes utiles. Il contribue au diagnostic et au choix de méthodes de prévention ou de lutte adaptées.\n\nIl réalise des tournées d’observation, prélève des échantillons et tient les relevés. Il explique les résultats et suit les effets des mesures retenues avec les producteurs.",
+      "skills": [
+        "Reconnaissance des organismes",
+        "Observation",
+        "Diagnostic",
+        "Communication"
+      ],
+      "environment": "Parcelles agricoles, laboratoires et services de conseil.",
+      "sources": [
+        {
+          "title": "FAO — The IPM farmer field school",
+          "url": "https://www.fao.org/4/ac834e/ac834e05.htm"
+        }
+      ]
+    },
+    {
+      "id": "agri-conducteur-machines-agricoles",
+      "slug": "conducteur-machines-agricoles",
+      "title": "Conducteur de machines agricoles",
+      "domain": "agriculture",
+      "category": "agri-equipements",
+      "sector": "Machinisme et équipements",
+      "description": "Utilise les engins agricoles pour réaliser les travaux des champs.",
+      "body": "Le conducteur prépare et règle le matériel en fonction du chantier : travail du sol, semis, entretien ou récolte. Il adapte sa conduite à la parcelle.\n\nIl vérifie la sécurité avant l’utilisation et surveille la qualité du travail. Il nettoie les équipements, assure l’entretien courant et signale les pannes.",
+      "skills": [
+        "Conduite d’engins",
+        "Réglages",
+        "Sécurité",
+        "Entretien courant"
+      ],
+      "environment": "Exploitations, entreprises de travaux agricoles et coopératives.",
+      "sources": [
+        {
+          "title": "Onisep — Conducteur de machines agricoles",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conducteur-conductrice-de-machines-agricoles"
+        }
+      ]
+    },
+    {
+      "id": "agri-mecanicien-agricole",
+      "slug": "mecanicien-agricole",
+      "title": "Mécanicien agricole",
+      "domain": "agriculture",
+      "category": "agri-equipements",
+      "sector": "Machinisme et équipements",
+      "description": "Entretient et répare les machines utilisées dans les activités agricoles.",
+      "body": "Le mécanicien recherche l’origine d’une panne sur un tracteur, un motoculteur ou un autre équipement. Il organise les réparations selon le diagnostic et les pièces disponibles.\n\nIl démonte, remplace ou règle les composants, puis réalise des essais. Il conseille aussi les utilisateurs sur l’entretien pour limiter les immobilisations.",
+      "skills": [
+        "Mécanique",
+        "Diagnostic",
+        "Précision",
+        "Sécurité"
+      ],
+      "environment": "Ateliers de réparation, vendeurs de matériel et interventions sur site.",
+      "sources": [
+        {
+          "title": "Onisep — Mécanicien de maintenance des matériels agricoles",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/mecanicien-mecanicienne-de-maintenance-des-materiels-agricoles-ou-d-espaces-verts"
+        }
+      ]
+    },
+    {
+      "id": "agri-installateur-equipements-agricoles",
+      "slug": "installateur-equipements-agricoles",
+      "title": "Installateur d’équipements agricoles",
+      "domain": "agriculture",
+      "category": "agri-equipements",
+      "sector": "Machinisme et équipements",
+      "description": "Monte et met en service les équipements techniques d’une exploitation.",
+      "body": "L’installateur prépare la pose d’un matériel en tenant compte du lieu et de son usage. Il peut intervenir sur des équipements de distribution, de pompage ou de manutention.\n\nIl assemble les éléments, vérifie les raccordements relevant de sa compétence et réalise les essais. Il explique le fonctionnement aux utilisateurs et prépare le suivi de maintenance.",
+      "skills": [
+        "Montage technique",
+        "Lecture de plans",
+        "Réglages",
+        "Pédagogie"
+      ],
+      "environment": "Exploitations, fournisseurs d’équipements et chantiers d’installation.",
+      "sources": [
+        {
+          "title": "Onisep — Technicien de maintenance des matériels agricoles",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-de-maintenance-des-materiels-agricoles-ou-d-espaces-verts"
+        }
+      ]
+    },
+    {
+      "id": "agri-ingenieur-agroequipement",
+      "slug": "ingenieur-agroequipement",
+      "title": "Ingénieur en agroéquipement",
+      "domain": "agriculture",
+      "category": "agri-equipements",
+      "sector": "Machinisme et équipements",
+      "description": "Conçoit ou adapte des matériels pour répondre aux besoins des exploitations agricoles.",
+      "body": "L’ingénieur analyse le travail à réaliser et les contraintes du terrain. Il recherche des solutions techniques compatibles avec les utilisateurs, les coûts et les conditions d’entretien.\n\nIl prépare les spécifications, participe aux essais et compare les résultats. Il collabore avec les fabricants et les équipes agricoles pour améliorer les équipements.",
+      "skills": [
+        "Conception technique",
+        "Sciences agricoles",
+        "Analyse",
+        "Gestion de projet"
+      ],
+      "environment": "Bureaux d’études, fabricants, recherche et projets agricoles.",
+      "sources": [
+        {
+          "title": "Onisep — Agronome",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agronome"
+        }
+      ]
+    },
+    {
+      "id": "agri-meunier",
+      "slug": "meunier",
+      "title": "Meunier",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Transforme les grains en farines ou semoules adaptées aux usages alimentaires.",
+      "body": "Le meunier prépare les grains et règle les équipements de broyage. Il veille à obtenir une mouture régulière tout en limitant les pertes.\n\nIl surveille les machines, contrôle le produit et organise l’ensachage. Le nettoyage du moulin, la séparation des lots et l’entretien courant occupent une place importante.",
+      "skills": [
+        "Conduite de moulin",
+        "Réglages",
+        "Hygiène",
+        "Contrôle du produit"
+      ],
+      "environment": "Moulins artisanaux, coopératifs et minoteries.",
+      "sources": [
+        {
+          "title": "France Travail — Agent de production en industrie alimentaire, dont meunier",
+          "url": "https://candidat.francetravail.fr/metierscope/fiche-metier/H2105/agent-agente-de-production-en-industrie-alimentaire"
+        }
+      ]
+    },
+    {
+      "id": "agri-transformateur-manioc",
+      "slug": "transformateur-manioc",
+      "title": "Transformateur de manioc",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Prépare des produits issus du manioc selon des procédés alimentaires maîtrisés.",
+      "body": "Le transformateur organise la réception des racines et leur préparation. Les opérations varient selon le produit recherché : pâte, cossettes, farine ou autres préparations.\n\nIl suit les étapes de lavage, transformation, fermentation ou séchage prévues par le procédé. Il contrôle l’hygiène, identifie les lots et prépare leur conditionnement.",
+      "skills": [
+        "Transformation du manioc",
+        "Maîtrise du procédé",
+        "Hygiène",
+        "Organisation"
+      ],
+      "environment": "Ateliers artisanaux, coopératives et unités agroalimentaires.",
+      "sources": [
+        {
+          "title": "FAO — Cassava: processing and utilization",
+          "url": "https://www.fao.org/4/y5548e/y5548e08.htm"
+        }
+      ]
+    },
+    {
+      "id": "agri-operateur-huilerie",
+      "slug": "operateur-huilerie",
+      "title": "Opérateur d’huilerie",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Extrait et prépare de l’huile végétale à partir de matières premières agricoles.",
+      "body": "L’opérateur d’huilerie prépare les matières premières et conduit les étapes d’extraction. Dans une huilerie de palme, il suit notamment la préparation des fruits et le pressage.\n\nIl surveille les équipements et la séparation de l’huile, puis prépare le stockage. Il entretient l’atelier et suit la qualité du produit ainsi que les sous-produits.",
+      "skills": [
+        "Conduite des équipements",
+        "Maîtrise du procédé",
+        "Hygiène",
+        "Contrôle qualité"
+      ],
+      "environment": "Huileries artisanales, coopératives et unités industrielles.",
+      "sources": [
+        {
+          "title": "FAO — Palm oil processing",
+          "url": "https://www.fao.org/4/y4355e/y4355e04.htm"
+        }
+      ]
+    },
+    {
+      "id": "agri-transformateur-laitier",
+      "slug": "transformateur-laitier",
+      "title": "Transformateur laitier",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Fabrique des produits laitiers en maîtrisant l’hygiène et les étapes de transformation.",
+      "body": "Le transformateur laitier prépare la fabrication à partir du lait reçu. Il suit des procédés adaptés au produit, par exemple un lait traité ou un produit fermenté.\n\nIl contrôle les paramètres de fabrication, nettoie les équipements et conditionne les produits. Il identifie les lots et veille aux conditions de conservation.",
+      "skills": [
+        "Transformation alimentaire",
+        "Hygiène",
+        "Contrôle des paramètres",
+        "Traçabilité"
+      ],
+      "environment": "Ateliers fermiers, laiteries et petites unités de transformation.",
+      "sources": [
+        {
+          "title": "Onisep — Conducteur de ligne de production alimentaire",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conducteur-conductrice-de-ligne-de-production-alimentaire"
+        }
+      ]
+    },
+    {
+      "id": "agri-transformateur-fruits-legumes",
+      "slug": "transformateur-fruits-legumes",
+      "title": "Transformateur de fruits et légumes",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Valorise les récoltes en produits préparés, séchés ou conservés.",
+      "body": "Ce professionnel transforme des fruits et légumes pour diversifier leur utilisation et faciliter leur conservation. Il sélectionne les matières premières selon le produit visé.\n\nIl trie, lave et prépare les récoltes, puis suit les opérations de fabrication. Il contrôle les emballages, identifie les lots et conserve les produits dans des conditions adaptées.",
+      "skills": [
+        "Préparation des végétaux",
+        "Hygiène",
+        "Maîtrise du procédé",
+        "Conditionnement"
+      ],
+      "environment": "Ateliers de jus, de séchage, de conserves ou de confitures.",
+      "sources": [
+        {
+          "title": "FAO — Fruit and vegetable processing",
+          "url": "https://www.fao.org/4/v5030e/v5030e00.htm"
+        }
+      ]
+    },
+    {
+      "id": "agri-transformateur-poisson",
+      "slug": "transformateur-poisson",
+      "title": "Transformateur de poisson",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Prépare et conserve le poisson pour faciliter sa commercialisation.",
+      "body": "Le transformateur réceptionne et prépare le poisson en préservant sa qualité. Il utilise un procédé adapté, notamment le fumage ou le séchage dans certains ateliers.\n\nIl surveille les opérations, entretient les installations et protège les produits des contaminations. Il prépare le conditionnement et suit les lots jusqu’à leur vente.",
+      "skills": [
+        "Préparation du poisson",
+        "Hygiène",
+        "Conservation",
+        "Contrôle du procédé"
+      ],
+      "environment": "Débarcadères, ateliers de transformation et coopératives de pêche.",
+      "sources": [
+        {
+          "title": "FAO — Guide for developing and using the FAO-Thiaroye processing technique",
+          "url": "https://openknowledge.fao.org/handle/20.500.14283/i4174e"
+        }
+      ]
+    },
+    {
+      "id": "agri-responsable-stockage-agricole",
+      "slug": "responsable-stockage-agricole",
+      "title": "Responsable de stockage agricole",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Organise la réception, la conservation et l’expédition des récoltes stockées.",
+      "body": "Le responsable de stockage vérifie les produits reçus et les répartit en lots. Il organise les espaces pour préserver leur qualité et faciliter les mouvements.\n\nIl surveille l’humidité, les nuisibles et l’état des installations. Il tient l’inventaire, prépare les sorties et coordonne les livraisons avec les équipes commerciales.",
+      "skills": [
+        "Gestion des stocks",
+        "Contrôle des récoltes",
+        "Organisation",
+        "Traçabilité"
+      ],
+      "environment": "Magasins agricoles, entrepôts, silos et coopératives.",
+      "sources": [
+        {
+          "title": "Onisep — Chef / Cheffe de silo",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/chef-cheffe-de-silo"
+        }
+      ]
+    },
+    {
+      "id": "agri-responsable-qualite-agroalimentaire",
+      "slug": "responsable-qualite-agroalimentaire",
+      "title": "Responsable qualité agroalimentaire",
+      "domain": "agriculture",
+      "category": "agri-transformation",
+      "sector": "Transformation et conservation",
+      "description": "Organise les contrôles et les pratiques qui protègent la qualité des produits alimentaires.",
+      "body": "Le responsable qualité suit les produits depuis la réception jusqu’à l’expédition. Il formalise les procédures et accompagne les équipes dans leur application.\n\nIl vérifie les enregistrements, analyse les anomalies et coordonne les corrections. Il suit l’hygiène, la traçabilité et les résultats des contrôles avec les responsables de production.",
+      "skills": [
+        "Contrôle qualité",
+        "Analyse",
+        "Traçabilité",
+        "Animation des équipes"
+      ],
+      "environment": "Unités agroalimentaires, laboratoires et organisations de filière.",
+      "sources": [
+        {
+          "title": "Onisep — Responsable qualité en agroalimentaire",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/responsable-qualite-en-agroalimentaire"
+        }
+      ]
+    },
+    {
+      "id": "agri-collecteur-produits-agricoles",
+      "slug": "collecteur-produits-agricoles",
+      "title": "Collecteur de produits agricoles",
+      "domain": "agriculture",
+      "category": "agri-gestion",
+      "sector": "Commerce et gestion agricole",
+      "description": "Rassemble les productions de plusieurs agriculteurs et organise leur acheminement vers les acheteurs.",
+      "body": "Le collecteur construit une relation avec les producteurs et planifie les enlèvements. Il précise les quantités, les critères de qualité et les conditions d’achat.\n\nIl vérifie les produits, enregistre les pesées et prépare le transport. Il rapproche les livraisons des commandes et suit les paiements ainsi que les éventuels écarts.",
+      "skills": [
+        "Négociation",
+        "Contrôle des produits",
+        "Organisation logistique",
+        "Tenue des registres"
+      ],
+      "environment": "Zones de production, centres de collecte et marchés.",
+      "sources": [
+        {
+          "title": "OIT — My.COOP: Managing your agricultural cooperatives",
+          "url": "https://www.ilo.org/publications/mycoop-managing-your-agricultural-cooperatives"
+        }
+      ]
+    },
+    {
+      "id": "agri-conseiller-vente-intrants",
+      "slug": "conseiller-vente-intrants",
+      "title": "Conseiller vendeur d’intrants agricoles",
+      "domain": "agriculture",
+      "category": "agri-gestion",
+      "sector": "Commerce et gestion agricole",
+      "description": "Commercialise des fournitures agricoles et explique leur utilisation aux producteurs.",
+      "body": "Ce professionnel identifie les besoins en semences, aliments, amendements ou petit matériel. Il propose des produits appropriés en tenant compte de leurs caractéristiques et des usages.\n\nIl prépare les commandes, suit les stocks et explique les précautions d’emploi. Il transmet les questions techniques dépassant son rôle aux spécialistes compétents.",
+      "skills": [
+        "Connaissance des produits",
+        "Écoute",
+        "Vente",
+        "Gestion des stocks"
+      ],
+      "environment": "Magasins agricoles, coopératives et distributeurs.",
+      "sources": [
+        {
+          "title": "Onisep — Biens et services pour l’agriculture",
+          "url": "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/btsa-technico-commercial-option-biens-et-services-pour-l-agriculture"
+        }
+      ]
+    },
+    {
+      "id": "agri-gestionnaire-exploitation-agricole",
+      "slug": "gestionnaire-exploitation-agricole",
+      "title": "Gestionnaire d’exploitation agricole",
+      "domain": "agriculture",
+      "category": "agri-gestion",
+      "sector": "Commerce et gestion agricole",
+      "description": "Coordonne les moyens humains, matériels et financiers d’une exploitation.",
+      "body": "Le gestionnaire traduit les objectifs de production en organisation concrète. Il prévoit les achats, les besoins de personnel et les dépenses de la campagne.\n\nIl suit les comptes, les travaux et les résultats avec les équipes. Il compare les prévisions aux réalisations pour préparer les décisions et les investissements futurs.",
+      "skills": [
+        "Gestion",
+        "Planification",
+        "Analyse des coûts",
+        "Coordination"
+      ],
+      "environment": "Exploitations, entreprises agricoles et services de gestion.",
+      "sources": [
+        {
+          "title": "Université Laval — Portrait du marché en agroéconomie",
+          "url": "https://www.sdp.ulaval.ca/emplois-stages/portraits-marche/fsaa/agroeconomie"
+        }
+      ]
+    },
+    {
+      "id": "agri-gestionnaire-cooperative-agricole",
+      "slug": "gestionnaire-cooperative-agricole",
+      "title": "Gestionnaire de coopérative agricole",
+      "domain": "agriculture",
+      "category": "agri-gestion",
+      "sector": "Commerce et gestion agricole",
+      "description": "Organise les services d’une coopérative au bénéfice de ses membres.",
+      "body": "Le gestionnaire coordonne les activités décidées par les instances de la coopérative. Il veille à la qualité des services comme l’approvisionnement ou la vente collective.\n\nIl suit les comptes, les stocks et les contrats, puis rend compte aux membres. Il organise les équipes et prépare les informations nécessaires aux décisions collectives.",
+      "skills": [
+        "Gestion coopérative",
+        "Comptabilité",
+        "Organisation",
+        "Communication"
+      ],
+      "environment": "Coopératives, unions de producteurs et structures collectives.",
+      "sources": [
+        {
+          "title": "OIT — My.COOP: Managing your agricultural cooperatives",
+          "url": "https://www.ilo.org/publications/mycoop-managing-your-agricultural-cooperatives"
+        }
+      ]
+    },
+    {
+      "id": "agri-agroeconomiste",
+      "slug": "agroeconomiste",
+      "title": "Agroéconomiste",
+      "domain": "agriculture",
+      "category": "agri-gestion",
+      "sector": "Commerce et gestion agricole",
+      "description": "Analyse les coûts, les marchés et les choix économiques des activités agricoles.",
+      "body": "L’agroéconomiste étudie les relations entre production, transformation et commercialisation. Il évalue les contraintes et les possibilités économiques d’une exploitation ou d’une filière.\n\nIl collecte des données, compare des scénarios et prépare des analyses. Ses résultats aident les organisations à choisir leurs investissements ou leurs orientations de développement.",
+      "skills": [
+        "Économie agricole",
+        "Analyse de données",
+        "Études de marché",
+        "Rédaction"
+      ],
+      "environment": "Recherche, bureaux d’études, organisations agricoles et projets ruraux.",
+      "sources": [
+        {
+          "title": "Université Laval — Agroéconomie : domaines de compétences",
+          "url": "https://www.fsaa.ulaval.ca/etudes/programmes/baccalaureat-en-agroeconomie"
+        }
+      ]
+    },
+    {
+      "id": "tour-receptionniste",
+      "slug": "tour-receptionniste",
+      "title": "Réceptionniste d’hôtel",
+      "domain": "tourisme",
+      "category": "tour-hebergement",
+      "sector": "Accueil et hébergement",
+      "description": "Accueille les clients et organise les réservations, les arrivées et les départs de l’hôtel.",
+      "body": "Le réceptionniste accompagne le client dès son premier contact avec l’hôtel. Il vérifie la réservation, présente les services disponibles et transmet les informations utiles pour le séjour.\n\nAu quotidien, il attribue les chambres, répond aux demandes et prépare les factures. Il échange avec les équipes d’entretien et la direction pour traiter les changements ou les incidents.",
+      "skills": [
+        "Accueil",
+        "Organisation",
+        "Langues",
+        "Outils de réservation"
+      ],
+      "environment": "Hôtels, résidences et établissements d’hébergement ; travail par roulement possible.",
+      "sources": [
+        {
+          "title": "Onisep — Réceptionniste d’hôtel",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/receptionniste"
+        }
+      ]
+    },
+    {
+      "id": "tour-concierge-hotel",
+      "slug": "tour-concierge-hotel",
+      "title": "Concierge d’hôtel",
+      "domain": "tourisme",
+      "category": "tour-hebergement",
+      "sector": "Accueil et hébergement",
+      "description": "Organise des services personnalisés pour faciliter le séjour des clients.",
+      "body": "Le concierge renseigne les voyageurs et recherche des solutions à leurs demandes pratiques. Sa connaissance des prestataires et des activités locales lui permet de proposer des services adaptés.\n\nIl peut réserver un transport, une table ou une visite et en confirmer les modalités. Il suit la réalisation des prestations, transmet les demandes aux équipes concernées et préserve la confidentialité des clients.",
+      "skills": [
+        "Sens du service",
+        "Connaissance locale",
+        "Langues",
+        "Discrétion"
+      ],
+      "environment": "Hôtels proposant une conciergerie ; nombreux échanges avec les prestataires extérieurs.",
+      "sources": [
+        {
+          "title": "Onisep — Personnel de hall d’hôtel, dont la conciergerie",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/personnel-de-hall-d-hotel-de-luxe"
+        }
+      ]
+    },
+    {
+      "id": "tour-employe-etage",
+      "slug": "tour-employe-etage",
+      "title": "Employé d’étage en hôtellerie",
+      "domain": "tourisme",
+      "category": "tour-hebergement",
+      "sector": "Accueil et hébergement",
+      "description": "Prépare et entretient les chambres pour offrir un hébergement propre et accueillant.",
+      "body": "L’employé d’étage remet les chambres en état selon les consignes de l’établissement. Il nettoie les surfaces, prépare les lits et renouvelle le linge ainsi que les produits mis à disposition.\n\nSa journée suit les départs, les arrivées et les priorités données par le responsable. Il signale les équipements défectueux et les objets trouvés, tout en respectant l’intimité des personnes hébergées.",
+      "skills": [
+        "Hygiène",
+        "Méthode",
+        "Attention aux détails",
+        "Discrétion"
+      ],
+      "environment": "Chambres et espaces d’hébergement ; activité physique et horaires liés à l’occupation.",
+      "sources": [
+        {
+          "title": "Onisep — Femme / Valet de chambre",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/femme-valet-de-chambre"
+        }
+      ]
+    },
+    {
+      "id": "tour-gouvernant-hotel",
+      "slug": "tour-gouvernant-hotel",
+      "title": "Gouvernant d’hôtel",
+      "domain": "tourisme",
+      "category": "tour-hebergement",
+      "sector": "Accueil et hébergement",
+      "description": "Coordonne les équipes d’étage et contrôle la qualité de l’entretien des chambres.",
+      "body": "Le gouvernant organise le travail des équipes chargées des chambres et du linge. Il définit les priorités avec la réception pour que les hébergements soient disponibles au moment prévu.\n\nIl répartit les tâches, vérifie les chambres et suit les stocks de produits. Il accompagne les nouveaux collaborateurs, traite les demandes particulières et fait remonter les besoins de maintenance.",
+      "skills": [
+        "Encadrement",
+        "Organisation",
+        "Contrôle qualité",
+        "Gestion des stocks"
+      ],
+      "environment": "Hôtels et résidences ; déplacements fréquents entre les étages et les services.",
+      "sources": [
+        {
+          "title": "Onisep — Gouvernant d’hôtel",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/gouvernant-gouvernante"
+        }
+      ]
+    },
+    {
+      "id": "tour-directeur-hotel",
+      "slug": "tour-directeur-hotel",
+      "title": "Directeur d’hôtel",
+      "domain": "tourisme",
+      "category": "tour-hebergement",
+      "sector": "Accueil et hébergement",
+      "description": "Pilote les équipes, les services et la gestion économique d’un établissement hôtelier.",
+      "body": "Le directeur d’hôtel organise l’activité de l’établissement et définit ses objectifs de qualité et de gestion. Il veille à la cohérence entre l’accueil, les chambres, la restauration et les autres services.\n\nIl suit les dépenses et les réservations, encadre les responsables et échange avec les fournisseurs. Selon la taille de l’hôtel, il participe aussi directement à l’accueil et à la résolution des difficultés.",
+      "skills": [
+        "Management",
+        "Gestion budgétaire",
+        "Relation client",
+        "Décision"
+      ],
+      "environment": "Hôtels indépendants ou chaînes ; responsabilités opérationnelles et présence sur site.",
+      "sources": [
+        {
+          "title": "Onisep — Directeur d’hôtel",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/directeur-directrice-d-hotel"
+        }
+      ]
+    },
+    {
+      "id": "tour-revenue-manager",
+      "slug": "tour-revenue-manager",
+      "title": "Responsable des revenus hôteliers",
+      "domain": "tourisme",
+      "category": "tour-hebergement",
+      "sector": "Accueil et hébergement",
+      "description": "Analyse la demande pour ajuster les tarifs et les disponibilités des chambres.",
+      "body": "Le responsable des revenus, aussi appelé revenue manager, étudie les réservations et les périodes de fréquentation. Il propose une politique de prix en fonction de la capacité disponible et des objectifs de l’hôtel.\n\nIl compare les résultats aux prévisions, observe les ventes par canal et ajuste les offres autorisées. Il travaille avec la réception et les équipes commerciales pour rendre les conditions de vente cohérentes.",
+      "skills": [
+        "Analyse de données",
+        "Prévision",
+        "Gestion tarifaire",
+        "Tableurs"
+      ],
+      "environment": "Hôtels et groupes hôteliers ; travail de bureau en lien avec les équipes de vente.",
+      "sources": [
+        {
+          "title": "Onisep — Yield manager, gestionnaire de rendement",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/yield-manager-gestionnaire-de-rendement"
+        }
+      ]
+    },
+    {
+      "id": "tour-guide-conferencier",
+      "slug": "tour-guide-conferencier",
+      "title": "Guide-conférencier",
+      "domain": "tourisme",
+      "category": "tour-guides-patrimoine",
+      "sector": "Guides et patrimoine",
+      "description": "Conçoit et anime des visites pour expliquer le patrimoine culturel et historique.",
+      "body": "Le guide-conférencier aide les visiteurs à comprendre un musée, un monument ou un quartier. Il prépare un parcours documenté et adapte ses explications à l’âge, aux intérêts et à la langue du groupe.\n\nIl vérifie les conditions de visite, accueille les participants et répond à leurs questions. Il renouvelle ses connaissances pour distinguer les faits établis, les interprétations et les récits transmis localement.",
+      "skills": [
+        "Culture historique",
+        "Recherche documentaire",
+        "Expression orale",
+        "Langues"
+      ],
+      "environment": "Musées, monuments et circuits culturels ; travail mobile au contact des visiteurs.",
+      "sources": [
+        {
+          "title": "Onisep — Guide-conférencier",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/guide-conferencier-guide-conferenciere"
+        }
+      ]
+    },
+    {
+      "id": "tour-accompagnateur-voyages",
+      "slug": "tour-accompagnateur-voyages",
+      "title": "Accompagnateur de voyages",
+      "domain": "tourisme",
+      "category": "tour-guides-patrimoine",
+      "sector": "Guides et patrimoine",
+      "description": "Suit un groupe pendant son circuit et coordonne le déroulement pratique du voyage.",
+      "body": "L’accompagnateur de voyages assure le lien entre les voyageurs, l’agence et les prestataires. Il veille au respect du programme et aide le groupe dans les différentes étapes du séjour.\n\nIl confirme les horaires, vérifie les prestations et transmet les informations pratiques. Face à un retard ou à une modification, il cherche une solution avec les partenaires et informe les participants.",
+      "skills": [
+        "Organisation",
+        "Gestion de groupe",
+        "Langues",
+        "Réactivité"
+      ],
+      "environment": "Circuits et excursions ; déplacements et horaires dépendant du programme de voyage.",
+      "sources": [
+        {
+          "title": "Onisep — Accompagnateur de voyages",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/accompagnateur-accompagnatrice-de-voyages"
+        }
+      ]
+    },
+    {
+      "id": "tour-mediateur-patrimoine",
+      "slug": "tour-mediateur-patrimoine",
+      "title": "Médiateur du patrimoine",
+      "domain": "tourisme",
+      "category": "tour-guides-patrimoine",
+      "sector": "Guides et patrimoine",
+      "description": "Crée des activités qui rendent le patrimoine accessible aux habitants et aux visiteurs.",
+      "body": "Le médiateur du patrimoine met en relation un public avec les traces, les pratiques et les histoires d’un territoire. Il imagine des ateliers, des expositions ou des parcours pour en faciliter la découverte.\n\nIl collecte des informations, prépare des supports et anime des rencontres. Il collabore avec les institutions culturelles, les écoles et les acteurs locaux pour adapter les projets aux différents publics.",
+      "skills": [
+        "Médiation culturelle",
+        "Pédagogie",
+        "Recherche",
+        "Conception d’activités"
+      ],
+      "environment": "Sites culturels, associations et services patrimoniaux ; alternance entre préparation et animation.",
+      "sources": [
+        {
+          "title": "Onisep — Animateur du patrimoine",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/animateur-animatrice-du-patrimoine"
+        }
+      ]
+    },
+    {
+      "id": "tour-accompagnateur-randonnee",
+      "slug": "tour-accompagnateur-randonnee",
+      "title": "Accompagnateur de randonnée",
+      "domain": "tourisme",
+      "category": "tour-guides-patrimoine",
+      "sector": "Guides et patrimoine",
+      "description": "Prépare et encadre des parcours à pied adaptés aux participants et au milieu traversé.",
+      "body": "L’accompagnateur de randonnée choisit un itinéraire compatible avec les capacités du groupe et les conditions du terrain. Il fait découvrir les paysages ainsi que les particularités naturelles et culturelles du parcours.\n\nIl vérifie l’équipement et les conditions de sortie, explique les consignes et ajuste l’allure. Il observe l’évolution du groupe et du milieu pour adapter ou interrompre le parcours si nécessaire.",
+      "skills": [
+        "Orientation",
+        "Gestion de groupe",
+        "Connaissance du milieu",
+        "Prévention des risques"
+      ],
+      "environment": "Milieux naturels et itinéraires de randonnée ; activité extérieure dépendante des conditions locales.",
+      "sources": [
+        {
+          "title": "Onisep — Accompagnateur en moyenne montagne, activités de randonnée",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/accompagnateur-accompagnatrice-en-moyenne-montagne"
+        }
+      ]
+    },
+    {
+      "id": "tour-conseiller-voyages",
+      "slug": "tour-conseiller-voyages",
+      "title": "Conseiller en voyages",
+      "domain": "tourisme",
+      "category": "tour-voyages",
+      "sector": "Agences et conception de voyages",
+      "description": "Aide les clients à choisir et à réserver un voyage adapté à leurs attentes.",
+      "body": "Le conseiller en voyages analyse le budget, les dates et les envies du client. Il compare les possibilités de transport, d’hébergement et d’activités pour présenter une proposition compréhensible.\n\nIl explique les conditions des prestations, enregistre les réservations et suit le dossier. Il apporte aussi une assistance lorsqu’un élément du voyage doit être modifié ou qu’une réclamation apparaît.",
+      "skills": [
+        "Écoute",
+        "Conseil commercial",
+        "Outils de réservation",
+        "Langues"
+      ],
+      "environment": "Agences de voyages, centrales de réservation et services de vente à distance.",
+      "sources": [
+        {
+          "title": "Onisep — Conseiller en voyages",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conseiller-conseillere-en-voyages"
+        }
+      ]
+    },
+    {
+      "id": "tour-billettiste",
+      "slug": "tour-billettiste",
+      "title": "Billettiste",
+      "domain": "tourisme",
+      "category": "tour-voyages",
+      "sector": "Agences et conception de voyages",
+      "description": "Recherche, réserve et émet des titres de transport pour les voyageurs.",
+      "body": "Le billettiste se concentre sur les itinéraires, les disponibilités et les conditions des transporteurs. Il recherche une combinaison compatible avec le déplacement demandé et le budget prévu.\n\nIl saisit les informations du voyageur, contrôle les correspondances et prépare l’émission des billets. Il traite les modifications ou remboursements selon les conditions applicables et conserve un suivi précis du dossier.",
+      "skills": [
+        "Précision",
+        "Tarification transport",
+        "Outils de réservation",
+        "Relation client"
+      ],
+      "environment": "Agences, compagnies de transport et services de voyages d’affaires ; travail sur écran.",
+      "sources": [
+        {
+          "title": "France Compétences — Vendeur conseil en voyages d’affaires et tourisme",
+          "url": "https://www.francecompetences.fr/recherche/rncp/40665/"
+        }
+      ]
+    },
+    {
+      "id": "tour-forfaitiste",
+      "slug": "tour-forfaitiste",
+      "title": "Forfaitiste",
+      "domain": "tourisme",
+      "category": "tour-voyages",
+      "sector": "Agences et conception de voyages",
+      "description": "Assemble et chiffre les prestations qui composent un séjour ou un circuit.",
+      "body": "Le forfaitiste transforme une demande de voyage en programme réalisable. Il combine transports, nuitées, repas et activités en tenant compte des disponibilités, des distances et des contraintes du client.\n\nIl sollicite les prestataires, calcule le prix et prépare une proposition détaillée. Après validation, il confirme les réservations et rassemble les informations nécessaires au bon déroulement du séjour.",
+      "skills": [
+        "Conception de circuits",
+        "Calcul de coûts",
+        "Négociation",
+        "Organisation"
+      ],
+      "environment": "Agences réceptives et organisateurs de voyages ; coordination à distance avec les prestataires.",
+      "sources": [
+        {
+          "title": "France Compétences — Conseiller vendeur en voyages, conception de forfaits",
+          "url": "https://www.francecompetences.fr/recherche/rncp/37295/"
+        }
+      ]
+    },
+    {
+      "id": "tour-chef-produit-touristique",
+      "slug": "tour-chef-produit-touristique",
+      "title": "Chef de produit touristique",
+      "domain": "tourisme",
+      "category": "tour-voyages",
+      "sector": "Agences et conception de voyages",
+      "description": "Développe une gamme de voyages et en suit la pertinence commerciale.",
+      "body": "Le chef de produit touristique étudie les attentes des voyageurs et les destinations possibles. Il définit les caractéristiques d’une offre, son public et son positionnement dans le catalogue du voyagiste.\n\nIl choisit les partenaires, négocie les prestations et coordonne la mise en vente. Il examine ensuite les ventes et les retours des clients pour améliorer les programmes ou faire évoluer la gamme.",
+      "skills": [
+        "Étude de marché",
+        "Conception d’offres",
+        "Négociation",
+        "Suivi commercial"
+      ],
+      "environment": "Voyagistes et entreprises touristiques ; bureau et déplacements de repérage possibles.",
+      "sources": [
+        {
+          "title": "Onisep — Chef de produit touristique",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/chef-cheffe-de-produit-touristique"
+        }
+      ]
+    },
+    {
+      "id": "tour-responsable-agence-voyages",
+      "slug": "tour-responsable-agence-voyages",
+      "title": "Responsable d’agence de voyages",
+      "domain": "tourisme",
+      "category": "tour-voyages",
+      "sector": "Agences et conception de voyages",
+      "description": "Organise le fonctionnement de l’agence et accompagne son équipe de conseillers.",
+      "body": "Le responsable d’agence fixe les priorités commerciales et veille à la qualité du conseil donné aux voyageurs. Il répartit les dossiers et aide l’équipe à résoudre les demandes complexes.\n\nIl suit les ventes, les dépenses et les relations avec les fournisseurs. Il contrôle l’organisation des réservations et développe la clientèle par des partenariats ou des actions commerciales.",
+      "skills": [
+        "Management",
+        "Gestion commerciale",
+        "Relation client",
+        "Organisation"
+      ],
+      "environment": "Agences indépendantes ou réseaux de distribution touristique.",
+      "sources": [
+        {
+          "title": "Onisep — Responsable d’agence de voyages",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/directeur-directrice-d-agences-de-voyages"
+        }
+      ]
+    },
+    {
+      "id": "tour-chef-cuisine",
+      "slug": "tour-chef-cuisine",
+      "title": "Chef de cuisine",
+      "domain": "tourisme",
+      "category": "tour-restauration",
+      "sector": "Cuisine et restauration",
+      "description": "Conçoit les menus et dirige la préparation des repas au sein d’une cuisine.",
+      "body": "Le chef de cuisine organise la production des plats et définit leur présentation. Il choisit les recettes et les produits en fonction du style de l’établissement, des approvisionnements et des coûts.\n\nIl répartit les préparations, contrôle les cuissons et coordonne l’envoi pendant le service. Il suit les stocks et fait appliquer les consignes d’hygiène ainsi que les méthodes de travail de l’équipe.",
+      "skills": [
+        "Techniques culinaires",
+        "Encadrement",
+        "Hygiène alimentaire",
+        "Gestion des coûts"
+      ],
+      "environment": "Restaurants, hôtels et cuisines collectives ; rythme soutenu pendant les services.",
+      "sources": [
+        {
+          "title": "Onisep — Chef de cuisine",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/chef-de-cuisine-cheffe-de-cuisine"
+        }
+      ]
+    },
+    {
+      "id": "tour-commis-cuisine",
+      "slug": "tour-commis-cuisine",
+      "title": "Commis de cuisine",
+      "domain": "tourisme",
+      "category": "tour-restauration",
+      "sector": "Cuisine et restauration",
+      "description": "Réalise les préparations de base et aide l’équipe à produire les repas.",
+      "body": "Le commis de cuisine prépare les ingrédients et le matériel nécessaires aux cuisiniers. Il lave, épluche, découpe ou effectue des préparations simples selon les instructions reçues.\n\nPendant le service, il approvisionne les postes et participe au dressage. Il nettoie et range son espace de travail, vérifie le stockage des aliments et respecte les règles d’hygiène.",
+      "skills": [
+        "Gestes culinaires",
+        "Hygiène",
+        "Travail en équipe",
+        "Organisation"
+      ],
+      "environment": "Cuisines de restaurants et d’hôtels ; activité debout et coordination rapide.",
+      "sources": [
+        {
+          "title": "Onisep — Commis de cuisine",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/commis-commise-de-cuisine"
+        }
+      ]
+    },
+    {
+      "id": "tour-patissier-restaurant",
+      "slug": "tour-patissier-restaurant",
+      "title": "Pâtissier de restaurant",
+      "domain": "tourisme",
+      "category": "tour-restauration",
+      "sector": "Cuisine et restauration",
+      "description": "Prépare les desserts et les réalise à l’assiette au moment du service.",
+      "body": "Le pâtissier de restaurant crée et produit les desserts proposés par l’établissement. Il prépare les pâtes, crèmes, glaces et garnitures en maîtrisant les quantités, les textures et les températures.\n\nIl organise les préparations avant le service puis réalise les finitions à la commande. Il coordonne son travail avec la cuisine et surveille la conservation ainsi que la présentation des desserts.",
+      "skills": [
+        "Pâtisserie",
+        "Précision",
+        "Créativité",
+        "Hygiène alimentaire"
+      ],
+      "environment": "Restaurants, hôtels et services de réception ; préparation en laboratoire ou en cuisine.",
+      "sources": [
+        {
+          "title": "Onisep — Pâtissier de restaurant",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/patissier-patissiere-de-restaurant"
+        }
+      ]
+    },
+    {
+      "id": "tour-serveur",
+      "slug": "tour-serveur",
+      "title": "Serveur en restauration",
+      "domain": "tourisme",
+      "category": "tour-restauration",
+      "sector": "Cuisine et restauration",
+      "description": "Accueille les clients, prend leurs commandes et assure le service à table.",
+      "body": "Le serveur prépare la salle et accompagne les clients pendant le repas. Il explique les propositions de la carte et transmet clairement les commandes à la cuisine ou au bar.\n\nIl apporte les plats, suit les demandes et débarrasse les tables. Il peut préparer l’addition et encaisser, tout en veillant à la coordination du service et à la propreté de son espace.",
+      "skills": [
+        "Accueil",
+        "Mémorisation",
+        "Coordination",
+        "Hygiène"
+      ],
+      "environment": "Restaurants, cafés et hôtels ; horaires liés aux repas, avec travail en soirée possible.",
+      "sources": [
+        {
+          "title": "Onisep — Serveur en restauration",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/serveur-serveuse-en-restauration-restaurant-cafe-bar-brasserie"
+        }
+      ]
+    },
+    {
+      "id": "tour-maitre-hotel",
+      "slug": "tour-maitre-hotel",
+      "title": "Maître d’hôtel",
+      "domain": "tourisme",
+      "category": "tour-restauration",
+      "sector": "Cuisine et restauration",
+      "description": "Coordonne le service en salle et veille à la qualité de l’accueil des clients.",
+      "body": "Le maître d’hôtel organise l’équipe de salle et la répartition des tables. Il accueille la clientèle, anticipe les demandes particulières et assure le lien avec la cuisine.\n\nAvant le service, il vérifie la préparation de la salle et donne les consignes. Pendant le repas, il suit le rythme des commandes, aide les serveurs et traite les difficultés qui peuvent affecter l’expérience des clients.",
+      "skills": [
+        "Encadrement",
+        "Sens du service",
+        "Organisation",
+        "Communication"
+      ],
+      "environment": "Restaurants et établissements hôteliers disposant d’une équipe de salle.",
+      "sources": [
+        {
+          "title": "Onisep — Maître d’hôtel",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/maitre-maitresse-d-hotel"
+        }
+      ]
+    },
+    {
+      "id": "tour-barman",
+      "slug": "tour-barman",
+      "title": "Barman",
+      "domain": "tourisme",
+      "category": "tour-restauration",
+      "sector": "Cuisine et restauration",
+      "description": "Prépare et sert les boissons tout en organisant le fonctionnement du bar.",
+      "body": "Le barman accueille les clients au comptoir et réalise les boissons proposées à la carte. Il maîtrise les dosages, la présentation et l’utilisation des équipements du bar.\n\nIl prépare son poste, suit les stocks et nettoie le matériel au fil du service. Il encaisse les commandes selon l’organisation de l’établissement et contribue à une ambiance accueillante.",
+      "skills": [
+        "Préparation de boissons",
+        "Accueil",
+        "Gestion des stocks",
+        "Dextérité"
+      ],
+      "environment": "Bars, hôtels et restaurants ; travail en soirée et périodes de forte affluence possibles.",
+      "sources": [
+        {
+          "title": "Onisep — Barman",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/barman-barmaid"
+        }
+      ]
+    },
+    {
+      "id": "tour-directeur-restaurant",
+      "slug": "tour-directeur-restaurant",
+      "title": "Directeur de restaurant",
+      "domain": "tourisme",
+      "category": "tour-restauration",
+      "sector": "Cuisine et restauration",
+      "description": "Gère les équipes et les ressources nécessaires au fonctionnement du restaurant.",
+      "body": "Le directeur de restaurant organise les activités de cuisine et de salle pour atteindre les objectifs de l’établissement. Il suit la satisfaction des clients et la qualité des prestations.\n\nIl prépare les plannings, supervise les achats et examine les résultats financiers. Il échange avec les responsables de service pour ajuster les moyens, résoudre les incidents et améliorer l’organisation.",
+      "skills": [
+        "Gestion",
+        "Management",
+        "Relation client",
+        "Suivi des achats"
+      ],
+      "environment": "Restaurants indépendants, hôtels et groupes de restauration.",
+      "sources": [
+        {
+          "title": "Onisep — Directeur de restaurant",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/directeur-directrice-de-restaurant"
+        }
+      ]
+    },
+    {
+      "id": "tour-animateur-tourisme",
+      "slug": "tour-animateur-tourisme",
+      "title": "Animateur de tourisme",
+      "domain": "tourisme",
+      "category": "tour-animation-evenementiel",
+      "sector": "Animation et événementiel",
+      "description": "Organise et anime des activités pour les personnes accueillies dans un lieu de séjour.",
+      "body": "L’animateur de tourisme propose des jeux, ateliers et rencontres qui favorisent la participation des vacanciers. Il adapte les activités aux différents âges et aux attentes du public.\n\nIl prépare le matériel, présente le programme et conduit les séances. Il observe les réactions des participants et ajuste son animation en lien avec le responsable de l’équipe.",
+      "skills": [
+        "Animation de groupe",
+        "Créativité",
+        "Communication",
+        "Organisation"
+      ],
+      "environment": "Structures de loisirs et établissements touristiques ; horaires liés au programme d’activités.",
+      "sources": [
+        {
+          "title": "Onisep — Animateur de tourisme",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/animateur-animatrice-de-tourisme"
+        }
+      ]
+    },
+    {
+      "id": "tour-responsable-animation",
+      "slug": "tour-responsable-animation",
+      "title": "Responsable d’animation touristique",
+      "domain": "tourisme",
+      "category": "tour-animation-evenementiel",
+      "sector": "Animation et événementiel",
+      "description": "Conçoit un programme d’animation et coordonne les équipes qui le réalisent.",
+      "body": "Le responsable d’animation définit les activités et les festivités d’une structure touristique. Il organise les moyens humains et matériels en fonction du public, du budget et des espaces disponibles.\n\nIl prépare les plannings, accompagne les animateurs et suit la qualité des activités. Il recueille les retours des clients pour faire évoluer le programme et coordonne son service avec les autres équipes.",
+      "skills": [
+        "Programmation d’activités",
+        "Management",
+        "Budget",
+        "Évaluation"
+      ],
+      "environment": "Hôtels, villages de vacances et équipements de loisirs.",
+      "sources": [
+        {
+          "title": "France Compétences — Responsable loisirs tourisme",
+          "url": "https://www.francecompetences.fr/recherche/rncp/41135/"
+        }
+      ]
+    },
+    {
+      "id": "tour-charge-projet-evenementiel",
+      "slug": "tour-charge-projet-evenementiel",
+      "title": "Chargé de projet événementiel",
+      "domain": "tourisme",
+      "category": "tour-animation-evenementiel",
+      "sector": "Animation et événementiel",
+      "description": "Conçoit et coordonne les différentes étapes d’un événement.",
+      "body": "Le chargé de projet événementiel transforme la demande d’un client en rencontre, salon, festival ou séminaire. Il construit un programme, un calendrier et un budget adaptés aux objectifs.\n\nIl sélectionne les prestataires et coordonne la logistique, l’accueil et la communication. Le jour de l’événement, il suit le déroulement et traite les imprévus avec les équipes.",
+      "skills": [
+        "Gestion de projet",
+        "Budget",
+        "Négociation",
+        "Réactivité"
+      ],
+      "environment": "Agences événementielles, hôtels et organisateurs de rencontres ; bureau et présence sur site.",
+      "sources": [
+        {
+          "title": "Onisep — Chargé de projet événementiel",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/charge-chargee-de-projet-evenementiel"
+        }
+      ]
+    },
+    {
+      "id": "tour-regisseur-evenement",
+      "slug": "tour-regisseur-evenement",
+      "title": "Régisseur de spectacles et d’événements",
+      "domain": "tourisme",
+      "category": "tour-animation-evenementiel",
+      "sector": "Animation et événementiel",
+      "description": "Organise les moyens techniques et matériels nécessaires au déroulement d’un événement.",
+      "body": "Le régisseur prépare l’installation technique d’un spectacle ou d’une manifestation. Il organise les besoins en matériel, les accès et les interventions des équipes spécialisées.\n\nIl planifie le montage, coordonne les essais et accompagne l’exploitation technique. Il veille au respect des consignes de sécurité et organise le démontage ainsi que le retour du matériel.",
+      "skills": [
+        "Organisation technique",
+        "Coordination",
+        "Lecture de plans",
+        "Prévention des risques"
+      ],
+      "environment": "Salles de spectacle, festivals et sites événementiels ; montage et horaires irréguliers.",
+      "sources": [
+        {
+          "title": "Onisep — Régisseur de spectacles et d’événements",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/regisseur-regisseuse-de-spectacles"
+        }
+      ]
+    },
+    {
+      "id": "tour-traiteur-reception",
+      "slug": "tour-traiteur-reception",
+      "title": "Traiteur organisateur de réception",
+      "domain": "tourisme",
+      "category": "tour-animation-evenementiel",
+      "sector": "Animation et événementiel",
+      "description": "Prépare et coordonne la restauration d’une réception selon le projet du client.",
+      "body": "Le traiteur organisateur de réception construit une prestation alimentaire pour un mariage, un séminaire ou une autre rencontre. Il propose les menus et prévoit les quantités ainsi que le service.\n\nIl organise la production, le transport des plats et l’installation sur le lieu choisi. Il coordonne le personnel et veille à la conservation des aliments jusqu’au service.",
+      "skills": [
+        "Cuisine",
+        "Logistique",
+        "Hygiène alimentaire",
+        "Organisation"
+      ],
+      "environment": "Entreprises de réception, hôtels et sites loués pour des événements.",
+      "sources": [
+        {
+          "title": "Onisep — Traiteur organisateur de réception",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/traiteur-organisateur-de-reception-traiteuse-organisatrice-de-reception"
+        }
+      ]
+    },
+    {
+      "id": "tour-conseiller-sejour",
+      "slug": "tour-conseiller-sejour",
+      "title": "Conseiller en séjour",
+      "domain": "tourisme",
+      "category": "tour-developpement-promotion",
+      "sector": "Développement et promotion touristique",
+      "description": "Oriente les visiteurs vers les activités et services disponibles dans une destination.",
+      "body": "Le conseiller en séjour accueille les visiteurs et écoute leurs envies de découverte. Il présente les sites, hébergements, déplacements et activités adaptés à leur situation.\n\nIl vérifie et actualise les informations pratiques, répond aux demandes à distance et peut réserver des prestations. Il fait remonter les questions récurrentes pour améliorer l’accueil touristique.",
+      "skills": [
+        "Connaissance du territoire",
+        "Accueil",
+        "Langues",
+        "Gestion de l’information"
+      ],
+      "environment": "Offices et points d’information touristique ; contacts directs, téléphoniques ou numériques.",
+      "sources": [
+        {
+          "title": "Onisep — Conseiller en séjour",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conseiller-conseillere-en-sejour"
+        }
+      ]
+    },
+    {
+      "id": "tour-charge-promotion",
+      "slug": "tour-charge-promotion",
+      "title": "Chargé de promotion touristique",
+      "domain": "tourisme",
+      "category": "tour-developpement-promotion",
+      "sector": "Développement et promotion touristique",
+      "description": "Fait connaître une destination et ses offres auprès des publics et partenaires visés.",
+      "body": "Le chargé de promotion prépare des actions de communication autour d’un territoire touristique. Il choisit les messages et les supports en fonction des visiteurs recherchés.\n\nIl rassemble les informations sur les offres, prépare des présentations et participe à des opérations de promotion. Il suit les demandes reçues et les résultats pour améliorer les prochaines actions.",
+      "skills": [
+        "Communication",
+        "Rédaction",
+        "Connaissance des offres",
+        "Suivi de campagnes"
+      ],
+      "environment": "Organismes de tourisme et structures de promotion territoriale.",
+      "sources": [
+        {
+          "title": "France Compétences — BTS Tourisme, promotion du tourisme local",
+          "url": "https://www.francecompetences.fr/recherche/rncp/37890/"
+        }
+      ]
+    },
+    {
+      "id": "tour-agent-developpement",
+      "slug": "tour-agent-developpement",
+      "title": "Agent de développement touristique",
+      "domain": "tourisme",
+      "category": "tour-developpement-promotion",
+      "sector": "Développement et promotion touristique",
+      "description": "Accompagne des projets qui améliorent l’offre touristique d’un territoire.",
+      "body": "L’agent de développement touristique étudie les ressources et les besoins d’un territoire. Il travaille avec les acteurs locaux pour construire des projets de découverte, d’accueil ou de valorisation.\n\nIl rencontre les partenaires, prépare les dossiers et suit les étapes de réalisation. Il examine les résultats et propose des ajustements pour mieux articuler les services touristiques.",
+      "skills": [
+        "Diagnostic territorial",
+        "Gestion de projet",
+        "Concertation",
+        "Rédaction"
+      ],
+      "environment": "Services territoriaux, associations et organismes de développement touristique.",
+      "sources": [
+        {
+          "title": "Onisep — Agent de développement touristique",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agent-agente-de-developpement-touristique"
+        }
+      ]
+    },
+    {
+      "id": "tour-charge-etourisme",
+      "slug": "tour-charge-etourisme",
+      "title": "Chargé de projets e-tourisme",
+      "domain": "tourisme",
+      "category": "tour-developpement-promotion",
+      "sector": "Développement et promotion touristique",
+      "description": "Développe les services numériques qui facilitent l’information et la découverte d’une destination.",
+      "body": "Le chargé de projets e-tourisme organise la présence numérique d’un territoire touristique. Il veille à rendre les informations utiles accessibles sur les supports consultés par les voyageurs.\n\nIl actualise les contenus, suit l’usage des services et accompagne les prestataires dans leurs pratiques numériques. Il coordonne les améliorations avec les équipes d’accueil et les spécialistes techniques.",
+      "skills": [
+        "Contenus numériques",
+        "Gestion de projet",
+        "Analyse des usages",
+        "Accompagnement"
+      ],
+      "environment": "Organismes touristiques et équipes de communication ; travail avec les acteurs du territoire.",
+      "sources": [
+        {
+          "title": "France Compétences — BTS Tourisme, animation numérique de territoire",
+          "url": "https://www.francecompetences.fr/recherche/rncp/37890/"
+        }
+      ]
+    },
+    {
+      "id": "tour-directeur-office",
+      "slug": "tour-directeur-office",
+      "title": "Directeur d’office de tourisme",
+      "domain": "tourisme",
+      "category": "tour-developpement-promotion",
+      "sector": "Développement et promotion touristique",
+      "description": "Dirige une structure chargée d’accueillir les visiteurs et de promouvoir un territoire.",
+      "body": "Le directeur d’office de tourisme organise les missions d’information, de promotion et de développement de sa structure. Il construit les priorités avec les partenaires du territoire.\n\nIl encadre l’équipe, suit le budget et coordonne les projets touristiques. Il rassemble les professionnels autour d’actions communes et évalue la qualité des services proposés aux visiteurs.",
+      "skills": [
+        "Management",
+        "Stratégie touristique",
+        "Partenariats",
+        "Budget"
+      ],
+      "environment": "Offices et organismes territoriaux de tourisme ; réunions et présence auprès des partenaires.",
+      "sources": [
+        {
+          "title": "Onisep — Directeur d’office de tourisme",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/directeur-directrice-d-office-de-tourisme"
+        }
+      ]
+    },
+    {
+      "id": "env-ecogarde",
+      "slug": "env-ecogarde",
+      "title": "Écogarde",
+      "domain": "environnement",
+      "category": "env-conservation",
+      "sector": "Biodiversité et conservation",
+      "description": "Participe à la surveillance d’un espace naturel et à la protection de sa faune et de sa flore.",
+      "body": "L’écogarde observe l’état du milieu et signale les menaces qui concernent les espèces ou leurs habitats. Il intervient dans une équipe de conservation selon les missions définies par l’organisme gestionnaire.\n\nIl réalise des patrouilles, consigne ses observations et participe au suivi des activités sur le site. Il échange aussi avec les visiteurs et les riverains pour expliquer les règles de protection.",
+      "skills": [
+        "Observation",
+        "Orientation",
+        "Compte rendu",
+        "Dialogue"
+      ],
+      "environment": "Aires protégées et autres espaces naturels ; travail de terrain, parfois en zone isolée.",
+      "sources": [
+        {
+          "title": "Onisep — Garde des espaces naturels",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/garde-chasse-peche-littoral-riviere-parcs-nationaux"
+        }
+      ]
+    },
+    {
+      "id": "env-charge-etudes-naturalistes",
+      "slug": "env-charge-etudes-naturalistes",
+      "title": "Chargé d’études naturalistes",
+      "domain": "environnement",
+      "category": "env-conservation",
+      "sector": "Biodiversité et conservation",
+      "description": "Inventorie les espèces et analyse les milieux pour orienter les actions de conservation.",
+      "body": "Le chargé d’études naturalistes cherche à comprendre quelles espèces vivent sur un site et de quels habitats elles dépendent. Il organise les observations en utilisant des méthodes adaptées aux groupes étudiés.\n\nIl réalise les inventaires, traite les données et prépare des cartes ou des rapports. Il propose des mesures de protection et suit leur efficacité avec les gestionnaires du territoire.",
+      "skills": [
+        "Identification des espèces",
+        "Méthodes d’inventaire",
+        "Analyse de données",
+        "Rédaction"
+      ],
+      "environment": "Bureaux d’études, organismes de conservation et associations ; terrain et bureau.",
+      "sources": [
+        {
+          "title": "Onisep — Chargé d’études naturalistes",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/charge-chargee-d-etudes-naturalistes"
+        }
+      ]
+    },
+    {
+      "id": "env-gestionnaire-aire-protegee",
+      "slug": "env-gestionnaire-aire-protegee",
+      "title": "Gestionnaire d’aire protégée",
+      "domain": "environnement",
+      "category": "env-conservation",
+      "sector": "Biodiversité et conservation",
+      "description": "Coordonne les actions et les équipes qui assurent la gestion d’un espace naturel protégé.",
+      "body": "Le gestionnaire d’aire protégée organise la mise en œuvre du plan de gestion du site. Il articule la conservation, le suivi scientifique, l’accueil et les relations avec les acteurs concernés.\n\nIl prépare les programmes de travail, suit le budget et coordonne les équipes. Il examine les résultats des actions et dialogue avec les partenaires pour ajuster les priorités de conservation.",
+      "skills": [
+        "Gestion d’espaces naturels",
+        "Management",
+        "Concertation",
+        "Suivi budgétaire"
+      ],
+      "environment": "Parcs, réserves et organismes gestionnaires ; bureau, réunions et déplacements sur le site.",
+      "sources": [
+        {
+          "title": "OFB, Métiers biodiversité — Gestionnaire de site protégé / conservateur",
+          "url": "https://www.metiers-biodiversite.fr/metiers/gestionnaire-de-site-protege-conservateurtrice"
+        }
+      ]
+    },
+    {
+      "id": "env-technicien-ecosystemes",
+      "slug": "env-technicien-ecosystemes",
+      "title": "Technicien en gestion des écosystèmes",
+      "domain": "environnement",
+      "category": "env-conservation",
+      "sector": "Biodiversité et conservation",
+      "description": "Prépare et suit des interventions d’entretien ou de restauration des milieux naturels.",
+      "body": "Le technicien en gestion des écosystèmes traduit un objectif de conservation en interventions concrètes sur le terrain. Il participe au diagnostic du milieu et à la préparation des travaux.\n\nIl suit les chantiers, relève les changements observés et vérifie que les interventions respectent les objectifs écologiques. Il entretient les équipements et rend compte de l’évolution des habitats concernés.",
+      "skills": [
+        "Écologie de terrain",
+        "Suivi de travaux",
+        "Observation",
+        "Organisation"
+      ],
+      "environment": "Espaces naturels, entreprises de génie écologique et structures de conservation.",
+      "sources": [
+        {
+          "title": "OFB, Métiers biodiversité — Technicien en gestion des écosystèmes",
+          "url": "https://www.metiers-biodiversite.fr/metiers/technicienne-en-gestion-des-ecosystemes"
+        }
+      ]
+    },
+    {
+      "id": "env-animateur-nature",
+      "slug": "env-animateur-nature",
+      "title": "Animateur nature",
+      "domain": "environnement",
+      "category": "env-conservation",
+      "sector": "Biodiversité et conservation",
+      "description": "Conçoit des activités pour aider différents publics à comprendre et protéger l’environnement.",
+      "body": "L’animateur nature transforme les connaissances sur le vivant en expériences accessibles. Il prépare des sorties, des ateliers ou des supports qui encouragent l’observation et la découverte.\n\nIl adapte ses activités au public et au lieu, prépare le matériel et conduit les séances. Il répond aux questions et évalue la compréhension des participants pour améliorer ses animations.",
+      "skills": [
+        "Pédagogie",
+        "Connaissance du vivant",
+        "Animation",
+        "Création de supports"
+      ],
+      "environment": "Associations, centres d’éducation à l’environnement et espaces naturels ; intérieur et extérieur.",
+      "sources": [
+        {
+          "title": "Onisep — Animateur nature",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/animateur-nature-animatrice-nature"
+        }
+      ]
+    },
+    {
+      "id": "env-ouvrier-forestier",
+      "slug": "env-ouvrier-forestier",
+      "title": "Ouvrier forestier",
+      "domain": "environnement",
+      "category": "env-forets",
+      "sector": "Forêts et gestion forestière",
+      "description": "Réalise les travaux d’entretien et de renouvellement des peuplements forestiers.",
+      "body": "L’ouvrier forestier intervient directement sur les parcelles pour mettre en œuvre les travaux prévus. Selon sa spécialité, il prépare le terrain, plante, entretient les jeunes arbres ou participe aux opérations forestières.\n\nIl utilise et entretient les outils adaptés au chantier. Il respecte les consignes de sécurité, repère les difficultés du terrain et signale les problèmes susceptibles d’affecter les arbres ou le milieu.",
+      "skills": [
+        "Travaux forestiers",
+        "Entretien des outils",
+        "Observation",
+        "Sécurité de chantier"
+      ],
+      "environment": "Forêts et chantiers sylvicoles ; activité extérieure et travail en équipe.",
+      "sources": [
+        {
+          "title": "Onisep — Ouvrier forestier",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ouvrier-forestier-ouvriere-forestiere"
+        }
+      ]
+    },
+    {
+      "id": "env-technicien-forestier",
+      "slug": "env-technicien-forestier",
+      "title": "Technicien forestier",
+      "domain": "environnement",
+      "category": "env-forets",
+      "sector": "Forêts et gestion forestière",
+      "description": "Organise et suit les opérations nécessaires à la gestion d’une forêt.",
+      "body": "Le technicien forestier observe les peuplements et prépare les interventions d’entretien, de renouvellement ou d’exploitation. Il relie les objectifs de gestion aux caractéristiques des parcelles.\n\nIl repère les arbres, programme les travaux et suit leur réalisation par les équipes. Il relève l’état sanitaire de la forêt et prépare les documents utiles au gestionnaire ou au propriétaire.",
+      "skills": [
+        "Sylviculture",
+        "Observation sanitaire",
+        "Planification",
+        "Suivi de chantier"
+      ],
+      "environment": "Services forestiers, organismes de gestion et entreprises forestières ; terrain et bureau.",
+      "sources": [
+        {
+          "title": "Onisep — Technicien forestier",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-forestier-technicienne-forestiere"
+        }
+      ]
+    },
+    {
+      "id": "env-ingenieur-forestier",
+      "slug": "env-ingenieur-forestier",
+      "title": "Ingénieur forestier",
+      "domain": "environnement",
+      "category": "env-forets",
+      "sector": "Forêts et gestion forestière",
+      "description": "Définit des stratégies de gestion qui prennent en compte le renouvellement et les fonctions de la forêt.",
+      "body": "L’ingénieur forestier élabore les orientations de gestion d’un massif ou d’un ensemble de parcelles. Il analyse les ressources, les contraintes écologiques et les usages pour proposer un programme cohérent.\n\nIl prépare des études et des plans d’aménagement, évalue les moyens nécessaires et accompagne les équipes techniques. Il suit les résultats pour ajuster les interventions et anticiper les changements du milieu.",
+      "skills": [
+        "Écologie forestière",
+        "Planification",
+        "Analyse technique",
+        "Gestion de projet"
+      ],
+      "environment": "Services forestiers, bureaux d’études et organisations gestionnaires de forêts.",
+      "sources": [
+        {
+          "title": "Onisep — Ingénieur forestier",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ingenieur-forestier-ingenieure-forestiere"
+        }
+      ]
+    },
+    {
+      "id": "env-technicien-inventaire-forestier",
+      "slug": "env-technicien-inventaire-forestier",
+      "title": "Technicien d’inventaire forestier",
+      "domain": "environnement",
+      "category": "env-forets",
+      "sector": "Forêts et gestion forestière",
+      "description": "Recueille des mesures standardisées pour décrire les ressources et l’état des forêts.",
+      "body": "Le technicien d’inventaire forestier collecte les données qui permettent de suivre les peuplements dans le temps. Il localise les points d’observation et applique un protocole de mesure défini.\n\nIl identifie les arbres, mesure leurs dimensions et décrit la végétation ainsi que le terrain. Il contrôle la cohérence des relevés avant de les transmettre pour les analyses statistiques et cartographiques.",
+      "skills": [
+        "Mesure forestière",
+        "Identification végétale",
+        "Orientation",
+        "Rigueur des relevés"
+      ],
+      "environment": "Campagnes d’inventaire et organismes forestiers ; déplacements et journées de terrain.",
+      "sources": [
+        {
+          "title": "IGN — Comment dresse-t-on le portrait-robot de la forêt française ?",
+          "url": "https://www.ign.fr/mag/comment-dresse-t-le-portrait-robot-de-la-foret-francaise"
+        }
+      ]
+    },
+    {
+      "id": "env-agent-exploitation-eau",
+      "slug": "env-agent-exploitation-eau",
+      "title": "Agent d’exploitation de l’eau",
+      "domain": "environnement",
+      "category": "env-eau-assainissement",
+      "sector": "Eau et assainissement",
+      "description": "Entretient les installations et réseaux qui assurent la circulation et le traitement de l’eau.",
+      "body": "L’agent d’exploitation de l’eau participe au fonctionnement quotidien des équipements. Il contrôle les pompes, les canalisations ou les réservoirs et repère les défauts qui peuvent perturber le service.\n\nIl effectue des opérations d’entretien et des réparations selon les consignes techniques. Il réalise des relevés, signale les anomalies et consigne ses interventions pour faciliter le suivi du réseau.",
+      "skills": [
+        "Maintenance courante",
+        "Plomberie",
+        "Observation",
+        "Respect des procédures"
+      ],
+      "environment": "Réseaux et installations d’eau ; déplacements, interventions extérieures et astreintes possibles.",
+      "sources": [
+        {
+          "title": "Onisep — Agent d’exploitation de l’eau",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agent-agente-d-exploitation-de-l-eau"
+        }
+      ]
+    },
+    {
+      "id": "env-technicien-traitement-eaux",
+      "slug": "env-technicien-traitement-eaux",
+      "title": "Technicien de traitement des eaux",
+      "domain": "environnement",
+      "category": "env-eau-assainissement",
+      "sector": "Eau et assainissement",
+      "description": "Contrôle et ajuste les procédés utilisés pour traiter l’eau potable ou les eaux usées.",
+      "body": "Le technicien de traitement des eaux suit les étapes qui permettent d’obtenir une eau conforme aux objectifs de l’installation. Il interprète les mesures et surveille le fonctionnement des équipements.\n\nIl organise des contrôles, règle les paramètres du procédé et prépare les opérations de maintenance. Lorsqu’un résultat s’écarte des valeurs attendues, il recherche la cause et documente les corrections.",
+      "skills": [
+        "Procédés de traitement",
+        "Analyse de résultats",
+        "Maintenance",
+        "Traçabilité"
+      ],
+      "environment": "Usines de traitement, stations d’épuration et installations industrielles.",
+      "sources": [
+        {
+          "title": "Onisep — Technicien d’exploitation de l’eau",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-d-exploitation-de-l-eau"
+        }
+      ]
+    },
+    {
+      "id": "env-hydrobiologiste",
+      "slug": "env-hydrobiologiste",
+      "title": "Hydrobiologiste",
+      "domain": "environnement",
+      "category": "env-eau-assainissement",
+      "sector": "Eau et assainissement",
+      "description": "Étudie les organismes aquatiques pour évaluer l’état écologique des eaux.",
+      "body": "L’hydrobiologiste analyse les relations entre les êtres vivants et leur milieu aquatique. La présence ou l’absence de certains organismes l’aide à comprendre la qualité d’un cours d’eau ou d’un plan d’eau.\n\nIl organise des prélèvements, identifie les organismes et exploite les résultats. Il rédige des conclusions qui aident à suivre une pollution ou à choisir des actions de restauration.",
+      "skills": [
+        "Biologie aquatique",
+        "Échantillonnage",
+        "Identification",
+        "Analyse scientifique"
+      ],
+      "environment": "Laboratoires, bureaux d’études et organismes de suivi de l’eau ; terrain et laboratoire.",
+      "sources": [
+        {
+          "title": "Onisep — Hydrobiologiste",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/hydrobiologiste"
+        }
+      ]
+    },
+    {
+      "id": "env-hydraulicien",
+      "slug": "env-hydraulicien",
+      "title": "Hydraulicien",
+      "domain": "environnement",
+      "category": "env-eau-assainissement",
+      "sector": "Eau et assainissement",
+      "description": "Étudie la circulation de l’eau et dimensionne les ouvrages nécessaires à sa gestion.",
+      "body": "L’hydraulicien analyse les débits, les pressions et les mouvements de l’eau. Il utilise ces données pour concevoir ou améliorer des réseaux, des ouvrages de drainage et d’autres équipements hydrauliques.\n\nIl relève les contraintes du site, effectue des calculs et compare plusieurs solutions. Il prépare les documents techniques et peut suivre les travaux pour vérifier leur cohérence avec le projet.",
+      "skills": [
+        "Mécanique des fluides",
+        "Calcul technique",
+        "Modélisation",
+        "Conception d’ouvrages"
+      ],
+      "environment": "Bureaux d’études, services de l’eau et entreprises d’ingénierie ; bureau et chantier.",
+      "sources": [
+        {
+          "title": "Onisep — Hydraulicien",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/hydraulicien-hydraulicienne"
+        }
+      ]
+    },
+    {
+      "id": "env-technicien-riviere",
+      "slug": "env-technicien-riviere",
+      "title": "Technicien de rivière",
+      "domain": "environnement",
+      "category": "env-eau-assainissement",
+      "sector": "Eau et assainissement",
+      "description": "Prépare et suit les travaux d’entretien ou de restauration des cours d’eau.",
+      "body": "Le technicien de rivière observe l’état des berges, du lit et des écoulements. Il identifie les interventions nécessaires en tenant compte des milieux aquatiques et des usages locaux.\n\nIl prépare les programmes de travaux, échange avec les riverains et suit les entreprises intervenantes. Il vérifie ensuite les résultats et actualise les informations sur le cours d’eau.",
+      "skills": [
+        "Écologie aquatique",
+        "Suivi de travaux",
+        "Cartographie",
+        "Dialogue avec les riverains"
+      ],
+      "environment": "Organismes de gestion des cours d’eau et services territoriaux ; présence régulière sur le terrain.",
+      "sources": [
+        {
+          "title": "Onisep — Technicien de rivière",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-de-riviere"
+        }
+      ]
+    },
+    {
+      "id": "env-responsable-assainissement",
+      "slug": "env-responsable-assainissement",
+      "title": "Responsable de réseau d’assainissement",
+      "domain": "environnement",
+      "category": "env-eau-assainissement",
+      "sector": "Eau et assainissement",
+      "description": "Organise l’exploitation des réseaux qui collectent et transportent les eaux usées.",
+      "body": "Le responsable de réseau d’assainissement veille au fonctionnement des canalisations et ouvrages de collecte. Il programme l’entretien et prépare les interventions nécessaires pour limiter les incidents.\n\nIl coordonne les équipes, suit les inspections et analyse les anomalies signalées. Il prépare les besoins de travaux et échange avec les services concernés pour assurer la continuité de l’exploitation.",
+      "skills": [
+        "Gestion de réseau",
+        "Planification",
+        "Encadrement",
+        "Analyse d’incidents"
+      ],
+      "environment": "Services d’assainissement et entreprises d’exploitation ; bureau et visites d’ouvrages.",
+      "sources": [
+        {
+          "title": "Onisep — Responsable de réseau d’assainissement",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/responsable-de-reseau-d-assainissement"
+        }
+      ]
+    },
+    {
+      "id": "env-agent-collecte-dechets",
+      "slug": "env-agent-collecte-dechets",
+      "title": "Agent de collecte des déchets",
+      "domain": "environnement",
+      "category": "env-dechets-recyclage",
+      "sector": "Déchets, réemploi et recyclage",
+      "description": "Ramasse les déchets selon un circuit organisé et les oriente vers le service de traitement.",
+      "body": "L’agent de collecte participe à l’enlèvement des déchets ménagers ou professionnels. Il prépare son matériel, suit la tournée et manipule les contenants selon les consignes de l’équipe.\n\nIl repère les déchets non conformes et les difficultés d’accès, puis les signale au responsable. Il contribue à la propreté des points de collecte et au suivi des quantités ou des incidents.",
+      "skills": [
+        "Organisation de tournée",
+        "Manutention",
+        "Travail en équipe",
+        "Sécurité"
+      ],
+      "environment": "Voie publique et sites de collecte ; activité extérieure avec manutention.",
+      "sources": [
+        {
+          "title": "France Compétences — Agent polyvalent de gestion et valorisation des déchets",
+          "url": "https://www.francecompetences.fr/recherche/rncp/40684/"
+        }
+      ]
+    },
+    {
+      "id": "env-operateur-tri",
+      "slug": "env-operateur-tri",
+      "title": "Opérateur de tri des déchets",
+      "domain": "environnement",
+      "category": "env-dechets-recyclage",
+      "sector": "Déchets, réemploi et recyclage",
+      "description": "Sépare les déchets par matière et contrôle leur orientation vers les filières de recyclage.",
+      "body": "L’opérateur de tri reconnaît les matières présentes dans les déchets reçus sur un site. Il retire les éléments non conformes et sépare les matériaux selon les consignes de valorisation.\n\nIl prépare son poste, surveille le flux et contrôle la qualité du tri. Il participe au conditionnement ou au stockage et signale les objets dangereux ainsi que les dysfonctionnements.",
+      "skills": [
+        "Identification des matières",
+        "Attention",
+        "Contrôle qualité",
+        "Respect des consignes"
+      ],
+      "environment": "Centres de tri et entreprises de recyclage ; travail sur poste ou sur ligne.",
+      "sources": [
+        {
+          "title": "France Compétences — Opérateur de tri manuel des industries du recyclage",
+          "url": "https://www.francecompetences.fr/recherche/rncp/36635/"
+        }
+      ]
+    },
+    {
+      "id": "env-agent-valoriste",
+      "slug": "env-agent-valoriste",
+      "title": "Agent valoriste",
+      "domain": "environnement",
+      "category": "env-dechets-recyclage",
+      "sector": "Déchets, réemploi et recyclage",
+      "description": "Évalue et remet en état des objets pour permettre leur réemploi.",
+      "body": "L’agent valoriste recherche ce qui peut encore servir parmi les objets et matériaux collectés. Il examine leur état pour choisir une remise en service, une réparation ou une autre orientation.\n\nIl nettoie, trie et effectue les interventions correspondant à ses compétences. Il prépare les objets à la réutilisation ou à la vente et explique leur fonctionnement aux personnes intéressées.",
+      "skills": [
+        "Diagnostic d’objets",
+        "Réparation courante",
+        "Tri",
+        "Relation avec le public"
+      ],
+      "environment": "Ressourceries, ateliers de réemploi et entreprises de valorisation.",
+      "sources": [
+        {
+          "title": "Onisep — Agent valoriste",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agent-agente-valoriste"
+        }
+      ]
+    },
+    {
+      "id": "env-responsable-collecte",
+      "slug": "env-responsable-collecte",
+      "title": "Responsable de la collecte des déchets",
+      "domain": "environnement",
+      "category": "env-dechets-recyclage",
+      "sector": "Déchets, réemploi et recyclage",
+      "description": "Planifie les tournées et coordonne les équipes chargées du ramassage des déchets.",
+      "body": "Le responsable de la collecte organise les moyens nécessaires au service. Il adapte les circuits, les horaires et les effectifs aux volumes ainsi qu’aux caractéristiques du territoire desservi.\n\nIl suit les interventions, les équipements et les réclamations des usagers. Il analyse les résultats et ajuste l’organisation avec les équipes pour améliorer la régularité de la collecte.",
+      "skills": [
+        "Planification logistique",
+        "Management",
+        "Suivi d’indicateurs",
+        "Relation usagers"
+      ],
+      "environment": "Services de gestion des déchets et entreprises de collecte.",
+      "sources": [
+        {
+          "title": "Onisep — Responsable de la collecte des déchets",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/responsable-de-la-collecte-des-dechets-menagers"
+        }
+      ]
+    },
+    {
+      "id": "env-ingenieur-recyclage",
+      "slug": "env-ingenieur-recyclage",
+      "title": "Ingénieur en recherche et développement du recyclage",
+      "domain": "environnement",
+      "category": "env-dechets-recyclage",
+      "sector": "Déchets, réemploi et recyclage",
+      "description": "Développe ou améliore les procédés qui transforment des déchets en matières utilisables.",
+      "body": "L’ingénieur en recherche et développement du recyclage étudie les propriétés des déchets et les possibilités de valorisation. Il compare les techniques en tenant compte de leur efficacité et de leurs impacts.\n\nIl prépare des essais, analyse les résultats et adapte les procédés. Il travaille avec les équipes industrielles pour évaluer la faisabilité d’une mise en œuvre à plus grande échelle.",
+      "skills": [
+        "Procédés industriels",
+        "Expérimentation",
+        "Analyse de résultats",
+        "Évaluation technique"
+      ],
+      "environment": "Centres de recherche, laboratoires et entreprises de traitement des déchets.",
+      "sources": [
+        {
+          "title": "Onisep — Chargé de recherche et développement déchets",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/charge-chargee-de-recherche-et-developpement-dechets"
+        }
+      ]
+    },
+    {
+      "id": "env-charge-hse",
+      "slug": "env-charge-hse",
+      "title": "Chargé HSE, hygiène, sécurité et environnement",
+      "domain": "environnement",
+      "category": "env-pollution-hse",
+      "sector": "Pollutions, hygiène et sécurité",
+      "description": "Aide une organisation à prévenir les risques professionnels et les atteintes à l’environnement.",
+      "body": "Le chargé HSE examine les activités pour repérer les situations dangereuses et les sources d’impact environnemental. Il propose des mesures de prévention adaptées au fonctionnement de l’organisation.\n\nIl réalise des visites, prépare des consignes et sensibilise les équipes. Il suit les incidents et les actions correctives pour vérifier que les pratiques évoluent sur le terrain.",
+      "skills": [
+        "Évaluation des risques",
+        "Prévention",
+        "Animation",
+        "Suivi d’actions"
+      ],
+      "environment": "Entreprises, sites industriels et chantiers ; bureau et présence auprès des équipes.",
+      "sources": [
+        {
+          "title": "Onisep — Chargé HSE, hygiène, sécurité et environnement",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/charge-chargee-hse-hygiene-securite-environnement"
+        }
+      ]
+    },
+    {
+      "id": "env-technicien-mesures-pollution",
+      "slug": "env-technicien-mesures-pollution",
+      "title": "Technicien de mesures de pollution",
+      "domain": "environnement",
+      "category": "env-pollution-hse",
+      "sector": "Pollutions, hygiène et sécurité",
+      "description": "Effectue les prélèvements et mesures nécessaires au suivi des pollutions.",
+      "body": "Le technicien de mesures de pollution collecte des échantillons d’eau, de sol ou d’air selon un protocole. Il prépare les appareils et choisit les modalités d’intervention prévues par l’étude.\n\nIl réalise les mesures, identifie chaque échantillon et consigne les conditions de prélèvement. Il contrôle la qualité des données et transmet les résultats aux spécialistes chargés de leur interprétation.",
+      "skills": [
+        "Échantillonnage",
+        "Utilisation de capteurs",
+        "Traçabilité",
+        "Rigueur"
+      ],
+      "environment": "Laboratoires, bureaux d’études et services de surveillance ; déplacements sur les sites étudiés.",
+      "sources": [
+        {
+          "title": "France Compétences — Technicien en environnement et déchets",
+          "url": "https://www.francecompetences.fr/recherche/rncp/41078/"
+        }
+      ]
+    },
+    {
+      "id": "env-ingenieur-qualite-air",
+      "slug": "env-ingenieur-qualite-air",
+      "title": "Ingénieur en qualité de l’air",
+      "domain": "environnement",
+      "category": "env-pollution-hse",
+      "sector": "Pollutions, hygiène et sécurité",
+      "description": "Analyse la pollution atmosphérique et propose des actions pour mieux la maîtriser.",
+      "body": "L’ingénieur en qualité de l’air organise ou exploite des campagnes de surveillance. Il étudie les concentrations de polluants, leur évolution et les sources susceptibles de les expliquer.\n\nIl vérifie les données, utilise des outils d’analyse et prépare des rapports. Il présente les résultats aux décideurs et contribue à l’évaluation des mesures destinées à améliorer l’air.",
+      "skills": [
+        "Chimie atmosphérique",
+        "Analyse de données",
+        "Modélisation",
+        "Communication scientifique"
+      ],
+      "environment": "Organismes de surveillance, bureaux d’études et laboratoires.",
+      "sources": [
+        {
+          "title": "Onisep — Ingénieur analyste de l’air",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ingenieur-ingenieure-analyste-de-l-air"
+        }
+      ]
+    },
+    {
+      "id": "env-chef-projet-sols-pollues",
+      "slug": "env-chef-projet-sols-pollues",
+      "title": "Chef de projet sites et sols pollués",
+      "domain": "environnement",
+      "category": "env-pollution-hse",
+      "sector": "Pollutions, hygiène et sécurité",
+      "description": "Coordonne le diagnostic et la réhabilitation de terrains touchés par une pollution.",
+      "body": "Le chef de projet sites et sols pollués étudie les polluants présents et les voies possibles d’exposition. Il organise les investigations pour définir une stratégie de gestion adaptée au site.\n\nIl compare les techniques de traitement, prépare le budget et suit les travaux. Il contrôle les résultats avec les spécialistes afin d’évaluer l’atteinte des objectifs de réhabilitation.",
+      "skills": [
+        "Diagnostic de pollution",
+        "Gestion de projet",
+        "Suivi de chantier",
+        "Analyse des risques"
+      ],
+      "environment": "Bureaux d’études et entreprises de dépollution ; bureau, prélèvements et chantiers.",
+      "sources": [
+        {
+          "title": "Onisep — Chef de projet sites et sols pollués",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/chef-cheffe-de-projet-sites-et-sols-pollues"
+        }
+      ]
+    },
+    {
+      "id": "env-inspecteur-environnement-industriel",
+      "slug": "env-inspecteur-environnement-industriel",
+      "title": "Inspecteur de l’environnement industriel",
+      "domain": "environnement",
+      "category": "env-pollution-hse",
+      "sector": "Pollutions, hygiène et sécurité",
+      "description": "Contrôle les installations et leurs pratiques au regard des exigences environnementales applicables.",
+      "body": "L’inspecteur de l’environnement industriel examine les activités susceptibles de produire des pollutions ou des nuisances. Il prépare ses contrôles à partir des documents du site et des risques identifiés.\n\nIl visite les installations, vérifie les éléments utiles et consigne ses constats. Il suit les mesures demandées dans le cadre des attributions confiées par l’autorité compétente.",
+      "skills": [
+        "Analyse technique",
+        "Lecture réglementaire",
+        "Rigueur",
+        "Rédaction de constats"
+      ],
+      "environment": "Services de contrôle environnemental ; dossiers techniques et visites d’installations.",
+      "sources": [
+        {
+          "title": "Onisep — Inspecteur des installations classées, fonctions de contrôle industriel",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/inspecteur-inspectrice-des-installations-classees"
+        }
+      ]
+    },
+    {
+      "id": "env-developpement-energies-renouvelables",
+      "slug": "env-developpement-energies-renouvelables",
+      "title": "Chargé de développement des énergies renouvelables",
+      "domain": "environnement",
+      "category": "env-energie-climat",
+      "sector": "Énergie et climat",
+      "description": "Accompagne des projets d’énergie renouvelable à l’échelle d’un territoire.",
+      "body": "Le chargé de développement des énergies renouvelables identifie les ressources et les besoins énergétiques locaux. Il aide les partenaires à explorer des projets adaptés aux usages et aux contraintes du territoire.\n\nIl rassemble les données, prépare les études préalables et organise les échanges entre acteurs. Il suit les étapes du projet et explique les solutions proposées aux publics concernés.",
+      "skills": [
+        "Énergies renouvelables",
+        "Gestion de projet",
+        "Concertation",
+        "Analyse territoriale"
+      ],
+      "environment": "Collectivités, organismes de développement et structures énergétiques.",
+      "sources": [
+        {
+          "title": "Onisep — Agent de développement des énergies renouvelables",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/agent-agente-de-developpement-des-energies-renouvelables"
+        }
+      ]
+    },
+    {
+      "id": "env-conseiller-energie",
+      "slug": "env-conseiller-energie",
+      "title": "Conseiller énergie",
+      "domain": "environnement",
+      "category": "env-energie-climat",
+      "sector": "Énergie et climat",
+      "description": "Informe les particuliers sur les moyens de réduire leurs consommations d’énergie.",
+      "body": "Le conseiller énergie aide à comprendre les dépenses énergétiques d’un logement et les améliorations possibles. Il explique les principes de sobriété, d’isolation et de choix des équipements.\n\nIl examine les informations du logement, compare les options et oriente vers les interlocuteurs compétents. Il anime aussi des séances d’information et prépare des conseils accessibles au public.",
+      "skills": [
+        "Énergie dans le bâtiment",
+        "Pédagogie",
+        "Analyse de besoins",
+        "Conseil"
+      ],
+      "environment": "Structures de conseil, associations et services d’information sur l’énergie.",
+      "sources": [
+        {
+          "title": "Onisep — Conseiller énergie",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conseiller-conseillere-energie"
+        }
+      ]
+    },
+    {
+      "id": "env-econome-flux",
+      "slug": "env-econome-flux",
+      "title": "Économe de flux",
+      "domain": "environnement",
+      "category": "env-energie-climat",
+      "sector": "Énergie et climat",
+      "description": "Suit les consommations d’eau et d’énergie d’une organisation pour repérer les économies possibles.",
+      "body": "L’économe de flux analyse les factures, les relevés et les usages des bâtiments. Il repère les consommations inhabituelles et identifie les équipements ou pratiques qui peuvent être améliorés.\n\nIl propose des réglages, des actions de sensibilisation ou des travaux ciblés. Il suit ensuite les consommations pour mesurer les effets et partager les résultats avec les responsables.",
+      "skills": [
+        "Analyse de consommations",
+        "Diagnostic technique",
+        "Tableurs",
+        "Sensibilisation"
+      ],
+      "environment": "Entreprises, administrations et gestionnaires de bâtiments ; visites et analyse de données.",
+      "sources": [
+        {
+          "title": "Onisep — Économe de flux",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/econome-de-flux"
+        }
+      ]
+    },
+    {
+      "id": "env-ingenieur-solaire",
+      "slug": "env-ingenieur-solaire",
+      "title": "Ingénieur en énergie solaire",
+      "domain": "environnement",
+      "category": "env-energie-climat",
+      "sector": "Énergie et climat",
+      "description": "Conçoit et suit des installations qui utilisent l’énergie du soleil.",
+      "body": "L’ingénieur en énergie solaire étudie les besoins du client et les caractéristiques du site. Il dimensionne une solution technique en tenant compte de la ressource solaire, des équipements et des contraintes d’installation.\n\nIl compare les composants, prépare les documents techniques et suit la réalisation du projet. Il analyse les performances obtenues et travaille avec les équipes d’exploitation pour améliorer le fonctionnement.",
+      "skills": [
+        "Énergie solaire",
+        "Dimensionnement",
+        "Gestion de projet",
+        "Analyse de performances"
+      ],
+      "environment": "Bureaux d’études, entreprises d’installation et opérateurs énergétiques.",
+      "sources": [
+        {
+          "title": "Onisep — Ingénieur en énergie solaire",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ingenieur-ingenieure-en-energie-solaire"
+        }
+      ]
+    },
+    {
+      "id": "env-expert-bilan-carbone",
+      "slug": "env-expert-bilan-carbone",
+      "title": "Expert en bilan carbone",
+      "domain": "environnement",
+      "category": "env-energie-climat",
+      "sector": "Énergie et climat",
+      "description": "Évalue les émissions de gaz à effet de serre d’une organisation et propose des pistes de réduction.",
+      "body": "L’expert en bilan carbone définit le périmètre de l’étude et rassemble les données d’activité nécessaires. Il estime les émissions associées aux différents postes et explicite les hypothèses retenues.\n\nIl identifie les principaux contributeurs, échange avec les équipes et construit des scénarios de réduction. Il prépare une restitution qui distingue les résultats, leurs incertitudes et les actions à suivre.",
+      "skills": [
+        "Comptabilité carbone",
+        "Analyse de données",
+        "Méthodologie",
+        "Animation"
+      ],
+      "environment": "Cabinets de conseil et services environnement des organisations.",
+      "sources": [
+        {
+          "title": "Onisep — Expert en bilan carbone",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/expert-experte-bilan-carbone"
+        }
+      ]
+    },
+    {
+      "id": "env-ingenieur-environnement",
+      "slug": "env-ingenieur-environnement",
+      "title": "Ingénieur environnement",
+      "domain": "environnement",
+      "category": "env-etudes-gouvernance",
+      "sector": "Études et gouvernance environnementales",
+      "description": "Intègre les enjeux environnementaux dans les projets et le fonctionnement d’une organisation.",
+      "body": "L’ingénieur environnement évalue les impacts des activités sur l’eau, l’air, les ressources et les milieux. Il propose des améliorations techniques et organisationnelles adaptées aux objectifs du site.\n\nIl prépare des études, suit des indicateurs et coordonne les actions avec les différents services. Il contrôle les résultats et accompagne l’évolution des pratiques de production ou de gestion.",
+      "skills": [
+        "Analyse environnementale",
+        "Gestion de projet",
+        "Suivi d’indicateurs",
+        "Coordination"
+      ],
+      "environment": "Entreprises, administrations et bureaux d’études ; bureau et visites de sites.",
+      "sources": [
+        {
+          "title": "Onisep — Ingénieur environnement",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ingenieur-ingenieure-environnement"
+        }
+      ]
+    },
+    {
+      "id": "env-juriste-environnement",
+      "slug": "env-juriste-environnement",
+      "title": "Juriste en droit de l’environnement",
+      "domain": "environnement",
+      "category": "env-etudes-gouvernance",
+      "sector": "Études et gouvernance environnementales",
+      "description": "Analyse les textes applicables et conseille les organisations sur leurs obligations environnementales.",
+      "body": "Le juriste en droit de l’environnement étudie les questions juridiques liées aux projets, aux ressources et aux pollutions. Il explique les exigences pertinentes aux équipes qui prennent les décisions.\n\nIl réalise une veille, analyse les dossiers et prépare des avis ou des documents contractuels. Il peut contribuer au suivi des procédures et des différends avec les professionnels habilités à intervenir.",
+      "skills": [
+        "Analyse juridique",
+        "Recherche documentaire",
+        "Rédaction",
+        "Conseil"
+      ],
+      "environment": "Cabinets, associations, entreprises et administrations ; dossiers et réunions.",
+      "sources": [
+        {
+          "title": "Onisep — Juriste en droit de l’environnement",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/juriste-droit-de-l-environnement"
+        }
+      ]
+    },
+    {
+      "id": "env-geomaticien-environnement",
+      "slug": "env-geomaticien-environnement",
+      "title": "Géomaticien en environnement",
+      "domain": "environnement",
+      "category": "env-etudes-gouvernance",
+      "sector": "Études et gouvernance environnementales",
+      "description": "Utilise des données géographiques pour analyser les territoires et leurs enjeux environnementaux.",
+      "body": "Le géomaticien en environnement rassemble des informations localisées sur les habitats, les ressources ou les activités humaines. Il les organise dans un système d’information géographique pour permettre leur analyse.\n\nIl vérifie les données, croise les couches cartographiques et produit des cartes. Il documente les méthodes utilisées afin que les équipes puissent interpréter correctement les résultats.",
+      "skills": [
+        "Systèmes d’information géographique",
+        "Analyse spatiale",
+        "Gestion de données",
+        "Cartographie"
+      ],
+      "environment": "Bureaux d’études, organismes scientifiques et services territoriaux ; travail surtout sur ordinateur.",
+      "sources": [
+        {
+          "title": "Onisep — Géomaticien, applications à l’environnement",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/geomaticien-geomaticienne"
+        }
+      ]
+    },
+    {
+      "id": "env-charge-risques-naturels",
+      "slug": "env-charge-risques-naturels",
+      "title": "Chargé d’études en risques naturels",
+      "domain": "environnement",
+      "category": "env-etudes-gouvernance",
+      "sector": "Études et gouvernance environnementales",
+      "description": "Analyse les aléas naturels et les enjeux exposés pour orienter les mesures de prévention.",
+      "body": "Le chargé d’études en risques naturels étudie des phénomènes comme les inondations ou les mouvements de terrain. Il cherche à comprendre où ils peuvent se produire et quels biens ou populations sont concernés.\n\nIl exploite les observations, les cartes et les données historiques pour préparer des diagnostics. Il compare les mesures de prévention et présente ses conclusions aux responsables du territoire.",
+      "skills": [
+        "Analyse des aléas",
+        "Cartographie",
+        "Modélisation",
+        "Rédaction technique"
+      ],
+      "environment": "Bureaux d’études et services de prévention ; bureau et reconnaissances de terrain.",
+      "sources": [
+        {
+          "title": "Onisep — Chargé d’études en risques naturels",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/charge-chargee-d-etudes-en-risques-naturels"
+        }
+      ]
+    },
+    {
+      "id": "env-ingenieur-ecoconception",
+      "slug": "env-ingenieur-ecoconception",
+      "title": "Ingénieur en écoconception",
+      "domain": "environnement",
+      "category": "env-etudes-gouvernance",
+      "sector": "Études et gouvernance environnementales",
+      "description": "Améliore la conception d’un produit ou d’un service pour en réduire les impacts environnementaux.",
+      "body": "L’ingénieur en écoconception examine les impacts liés aux matières, à la fabrication, à l’usage et à la fin de vie. Il repère les étapes sur lesquelles une modification de conception peut agir.\n\nIl compare des variantes, échange avec les concepteurs et évalue les compromis techniques. Il documente les résultats pour guider les choix et vérifier que les améliorations ne déplacent pas simplement les impacts.",
+      "skills": [
+        "Analyse du cycle de vie",
+        "Conception technique",
+        "Comparaison de solutions",
+        "Travail transversal"
+      ],
+      "environment": "Entreprises de conception, bureaux d’études et équipes de recherche et développement.",
+      "sources": [
+        {
+          "title": "Onisep — Ingénieur éco-concepteur",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ingenieur-eco-concepteur-ingenieure-eco-conceptrice"
+        }
+      ]
+    }
+  ]
+}

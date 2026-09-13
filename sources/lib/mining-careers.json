@@ -1,0 +1,705 @@
+{
+  "asOf": "2026-09-12",
+  "navigationReference": {
+    "title": "Métiers360 — Catalogue métiers",
+    "url": "https://www.metiers360.com/catalogue-metiers-realite-virtuelle/",
+    "use": "Inspiration du parcours par thématiques et univers professionnels ; aucun film, texte de fiche, catalogue commercial ou chiffre de Métiers360 repris."
+  },
+  "editorialNote": "28 fiches documentaires de découverte des fonctions minières. Les fonctions générales proviennent de référentiels français et québécois. Leur application au contexte d’un site minier est une synthèse éditoriale, pas une attestation d’offre d’emploi ou de formation en RDC. Diplômes, salaires, horaires et conditions d’accès locaux non transposés.",
+  "groups": [
+    {
+      "id": "exploration",
+      "label": "Exploration & géosciences",
+      "description": "Lire les roches, mesurer le terrain et comprendre les gisements.",
+      "count": 6
+    },
+    {
+      "id": "extraction",
+      "label": "Extraction & conduite",
+      "description": "Découvrir les équipes qui préparent, extraient et déplacent le minerai.",
+      "count": 5
+    },
+    {
+      "id": "traitement",
+      "label": "Traitement du minerai",
+      "description": "Suivre le parcours du minerai, des premiers circuits aux analyses.",
+      "count": 4
+    },
+    {
+      "id": "maintenance",
+      "label": "Maintenance & énergie",
+      "description": "Entretenir les engins et les installations qui font fonctionner une mine.",
+      "count": 5
+    },
+    {
+      "id": "securite",
+      "label": "Sécurité & environnement",
+      "description": "Prévenir les risques et suivre l’eau, les sols et les impacts du site.",
+      "count": 4
+    },
+    {
+      "id": "logistique",
+      "label": "Logistique & encadrement",
+      "description": "Organiser les équipes, les approvisionnements et le programme de travail.",
+      "count": 4
+    }
+  ],
+  "careers": [
+    {
+      "id": "geologue",
+      "slug": "dans-les-pas-du-geologue",
+      "title": "Géologue minier / minière",
+      "group": "exploration",
+      "category": "exploration",
+      "sector": "Exploration & géosciences",
+      "description": "Interpréter les roches et les données du sous-sol pour guider l’exploration et suivre la qualité du minerai.",
+      "body": "Le géologue minier relie les observations de terrain aux résultats des sondages et des analyses. Son travail permet de décrire un gisement et d’éclairer les choix d’exploration ou d’exploitation.\n\nAu quotidien, il examine des échantillons, met à jour les cartes et échange avec les équipes de production. Les modèles évoluent à mesure que de nouvelles informations deviennent disponibles.",
+      "skills": [
+        "Observation des roches",
+        "Analyse de données",
+        "Cartographie géologique",
+        "Communication technique"
+      ],
+      "environment": "Terrain, carothèque et bureau",
+      "sources": [
+        {
+          "title": "Onisep — Géologue minier / minière",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/geologue-minier-miniere"
+        }
+      ]
+    },
+    {
+      "id": "mine-technicien-geologie",
+      "slug": "technicien-geologie-miniere",
+      "title": "Technicien / technicienne en géologie",
+      "group": "exploration",
+      "category": "exploration",
+      "sector": "Exploration & géosciences",
+      "description": "Préparer les prélèvements et documenter le terrain pour fournir des données fiables aux géologues.",
+      "body": "Le technicien en géologie participe aux relevés et à la préparation des échantillons de roche ou de minerai. Il aide à décrire ce qui a été observé et à organiser les résultats.\n\nSa journée associe terrain, notes, croquis et travail sur ordinateur. Le soin apporté à l’identification des échantillons facilite leur suivi jusqu’au laboratoire et leur utilisation par l’équipe d’exploration.",
+      "skills": [
+        "Échantillonnage",
+        "Tenue des relevés",
+        "Lecture de cartes",
+        "Rigueur documentaire"
+      ],
+      "environment": "Terrain et préparation des échantillons",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Géologie et minéralogie",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/22101-technologues-et-techniciens-techniciennes-en-geologie-et-en-mineralogie"
+        }
+      ]
+    },
+    {
+      "id": "mine-geophysicien",
+      "slug": "geophysicien-minier",
+      "title": "Géophysicien / géophysicienne",
+      "group": "exploration",
+      "category": "exploration",
+      "sector": "Exploration & géosciences",
+      "description": "Étudier les propriétés physiques du sous-sol pour mieux comprendre sa structure et orienter les recherches.",
+      "body": "Le géophysicien utilise des observations et des mesures physiques pour construire une représentation du sous-sol. Dans l’exploration minière, ses interprétations complètent les informations des géologues.\n\nIl prépare des campagnes de mesure, contrôle les données et les transforme en cartes ou en modèles. Une part importante du métier consiste à expliquer ce que les résultats permettent de conclure et leurs limites.",
+      "skills": [
+        "Physique appliquée",
+        "Traitement du signal",
+        "Modélisation",
+        "Interprétation des mesures"
+      ],
+      "environment": "Terrain, laboratoire et bureau",
+      "sources": [
+        {
+          "title": "Onisep — Géophysicien / géophysicienne",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/geophysicien-geophysicienne"
+        }
+      ]
+    },
+    {
+      "id": "mine-geometre",
+      "slug": "geometre-topographe-minier",
+      "title": "Géomètre-topographe minier",
+      "group": "exploration",
+      "category": "exploration",
+      "sector": "Exploration & géosciences",
+      "description": "Mesurer les reliefs et les ouvrages pour donner des repères précis aux équipes du site.",
+      "body": "Le géomètre-topographe relève les positions, les niveaux et les formes du terrain. Appliquées au secteur minier, ces mesures servent à représenter les zones de travail et à suivre leur évolution.\n\nIl alterne mesures sur le terrain, calculs et production de plans numériques. La précision de ses relevés et la clarté des documents transmis aident les équipes à se repérer et à préparer leurs interventions.",
+      "skills": [
+        "Mesures topographiques",
+        "Calculs de distances et volumes",
+        "Plans numériques",
+        "Précision"
+      ],
+      "environment": "Terrain et bureau de dessin",
+      "sources": [
+        {
+          "title": "Onisep — Géomètre-topographe",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/geometre-topographe"
+        }
+      ]
+    },
+    {
+      "id": "mine-modelisation",
+      "slug": "geologue-modelisateur",
+      "title": "Géologue modélisateur / modélisatrice",
+      "group": "exploration",
+      "category": "exploration",
+      "sector": "Exploration & géosciences",
+      "description": "Assembler les données géologiques dans des modèles numériques pour visualiser ce qui se trouve sous la surface.",
+      "body": "Le géologue modélisateur organise les relevés, les sondages et les autres données disponibles. Il crée des représentations en trois dimensions pour étudier la géométrie du sous-sol et appuyer les projets miniers.\n\nSon travail comprend le contrôle des données, la construction de scénarios et la présentation des résultats. Les échanges avec le terrain permettent d’ajuster les modèles et de rendre leurs hypothèses explicites.",
+      "skills": [
+        "Modélisation 3D",
+        "Gestion de données",
+        "Analyse géologique",
+        "Présentation des résultats"
+      ],
+      "environment": "Bureau et missions de terrain",
+      "sources": [
+        {
+          "title": "Onisep — Géologue modélisateur / modélisatrice",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/geologue-modelisateur-modelisatrice"
+        }
+      ]
+    },
+    {
+      "id": "mine-foreur-diamant",
+      "slug": "foreur-carotteur-exploration",
+      "title": "Foreur-carotteur / foreuse-carotteuse",
+      "group": "exploration",
+      "category": "exploration",
+      "sector": "Exploration & géosciences",
+      "description": "Réaliser des sondages d’exploration et récupérer les carottes de roche destinées à l’étude géologique.",
+      "body": "Le foreur-carotteur travaille sur des sondages en surface ou sous terre. Le forage au diamant permet de prélever des carottes, des fragments cylindriques de roche qui renseignent sur le sous-sol.\n\nAvec son équipe, il suit l’avancement du forage, surveille l’installation et prend soin des échantillons récupérés. Le métier associe travail technique, coordination et attention aux conditions du chantier.",
+      "skills": [
+        "Suivi du forage",
+        "Observation des équipements",
+        "Soin des échantillons",
+        "Travail en équipe"
+      ],
+      "environment": "Chantiers de sondage, en surface ou sous terre",
+      "sources": [
+        {
+          "title": "CFP Val-d’Or — Forage au diamant",
+          "url": "https://cfpvaldor.ca/programmes/forage-au-diamant/"
+        }
+      ]
+    },
+    {
+      "id": "mine-mineur",
+      "slug": "mineur-extraction-souterraine",
+      "title": "Mineur / mineuse d’extraction",
+      "group": "extraction",
+      "category": "extraction",
+      "sector": "Extraction & conduite",
+      "description": "Participer à l’aménagement des galeries et aux opérations d’extraction dans une mine souterraine.",
+      "body": "Le mineur d’extraction intervient au plus près du chantier souterrain. Selon son poste, il participe à la préparation des accès, à l’abattage de la roche ou au déplacement du minerai.\n\nLe travail se réalise en équipe, avec des équipements spécialisés. L’observation de l’état des lieux, la communication et le respect des consignes du site occupent une place centrale dans chaque intervention.",
+      "skills": [
+        "Lecture des consignes",
+        "Observation du chantier",
+        "Utilisation d’équipements miniers",
+        "Coordination d’équipe"
+      ],
+      "environment": "Mines souterraines",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Mineurs d’extraction et de préparation",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/83100-mineurs-mineuses-dextraction-et-de-preparation"
+        }
+      ]
+    },
+    {
+      "id": "mine-foreur-production",
+      "slug": "foreur-production-miniere",
+      "title": "Foreur / foreuse de production",
+      "group": "extraction",
+      "category": "extraction",
+      "sector": "Extraction & conduite",
+      "description": "Conduire les équipements de forage utilisés pour préparer l’abattage de la roche dans les mines à ciel ouvert.",
+      "body": "Le foreur de production réalise les forages prévus dans le programme de travail d’une mine ou d’une carrière. Il contribue à préparer la roche pour les étapes suivantes de l’exploitation.\n\nIl suit les indications du chantier, observe le comportement de la machine et consigne l’avancement. La transmission des informations aux autres équipes permet de coordonner les opérations.",
+      "skills": [
+        "Lecture de plans",
+        "Conduite de foreuse",
+        "Suivi des opérations",
+        "Vigilance"
+      ],
+      "environment": "Mines à ciel ouvert et carrières",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Foreurs et dynamiteurs de mines",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/73402-foreurs-foreuses-et-dynamiteurs-dynamiteuses-de-mines"
+        }
+      ]
+    },
+    {
+      "id": "mine-boutefeu",
+      "slug": "boutefeu-minier",
+      "title": "Boutefeu / spécialiste du tir minier",
+      "group": "extraction",
+      "category": "extraction",
+      "sector": "Extraction & conduite",
+      "description": "Prendre en charge les opérations de tir autorisées pour fragmenter la roche, dans un cadre de travail strict.",
+      "body": "Le boutefeu est un spécialiste de l’abattage de la roche par tir. Son rôle exige une qualification adaptée et le respect des procédures de l’exploitation.\n\nIl coordonne son travail avec les équipes de forage et d’encadrement. La préparation documentaire, la maîtrise des risques et la communication sur le chantier sont essentielles à cette fonction.",
+      "skills": [
+        "Lecture des documents de tir",
+        "Maîtrise des risques",
+        "Coordination",
+        "Rigueur"
+      ],
+      "environment": "Mines et carrières",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Foreurs et dynamiteurs de mines",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/73402-foreurs-foreuses-et-dynamiteurs-dynamiteuses-de-mines"
+        }
+      ]
+    },
+    {
+      "id": "mine-conducteur-pelle",
+      "slug": "conducteur-pelle-chargeuse-miniere",
+      "title": "Conducteur / conductrice de pelle ou chargeuse",
+      "group": "extraction",
+      "category": "extraction",
+      "sector": "Extraction & conduite",
+      "description": "Déplacer les matériaux et alimenter les zones de chargement avec des engins adaptés aux travaux du site.",
+      "body": "Le conducteur de pelle ou de chargeuse manœuvre un engin pour creuser, reprendre ou charger des matériaux. Le relief et l’organisation du chantier déterminent les déplacements à effectuer.\n\nIl contrôle l’état de son matériel, réalise les opérations confiées et signale les anomalies. La précision des gestes et l’attention portée aux autres personnes du chantier comptent autant que la maîtrise de la machine.",
+      "skills": [
+        "Conduite d’engins",
+        "Lecture du terrain",
+        "Appréciation des distances",
+        "Contrôle du matériel"
+      ],
+      "environment": "Chantiers de surface et zones de chargement",
+      "sources": [
+        {
+          "title": "Onisep — Conduite d’engins de travaux publics",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conducteur-conductrice-d-engins-de-travaux-publics"
+        }
+      ]
+    },
+    {
+      "id": "mine-camion",
+      "slug": "conducteur-camion-minier",
+      "title": "Conducteur / conductrice de camion minier",
+      "group": "extraction",
+      "category": "extraction",
+      "sector": "Extraction & conduite",
+      "description": "Assurer le transport des matériaux entre les points de chargement et les zones de réception du site.",
+      "body": "Le conducteur de camion minier participe à la circulation du minerai et des autres matériaux sur l’exploitation. Il travaille en relation avec les équipes de chargement et de coordination.\n\nSa journée comprend la vérification du véhicule, les trajets prévus et la transmission des anomalies. L’observation du terrain et des autres engins est au cœur de ce métier de conduite.",
+      "skills": [
+        "Conduite de véhicule lourd",
+        "Observation du terrain",
+        "Communication d’équipe",
+        "Contrôle du véhicule"
+      ],
+      "environment": "Pistes et zones de circulation minières",
+      "sources": [
+        {
+          "title": "CSMO Mines — Présentation des métiers miniers",
+          "url": "https://explorelesmines.com/fr/capsules-carrieres/"
+        },
+        {
+          "title": "Onisep — Conduite d’engins de travaux publics",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/conducteur-conductrice-d-engins-de-travaux-publics"
+        }
+      ]
+    },
+    {
+      "id": "mine-concassage",
+      "slug": "operateur-concassage-broyage",
+      "title": "Opérateur / opératrice de concassage et broyage",
+      "group": "traitement",
+      "category": "traitement",
+      "sector": "Traitement du minerai",
+      "description": "Suivre les circuits qui réduisent la taille des roches avant les autres étapes du traitement du minerai.",
+      "body": "L’opérateur de concassage et de broyage surveille les équipements qui préparent le minerai. Il contribue au fonctionnement régulier du circuit et observe les informations de conduite disponibles.\n\nIl effectue des rondes, relève les paramètres et communique avec la salle de contrôle et la maintenance. Comprendre le lien entre les différentes étapes de l’usine aide à repérer les écarts.",
+      "skills": [
+        "Compréhension des circuits",
+        "Suivi des paramètres",
+        "Observation des équipements",
+        "Transmission des anomalies"
+      ],
+      "environment": "Usine de traitement du minerai",
+      "sources": [
+        {
+          "title": "CFP Val-d’Or — Opérations de traitement de minerai",
+          "url": "https://cfpvaldor.ca/programmes/traitement-du-minerai/"
+        }
+      ]
+    },
+    {
+      "id": "mine-salle-controle",
+      "slug": "operateur-salle-controle-miniere",
+      "title": "Opérateur / opératrice en salle de contrôle",
+      "group": "traitement",
+      "category": "traitement",
+      "sector": "Traitement du minerai",
+      "description": "Surveiller les procédés depuis les écrans de supervision et coordonner les équipes intervenant sur les installations.",
+      "body": "L’opérateur en salle de contrôle suit une étape ou un ensemble de procédés de traitement des minerais. Il utilise les données de supervision pour surveiller le fonctionnement des installations.\n\nIl analyse les indications, communique avec les équipes de terrain et consigne les événements de production. Il applique les procédures de marche et d’arrêt prévues pour les équipements sous sa responsabilité.",
+      "skills": [
+        "Lecture des écrans de supervision",
+        "Analyse des écarts",
+        "Coordination des opérations",
+        "Tenue des registres"
+      ],
+      "environment": "Salle de contrôle d’une usine minière",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Conduite des procédés de traitement",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/93100-operateurs-operatrices-dans-le-traitement-des-metaux-et-des-minerais"
+        }
+      ]
+    },
+    {
+      "id": "mine-metallurgiste",
+      "slug": "ingenieur-metallurgiste",
+      "title": "Ingénieur / ingénieure métallurgiste",
+      "group": "traitement",
+      "category": "traitement",
+      "sector": "Traitement du minerai",
+      "description": "Étudier et améliorer les procédés permettant de concentrer, extraire ou affiner les métaux.",
+      "body": "L’ingénieur métallurgiste étudie les propriétés des minerais et des métaux. Il participe au choix des procédés et des équipements permettant d’obtenir les matériaux recherchés.\n\nIl compare des résultats d’essais, analyse le fonctionnement des installations et propose des améliorations. Son travail relie laboratoire, production et ingénierie, avec une attention à la qualité des résultats.",
+      "skills": [
+        "Métallurgie extractive",
+        "Analyse des essais",
+        "Génie des procédés",
+        "Résolution de problèmes"
+      ],
+      "environment": "Laboratoire, usine et bureau d’études",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Ingénieurs métallurgistes",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/21322-ingenieurs-ingenieures-metallurgistes-et-des-materiaux"
+        }
+      ]
+    },
+    {
+      "id": "mine-laboratoire",
+      "slug": "technicien-laboratoire-minier",
+      "title": "Technicien / technicienne de laboratoire minier",
+      "group": "traitement",
+      "category": "traitement",
+      "sector": "Traitement du minerai",
+      "description": "Réaliser les analyses qui renseignent sur la composition des échantillons et la qualité des produits.",
+      "body": "Le technicien de laboratoire prépare et réalise des essais selon des méthodes définies. Dans un laboratoire minier, il contribue à l’analyse des roches, des minerais ou des produits issus du traitement.\n\nIl vérifie les appareils, enregistre les résultats et signale les écarts. La traçabilité des échantillons et la rigueur des comptes rendus permettent aux équipes techniques d’utiliser les analyses avec confiance.",
+      "skills": [
+        "Analyses physico-chimiques",
+        "Utilisation d’instruments",
+        "Traçabilité",
+        "Rédaction des résultats"
+      ],
+      "environment": "Laboratoire d’analyse",
+      "sources": [
+        {
+          "title": "Onisep — Technicien / technicienne chimiste",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-chimiste"
+        },
+        {
+          "title": "Gouvernement du Québec — Géologie et minéralogie",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/22101-technologues-et-techniciens-techniciennes-en-geologie-et-en-mineralogie"
+        }
+      ]
+    },
+    {
+      "id": "mine-mecanicien-engins",
+      "slug": "mecanicien-engins-miniers",
+      "title": "Mécanicien / mécanicienne d’engins miniers",
+      "group": "maintenance",
+      "category": "maintenance",
+      "sector": "Maintenance & énergie",
+      "description": "Entretenir et réparer les équipements mobiles pour assurer leur bon fonctionnement sur le chantier.",
+      "body": "Le mécanicien d’engins intervient sur les machines et véhicules lourds de l’exploitation. Il recherche les causes des pannes et réalise les réparations ou les remplacements nécessaires.\n\nIl travaille en atelier ou se déplace sur le site. Ses interventions demandent de la méthode, des contrôles précis et des échanges avec les conducteurs pour comprendre les symptômes observés.",
+      "skills": [
+        "Diagnostic mécanique",
+        "Entretien d’engins",
+        "Lecture de documentation",
+        "Méthode"
+      ],
+      "environment": "Atelier et interventions sur site",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Mécanique d’engins de chantier",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/72401.A-mecaniciens-mecaniciennes-dengins-de-chantier"
+        }
+      ]
+    },
+    {
+      "id": "mine-mecanicien-industriel",
+      "slug": "mecanicien-installations-minieres",
+      "title": "Mécanicien / mécanicienne de maintenance industrielle",
+      "group": "maintenance",
+      "category": "maintenance",
+      "sector": "Maintenance & énergie",
+      "description": "Installer et entretenir les équipements fixes utilisés dans les installations de traitement.",
+      "body": "Le mécanicien industriel intervient sur des machines et des ensembles mécaniques, comme les pompes ou les équipements de transmission. Dans une usine minière, il aide à maintenir les installations en état de fonctionnement.\n\nIl inspecte les équipements, identifie les défaillances et ajuste ou remplace les éléments concernés. La préparation des interventions et la lecture des plans facilitent le travail avec les autres spécialistes.",
+      "skills": [
+        "Lecture de plans",
+        "Diagnostic de pannes",
+        "Montage mécanique",
+        "Entretien préventif"
+      ],
+      "environment": "Atelier et installations industrielles",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Mécanique industrielle",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/72400-mecaniciens-mecaniciennes-de-chantier-et-mecaniciens-industriels-mecaniciennes-industrielles"
+        }
+      ]
+    },
+    {
+      "id": "mine-electricien",
+      "slug": "electricien-industriel-minier",
+      "title": "Électricien industriel / électricienne industrielle",
+      "group": "maintenance",
+      "category": "maintenance",
+      "sector": "Maintenance & énergie",
+      "description": "Veiller au fonctionnement des installations électriques qui alimentent les machines et les équipements du site.",
+      "body": "L’électricien industriel installe, entretient et répare les circuits et les équipements électriques. Son périmètre peut inclure moteurs, commandes, générateurs et composants de distribution.\n\nIl lit les schémas, effectue les vérifications et documente ses interventions. Sur un site minier, il travaille avec la production et la maintenance en appliquant les procédures de sécurité électrique prévues.",
+      "skills": [
+        "Lecture de schémas électriques",
+        "Mesures et diagnostic",
+        "Entretien électrique",
+        "Rigueur d’intervention"
+      ],
+      "environment": "Atelier, locaux électriques et installations",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Électricité industrielle",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/72201-electriciens-industriels-electriciennes-industrielles"
+        }
+      ]
+    },
+    {
+      "id": "mine-automaticien",
+      "slug": "automaticien-instrumentation-miniere",
+      "title": "Automaticien / automaticienne",
+      "group": "maintenance",
+      "category": "maintenance",
+      "sector": "Maintenance & énergie",
+      "description": "Configurer et maintenir les systèmes qui mesurent, commandent et supervisent les installations industrielles.",
+      "body": "L’automaticien relie les capteurs, les programmes et les équipements de production. Dans une installation minière automatisée, il participe au fonctionnement des chaînes de mesure et de commande.\n\nIl réalise des essais, recherche les défauts et accompagne les mises en service. Les échanges avec la production et la maintenance l’aident à comprendre le comportement attendu des machines.",
+      "skills": [
+        "Automates programmables",
+        "Instrumentation",
+        "Diagnostic logique",
+        "Supervision industrielle"
+      ],
+      "environment": "Installations automatisées et bureau technique",
+      "sources": [
+        {
+          "title": "Onisep — Technicien / technicienne en automatisme",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-en-automatisme"
+        }
+      ]
+    },
+    {
+      "id": "mine-soudeur",
+      "slug": "soudeur-maintenance-miniere",
+      "title": "Soudeur / soudeuse de maintenance",
+      "group": "maintenance",
+      "category": "maintenance",
+      "sector": "Maintenance & énergie",
+      "description": "Assembler ou réparer des éléments métalliques utilisés dans les équipements et les installations.",
+      "body": "Le soudeur réalise des assemblages métalliques à partir de plans et de consignes techniques. Dans la maintenance d’un site minier, il peut intervenir sur des pièces ou des structures confiées à l’atelier.\n\nIl prépare les éléments, met en œuvre le procédé prévu et contrôle le travail réalisé. La précision et la coordination avec les autres métiers participent à la qualité de l’intervention.",
+      "skills": [
+        "Lecture de plans",
+        "Connaissance des métaux",
+        "Précision du geste",
+        "Contrôle qualité"
+      ],
+      "environment": "Atelier et chantiers de maintenance",
+      "sources": [
+        {
+          "title": "Onisep — Soudeur / soudeuse",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/soudeur-soudeuse"
+        }
+      ]
+    },
+    {
+      "id": "mine-hse",
+      "slug": "technicien-prevention-hse-minier",
+      "title": "Technicien / technicienne HSE",
+      "group": "securite",
+      "category": "securite",
+      "sector": "Sécurité & environnement",
+      "description": "Repérer les risques du travail et accompagner les équipes dans les actions de prévention.",
+      "body": "Le technicien en hygiène, sécurité et environnement observe les situations de travail et contribue à prévenir les accidents. Il participe à l’analyse des risques et au suivi des mesures retenues.\n\nIl réalise des visites de terrain, prépare des actions de sensibilisation et documente les écarts constatés. Son rôle demande d’écouter les équipes et de transmettre des consignes compréhensibles.",
+      "skills": [
+        "Observation des risques",
+        "Prévention",
+        "Pédagogie",
+        "Suivi des actions"
+      ],
+      "environment": "Terrain et bureau HSE",
+      "sources": [
+        {
+          "title": "Onisep — Prévention des risques industriels",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-en-prevention-des-risques-industriels"
+        }
+      ]
+    },
+    {
+      "id": "mine-environnement",
+      "slug": "ingenieur-environnement-minier",
+      "title": "Ingénieur / ingénieure environnement",
+      "group": "securite",
+      "category": "securite",
+      "sector": "Sécurité & environnement",
+      "description": "Étudier les impacts de l’activité et proposer des actions pour mieux protéger les milieux.",
+      "body": "L’ingénieur environnement évalue les effets de l’activité industrielle sur l’eau, l’air, les sols ou les déchets. Il aide l’entreprise à définir les mesures de prévention et d’amélioration adaptées.\n\nIl analyse les données de suivi, organise les échanges avec les équipes et prépare des rapports. Sur un site minier, ses recommandations s’intègrent aux choix d’exploitation et à la gestion environnementale du projet.",
+      "skills": [
+        "Analyse environnementale",
+        "Suivi des indicateurs",
+        "Gestion de projet",
+        "Communication"
+      ],
+      "environment": "Site industriel et bureau d’études",
+      "sources": [
+        {
+          "title": "Onisep — Ingénieur / ingénieure environnement",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/ingenieur-ingenieure-environnement"
+        }
+      ]
+    },
+    {
+      "id": "mine-eaux",
+      "slug": "technicien-traitement-eaux-minieres",
+      "title": "Technicien / technicienne de traitement des eaux",
+      "group": "securite",
+      "category": "securite",
+      "sector": "Sécurité & environnement",
+      "description": "Surveiller la qualité de l’eau et le fonctionnement des circuits de traitement du site.",
+      "body": "Le technicien de traitement des eaux suit les installations qui permettent d’utiliser, de traiter ou de recycler l’eau. Il contribue au contrôle de la qualité et au suivi des volumes.\n\nIl effectue des prélèvements, examine les résultats et surveille les équipements. Dans le contexte minier, il travaille avec les équipes de laboratoire et d’exploitation sur les circuits dont il a la charge.",
+      "skills": [
+        "Suivi de la qualité de l’eau",
+        "Prélèvements",
+        "Observation des équipements",
+        "Rigueur des relevés"
+      ],
+      "environment": "Station de traitement et laboratoire",
+      "sources": [
+        {
+          "title": "Onisep — Technicien / technicienne d’exploitation de l’eau",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-d-exploitation-de-l-eau"
+        },
+        {
+          "title": "CFP Val-d’Or — Opérations de traitement de minerai",
+          "url": "https://cfpvaldor.ca/programmes/traitement-du-minerai/"
+        }
+      ]
+    },
+    {
+      "id": "mine-hydrogeologue",
+      "slug": "hydrogeologue-minier",
+      "title": "Hydrogéologue",
+      "group": "securite",
+      "category": "securite",
+      "sector": "Sécurité & environnement",
+      "description": "Comprendre la circulation des eaux souterraines et anticiper les effets d’un projet sur les nappes.",
+      "body": "L’hydrogéologue étudie les ressources en eau souterraine et leur vulnérabilité. Ses analyses aident à comprendre les effets possibles d’un prélèvement, d’un aménagement ou d’une pollution.\n\nIl consulte les cartes, organise les observations et construit des modèles. Dans les projets miniers, il apporte son expertise aux équipes chargées de l’eau et de l’environnement, puis explique ses résultats dans des rapports.",
+      "skills": [
+        "Hydrogéologie",
+        "Analyse de données",
+        "Modélisation",
+        "Rédaction technique"
+      ],
+      "environment": "Terrain et bureau spécialisé",
+      "sources": [
+        {
+          "title": "Onisep — Hydrogéologue",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/hydrogeologue"
+        }
+      ]
+    },
+    {
+      "id": "mine-chef-equipe",
+      "slug": "chef-equipe-exploitation-miniere",
+      "title": "Chef / cheffe d’équipe minière",
+      "group": "logistique",
+      "category": "logistique",
+      "sector": "Logistique & encadrement",
+      "description": "Coordonner les personnes, les moyens et les tâches d’une équipe d’exploitation.",
+      "body": "Le chef d’équipe organise le travail des opérateurs dans le périmètre qui lui est confié. Il fait le lien entre le programme de production, les moyens disponibles et les conditions du terrain.\n\nIl répartit les activités, suit leur avancement et traite les difficultés avec les services concernés. La communication, la formation de l’équipe et le respect des règles de sécurité font partie de ses responsabilités.",
+      "skills": [
+        "Organisation du travail",
+        "Management de proximité",
+        "Résolution de problèmes",
+        "Communication"
+      ],
+      "environment": "Terrain et poste de coordination",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Supervision de l’exploitation des mines",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/82020-surveillants-surveillantes-de-lexploitation-des-mines"
+        }
+      ]
+    },
+    {
+      "id": "mine-ingenieur",
+      "slug": "ingenieur-planification-miniere",
+      "title": "Ingénieur / ingénieure des mines",
+      "group": "logistique",
+      "category": "logistique",
+      "sector": "Logistique & encadrement",
+      "description": "Concevoir les méthodes d’exploitation et préparer l’organisation technique du projet minier.",
+      "body": "L’ingénieur des mines étudie et planifie l’aménagement d’une exploitation en surface ou sous terre. Il compare les options techniques en tenant compte des ressources, des équipements et des enjeux environnementaux.\n\nSon quotidien comprend calculs, plans, calendriers et coordination avec les spécialistes. Il suit les opérations et participe également aux études de réaménagement ou de restauration du site.",
+      "skills": [
+        "Planification minière",
+        "Analyse technique",
+        "Gestion de projet",
+        "Coordination"
+      ],
+      "environment": "Bureau d’études et terrain",
+      "sources": [
+        {
+          "title": "Gouvernement du Québec — Ingénieurs miniers",
+          "url": "https://www.quebec.ca/emploi/informer-metier-profession/explorer-metiers-professions/21330-ingenieurs-miniers-ingenieures-minieres"
+        }
+      ]
+    },
+    {
+      "id": "mine-logisticien",
+      "slug": "logisticien-approvisionnement-minier",
+      "title": "Logisticien / logisticienne de site minier",
+      "group": "logistique",
+      "category": "logistique",
+      "sector": "Logistique & encadrement",
+      "description": "Planifier les approvisionnements pour que les équipes disposent du matériel nécessaire au bon moment.",
+      "body": "Le logisticien organise les flux de matériels, de pièces et de fournitures. Il relie les besoins du site aux stocks disponibles, aux commandes et aux délais de livraison.\n\nIl suit les mouvements, échange avec les fournisseurs et les transporteurs et recherche des solutions aux retards. Des informations fiables sur les quantités et les besoins facilitent l’organisation du travail.",
+      "skills": [
+        "Planification des flux",
+        "Gestion des stocks",
+        "Suivi des commandes",
+        "Coordination des fournisseurs"
+      ],
+      "environment": "Bureau logistique et zones de réception",
+      "sources": [
+        {
+          "title": "Onisep — Technicien / technicienne logistique",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/technicien-technicienne-logistique"
+        }
+      ]
+    },
+    {
+      "id": "mine-magasinier",
+      "slug": "magasinier-pieces-minieres",
+      "title": "Magasinier / magasinière de pièces et équipements",
+      "group": "logistique",
+      "category": "logistique",
+      "sector": "Logistique & encadrement",
+      "description": "Réceptionner, ranger et distribuer les pièces et les fournitures utilisées par les équipes.",
+      "body": "Le magasinier prend en charge les marchandises à leur arrivée et vérifie leur conformité. Sur un site minier, il contribue à la disponibilité des pièces de rechange, des outils et des équipements.\n\nIl enregistre les entrées et les sorties, prépare les demandes et réalise les inventaires. Un rangement clair et des données de stock précises permettent aux utilisateurs de retrouver rapidement le matériel.",
+      "skills": [
+        "Réception et contrôle",
+        "Gestion informatisée des stocks",
+        "Préparation des demandes",
+        "Organisation"
+      ],
+      "environment": "Magasin et zones de stockage",
+      "sources": [
+        {
+          "title": "Onisep — Magasinier / magasinière cariste",
+          "url": "https://www.onisep.fr/ressources/univers-metier/metiers/magasinier-magasiniere-cariste"
+        }
+      ]
+    }
+  ]
+}

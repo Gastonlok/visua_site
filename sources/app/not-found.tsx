@@ -1,0 +1,3 @@
+import {translateNode} from '@/lib/i18n/tree';
+import {getLocale} from '@/lib/i18n/server';
+import Link from '@/components/site-link';export default async function NotFound(){const locale=await getLocale();return translateNode(<main id="main" className="page-main empty"><span className="eyebrow">404 · HORS PARCOURS</span><h1>Cette page n’est pas disponible.</h1><p>Elle a peut-être été déplacée ou n’est pas encore publiée.</p><Link className="btn dark" href="/experiences">Revenir aux découvertes</Link></main>,locale)}

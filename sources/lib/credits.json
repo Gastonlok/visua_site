@@ -1,0 +1,76 @@
+[
+  {
+    "file": "kinshasa-city.jpg",
+    "recommendedUse": "Kinshasa city card. Green city skyline, sliver of Congo River visible in background. Use lower-weight sky crop if fitting 4:3.",
+    "title": "Kinshasa Congo",
+    "location": "Kinshasa, République démocratique du Congo",
+    "author": "Irene2005",
+    "date": "2007-12-09",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kinshasa_Congo.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kinshasa_Congo.jpg",
+    "dimensions": [
+      3128,
+      2032
+    ],
+    "changes": "Downloaded current Commons version unchanged; Commons version is cropped from original by Chronus."
+  },
+  {
+    "file": "goma-quarry.jpg",
+    "recommendedUse": "Métiers / géologie / carrières card. Dramatic red strata with loaders and trucks. Do not label as a cobalt or copper mine, or as Lubumbashi.",
+    "title": "Quarry nearby Goma - North Kivu",
+    "location": "Près de Goma, Nord-Kivu, République démocratique du Congo",
+    "author": "MONUSCO / Abel Kavanagh",
+    "date": "2015-04-09",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Quarry_nearby_Goma_-_North_Kivu_(21052488542).jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Quarry_nearby_Goma_-_North_Kivu_%2821052488542%29.jpg",
+    "dimensions": [
+      5760,
+      3840
+    ],
+    "changes": "Downloaded unchanged."
+  },
+  {
+    "file": "forest-tower-360-denmark.jpg",
+    "recommendedUse": "Explicit technical 360 demo only: Démonstration 360° — Forest Tower, Danemark. Never present as Congolese location or VISUAA-produced field content.",
+    "title": "The Forest Tower 360°",
+    "location": "Forest Tower, Camp Adventure, Rønnede, Faxe, Southern Zealand, Denmark",
+    "author": "Stig Nygaard",
+    "date": "2019-07-17",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Forest_Tower_360°_(48648725156).jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/The_Forest_Tower_360%C2%B0_%2848648725156%29.jpg/3840px-The_Forest_Tower_360%C2%B0_%2848648725156%29.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/The_Forest_Tower_360%C2%B0_%2848648725156%29.jpg",
+    "dimensions": [
+      3840,
+      1920
+    ],
+    "originalDimensions": [
+      16384,
+      8192
+    ],
+    "projection": "Equirectangular, 360° × 180°, full uncropped sphere: metadata full and crop dimensions equal, offsets zero.",
+    "changes": "Wikimedia thumbnail resized from 16384×8192 to 3840×1920; no crop."
+  },
+  {
+    "file": "lukenie-river.jpg",
+    "recommendedUse": "Alternate aerial rainforest hero; softer atmospheric haze than Zongo.",
+    "title": "LukenieRiver",
+    "location": "Rivière Lukenie, République démocratique du Congo",
+    "author": "Valerius Tygart",
+    "date": "2007-05",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:LukenieRiver.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/LukenieRiver.jpg",
+    "dimensions": [
+      2816,
+      2112
+    ],
+    "changes": "Downloaded unchanged."
+  }
+]

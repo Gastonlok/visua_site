@@ -1,0 +1,576 @@
+[
+  {
+    "id": "kinshasa",
+    "slug": "kinshasa-au-fil-du-congo",
+    "title": "Kinshasa, au fil du Congo",
+    "category": "culture-musees",
+    "location": "Kinshasa · RDC",
+    "description": "Une première lecture de Kinshasa à travers ses musées, ses lieux de mémoire et son patrimoine sportif.",
+    "body": "Le cahier ANAPI fait découvrir Kinshasa à travers plusieurs repères : le Musée national, le Centre culturel et artistique des pays de l’Afrique centrale et les grands stades de la capitale. Ces lieux racontent les relations entre création, transmission et vie collective.\n\nLe mausolée de Patrice-Emery Lumumba et la place de la Gare centrale complètent cette lecture urbaine. Cette fiche générale permet de choisir ensuite une destination précise selon ses centres d’intérêt : culture, mémoire ou histoire du sport.",
+    "sector": "Culture et musées",
+    "skills": [
+      "Musées et création",
+      "Lieux de mémoire",
+      "Patrimoine sportif"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=47",
+        "page": "Pages imprimées 38, 39, 40, 42, 43 · PDF 47, 48, 49, 51, 52"
+      }
+    ],
+    "preserveExistingImage": true
+  },
+  {
+    "id": "anapi-parc-virunga",
+    "slug": "parc-virunga",
+    "title": "Parc national des Virunga",
+    "category": "parcs-reserves",
+    "location": "Entre les lacs Kivu et Édouard, est de la RDC · Nord-Kivu · RDC",
+    "description": "Des reliefs volcaniques aux forêts, les Virunga illustrent la diversité des paysages de l’est congolais.",
+    "body": "Le cahier ANAPI présente les Virunga comme une mosaïque de forêts, de savanes et de reliefs montagneux. Il situe cet ensemble entre les lacs Kivu et Édouard et évoque les monts Mitumba ainsi que le Ruwenzori.\n\nLa fiche permet de relier cette variété de milieux à la présence des gorilles de montagne et d’autres grands mammifères. Les volcans de la chaîne des Virunga constituent un autre repère pour comprendre ce territoire.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Gorilles de montagne",
+      "Reliefs et volcans",
+      "Diversité des habitats"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=32",
+        "page": "Pages imprimées 23 · PDF 32"
+      }
+    ],
+    "image": "/images/anapi/virunga-gorilles.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 23 (PDF p. 32). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=32",
+    "imageAlt": "Gorilles illustrant la présentation du parc des Virunga.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-parc-garamba",
+    "slug": "parc-garamba",
+    "title": "Parc national de la Garamba",
+    "category": "parcs-reserves",
+    "location": "Haut-Uélé, nord-est de la RDC · Haut-Uélé · RDC",
+    "description": "Dans le Haut-Uélé, la Garamba associe grands espaces et faune emblématique du nord-est congolais.",
+    "body": "Le parc de la Garamba se situe près de la frontière avec le Soudan du Sud. Le document ANAPI le décrit à travers la diversité de ses mammifères et de ses oiseaux, en mettant notamment en avant la girafe du Congo.\n\nCette destination documentaire offre une entrée sur les grands animaux du nord-est de la RDC et les enjeux de leur conservation. Girafes, éléphants et paysages ouverts structurent la découverte proposée.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Girafe du Congo",
+      "Grands mammifères",
+      "Conservation de la faune"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=27",
+        "page": "Pages imprimées 18 · PDF 27"
+      }
+    ],
+    "image": "/images/anapi/garamba-girafes.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 18 (PDF p. 27). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=27",
+    "imageAlt": "Girafe illustrant la présentation du parc de la Garamba.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-parc-kahuzi-biega",
+    "slug": "parc-kahuzi-biega",
+    "title": "Parc national de Kahuzi-Biega",
+    "category": "parcs-reserves",
+    "location": "À proximité de Bukavu, Sud-Kivu · Sud-Kivu · RDC",
+    "description": "Les monts Kahuzi et Biega donnent leur nom à un territoire forestier associé au gorille de Grauer.",
+    "body": "Situé près de Bukavu, le parc de Kahuzi-Biega tire son nom de deux anciens volcans. Le cahier ANAPI met en relation ces reliefs avec les forêts et la végétation d’altitude qui caractérisent le site.\n\nIl présente également le gorille de Grauer, les chimpanzés et la richesse botanique du parc. Cette fiche invite à découvrir les liens entre altitude, milieux forestiers et diversité du vivant.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Monts Kahuzi et Biega",
+      "Gorille de Grauer",
+      "Forêts et végétation d’altitude"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=28",
+        "page": "Pages imprimées 19 · PDF 28"
+      }
+    ],
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-parc-kundelungu",
+    "slug": "parc-kundelungu",
+    "title": "Parc national des Kundelungu",
+    "category": "parcs-reserves",
+    "location": "Au nord de Lubumbashi, Haut-Katanga · Haut-Katanga · RDC",
+    "description": "Les plateaux des Kundelungu permettent d’aborder les paysages et la faune du Haut-Katanga.",
+    "body": "Le document ANAPI situe les Kundelungu au nord de Lubumbashi, dans le Haut-Katanga. Il décrit un ensemble organisé autour du plateau et de zones annexes, où sont représentés plusieurs grands mammifères.\n\nLa fiche met aussi en lumière les relations écologiques entre les Kundelungu et l’Upemba. Le passage des animaux entre ces espaces permet d’introduire la notion de corridor écologique.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Paysages de plateau",
+      "Antilopes et zèbres",
+      "Corridor vers l’Upemba"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=29",
+        "page": "Pages imprimées 20 · PDF 29"
+      }
+    ],
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-parc-salonga",
+    "slug": "parc-salonga",
+    "title": "Parc national de la Salonga",
+    "category": "parcs-reserves",
+    "location": "Cuvette centrale du bassin du Congo · Bassin central · RDC",
+    "description": "La Salonga ouvre sur les forêts et les rivières de la cuvette centrale, territoire associé au bonobo.",
+    "body": "Le cahier ANAPI place la Salonga au cœur du bassin du Congo. Il souligne l’étendue de ses forêts tropicales et le rôle des rivières qui les parcourent, dont la rivière Salonga qui donne son nom au parc.\n\nLe bonobo occupe une place centrale dans cette présentation. La fiche rapproche son habitat forestier de la géographie de la cuvette centrale pour découvrir un grand paysage du Congo.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Forêt tropicale",
+      "Rivière Salonga",
+      "Bonobo"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=31",
+        "page": "Pages imprimées 22 · PDF 31"
+      }
+    ],
+    "image": "/images/anapi/salonga-bonobos.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 22 (PDF p. 31). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=31",
+    "imageAlt": "Bonobos illustrant la présentation du parc de la Salonga.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-parc-lomami",
+    "slug": "parc-lomami",
+    "title": "Parc national de la Lomami",
+    "category": "parcs-reserves",
+    "location": "Bassin de la Lomami, est de la RDC · Bassin de la Lomami · RDC",
+    "description": "La Lomami fait découvrir un espace forestier structuré par les rivières et une faune singulière.",
+    "body": "Le document ANAPI rattache la découverte du parc à trois rivières : la Tshuapa, la Lomami et le Lualaba. Il présente cet espace à travers les milieux forestiers et les animaux qui y trouvent refuge.\n\nLe lesula figure parmi les espèces mises en avant, aux côtés des bonobos et des okapis. Cette fiche propose une lecture du territoire à partir de ses cours d’eau et de sa biodiversité.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Tshuapa, Lomami et Lualaba",
+      "Lesula",
+      "Biodiversité forestière"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=33",
+        "page": "Pages imprimées 24 · PDF 33"
+      }
+    ],
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-parc-upemba",
+    "slug": "parc-upemba",
+    "title": "Parc national de l’Upemba",
+    "category": "parcs-reserves",
+    "location": "Région de l’Upemba, sud-est de la RDC · Sud-est de la RDC · RDC",
+    "description": "L’Upemba réunit savanes, plateaux et zones humides autour du Lualaba.",
+    "body": "Le cahier ANAPI décrit l’Upemba par la diversité de ses paysages : plateaux, savanes et galeries forestières. La dépression de Kamalondo et ses milieux marécageux en constituent un élément majeur.\n\nLes lacs Upemba, Mulenda, Kabwe et Kayumba sont cités comme repères de cet ensemble. La fiche relie ces eaux intérieures à la présence de mammifères et aux paysages du sud-est congolais.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Dépression de Kamalondo",
+      "Lacs et zones humides",
+      "Savanes et galeries forestières"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=34",
+        "page": "Pages imprimées 25 · PDF 34"
+      }
+    ],
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-parc-mangroves",
+    "slug": "parc-mangroves",
+    "title": "Parc marin des Mangroves",
+    "category": "parcs-reserves",
+    "location": "Moanda, embouchure du Congo, Kongo-Central · Kongo-Central · RDC",
+    "description": "À l’embouchure du Congo, les mangroves relient le fleuve à l’océan Atlantique.",
+    "body": "L’ANAPI situe le parc marin des Mangroves sur le territoire de Moanda. La rencontre de l’eau douce et de l’eau salée y façonne des milieux humides dominés par les palétuviers.\n\nLe document associe cet environnement à une faune aquatique comprenant notamment le lamantin d’Afrique et des oiseaux d’eau. La pointe de Banana et le littoral constituent des repères pour situer ce paysage côtier.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Palétuviers",
+      "Embouchure du Congo",
+      "Faune des zones humides"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=35",
+        "page": "Pages imprimées 26 · PDF 35"
+      }
+    ],
+    "image": "/images/anapi/mangroves.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 26 (PDF p. 35). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=35",
+    "imageAlt": "Palétuviers illustrant le parc marin des Mangroves.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-vallee-nsele",
+    "slug": "vallee-nsele",
+    "title": "Parc de la vallée de la Nsele",
+    "category": "parcs-reserves",
+    "location": "Périphérie de Kinshasa, vallée de la Nsele · Kinshasa · RDC",
+    "description": "La vallée de la Nsele présente un paysage de verdure aux portes de Kinshasa.",
+    "body": "Le cahier ANAPI décrit un parc privé traversé par la rivière Nsele, également connu sous le nom de Kingakati. Le domaine est présenté comme un espace de découverte de la nature à proximité de la capitale.\n\nLa brochure mentionne notamment une faune évoluant en semi-liberté. Cette fiche distingue ce cadre aménagé des parcs nationaux et permet d’explorer la place des espaces naturels dans la région de Kinshasa.",
+    "sector": "Parcs et réserves",
+    "skills": [
+      "Rivière Nsele",
+      "Parc privé",
+      "Faune en semi-liberté"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=45",
+        "page": "Pages imprimées 36 · PDF 45"
+      }
+    ],
+    "image": "/images/anapi/parc-nsele.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 36 (PDF p. 45). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=45",
+    "imageAlt": "Entrée du parc de la vallée de la Nsele.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-jardin-kinshasa",
+    "slug": "jardin-kinshasa",
+    "title": "Jardin botanique de Kinshasa",
+    "category": "jardins",
+    "location": "Gombe, Kinshasa · Kinshasa · RDC",
+    "description": "Au centre de Kinshasa, le jardin botanique propose une entrée sur le patrimoine végétal.",
+    "body": "Le cahier ANAPI situe ce jardin dans la commune de la Gombe. Il le présente comme un espace arboré intégré à la ville, accueillant une variété d’essences et participant à la découverte de la biodiversité.\n\nLa fiche aborde les fonctions d’un jardin botanique : observation, étude et éducation à l’environnement. Elle invite à reconnaître la place des arbres et des espaces verts dans le paysage urbain.",
+    "sector": "Jardins botaniques",
+    "skills": [
+      "Commune de la Gombe",
+      "Patrimoine végétal",
+      "Éducation à l’environnement"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=38",
+        "page": "Pages imprimées 29 · PDF 38"
+      }
+    ],
+    "image": "/images/anapi/jardin-kinshasa.jpeg",
+    "imageCredit": "Illustration du cahier ANAPI, janvier 2026, p. 29 (PDF p. 38). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=38",
+    "imageAlt": "Allée arborée illustrant le jardin botanique de Kinshasa dans le document ANAPI.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-jardin-kisantu",
+    "slug": "jardin-kisantu",
+    "title": "Jardin botanique de Kisantu",
+    "category": "jardins",
+    "location": "Inkisi, territoire de Madimba, Kongo-Central · Kongo-Central · RDC",
+    "description": "À Kisantu, collections végétales et arboretum composent un lieu de découverte botanique.",
+    "body": "Le jardin de Kisantu est situé à Inkisi, dans le territoire de Madimba. Le document ANAPI met en avant la richesse de ses collections végétales et la présence d’un arboretum.\n\nCette fiche fait découvrir un jardin où l’observation des plantes rejoint l’histoire de la botanique. Ses espaces paysagers permettent d’aborder la diversité végétale du Kongo-Central et la conservation des collections.",
+    "sector": "Jardins botaniques",
+    "skills": [
+      "Collections végétales",
+      "Arboretum",
+      "Kongo-Central"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=38",
+        "page": "Pages imprimées 29 · PDF 38"
+      }
+    ],
+    "image": "/images/anapi/jardin-kisantu.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 29 (PDF p. 38). Marquage visible « A. OTOSOLO » conservé ; licence non précisée.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=38",
+    "imageAlt": "Entrée du jardin botanique de Kisantu.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-jardin-eala",
+    "slug": "jardin-eala",
+    "title": "Jardin botanique d’Eala",
+    "category": "jardins",
+    "location": "Près de Mbandaka, rive gauche de la Ruki · Équateur · RDC",
+    "description": "Le jardin d’Eala met en valeur les plantes de la région équatoriale, près de Mbandaka.",
+    "body": "Le cahier ANAPI situe Eala sur la rive gauche de la Ruki, à proximité de Mbandaka. Il décrit des collections mêlant plantes locales et exotiques ainsi qu’une réserve forestière.\n\nLa fiche propose de découvrir le lien entre un jardin botanique et son environnement équatorial. Les collections, la forêt et la rivière fournissent trois repères pour comprendre ce site.",
+    "sector": "Jardins botaniques",
+    "skills": [
+      "Rivière Ruki",
+      "Plantes locales et exotiques",
+      "Réserve forestière"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=38",
+        "page": "Pages imprimées 29 · PDF 38"
+      }
+    ],
+    "image": "/images/anapi/jardin-eala.jpeg",
+    "imageCredit": "Illustration du cahier ANAPI, janvier 2026, p. 29 (PDF p. 38). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=38",
+    "imageAlt": "Entrée du jardin botanique d’Eala dans le document ANAPI.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-chutes-zongo",
+    "slug": "chutes-zongo",
+    "title": "Chutes de Zongo",
+    "category": "eaux-paysages",
+    "location": "Rivière Inkisi, Kongo-Central · Kongo-Central · RDC",
+    "description": "Les chutes de Zongo font découvrir la puissance de l’Inkisi dans un paysage boisé.",
+    "body": "Le document ANAPI présente Zongo comme un site de cascades sur la rivière Inkisi. Il met l’accent sur le relief, le bruit de l’eau et la végétation qui entoure les chutes.\n\nLa fiche permet de lire ce paysage à partir de ses éléments naturels : cours d’eau, roches et berges. Elle replace Zongo dans les paysages du Kongo-Central.",
+    "sector": "Eaux et paysages",
+    "skills": [
+      "Rivière Inkisi",
+      "Cascades",
+      "Paysage boisé"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=46",
+        "page": "Pages imprimées 37 · PDF 46"
+      }
+    ],
+    "image": "/images/anapi/zongo.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 37 (PDF p. 46). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=46",
+    "imageAlt": "Eaux de l’Inkisi illustrant les chutes de Zongo.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-grottes-mbanza-ngungu",
+    "slug": "grottes-mbanza-ngungu",
+    "title": "Grottes de Mbanza-Ngungu",
+    "category": "eaux-paysages",
+    "location": "Mbamba-Ntoto, près de Mbanza-Ngungu, Kongo-Central · Kongo-Central · RDC",
+    "description": "Les grottes de Mbanza-Ngungu ouvrent une découverte des paysages et du vivant souterrains.",
+    "body": "L’ANAPI présente ces grottes comme un réseau de passages naturels près de Mbanza-Ngungu. Le document cite le village de Mbamba-Ntoto pour les situer.\n\nIl évoque également un poisson aveugle adapté à l’obscurité. La fiche relie ainsi formes rocheuses, eau souterraine et adaptation du vivant.",
+    "sector": "Eaux et paysages",
+    "skills": [
+      "Passages naturels",
+      "Milieu souterrain",
+      "Adaptation à l’obscurité"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=53",
+        "page": "Pages imprimées 44 · PDF 53"
+      }
+    ],
+    "image": "/images/anapi/grottes-mbanza-ngungu.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 44 (PDF p. 53). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=53",
+    "imageAlt": "Entrée de grotte illustrant les grottes de Mbanza-Ngungu.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-musee-national-rdc",
+    "slug": "musee-national-rdc",
+    "title": "Musée national de la RDC",
+    "category": "culture-musees",
+    "location": "Kinshasa · RDC",
+    "description": "Le Musée national fait découvrir la diversité des patrimoines et des histoires du Congo.",
+    "body": "Le Musée national de la République démocratique du Congo est présenté par l’ANAPI comme un lieu de conservation et de transmission du patrimoine. Ses collections abordent les cultures du pays et différentes périodes de son histoire.\n\nLa fiche met en relation objets, récits et espaces d’exposition. Elle offre une entrée sur la diversité culturelle congolaise et sur le rôle d’un musée dans la transmission entre générations.",
+    "sector": "Culture et musées",
+    "skills": [
+      "Collections patrimoniales",
+      "Histoire culturelle",
+      "Transmission"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=47",
+        "page": "Pages imprimées 38 · PDF 47"
+      }
+    ],
+    "image": "/images/anapi/musee-national.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 38 (PDF p. 47). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=47",
+    "imageAlt": "Vue extérieure du Musée national de la RDC.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-centre-culturel-ccapac",
+    "slug": "centre-culturel-ccapac",
+    "title": "Centre culturel et artistique — CCAPAC",
+    "category": "culture-musees",
+    "location": "Kinshasa · RDC",
+    "description": "Le CCAPAC réunit des espaces consacrés aux arts, à la formation et aux représentations culturelles.",
+    "body": "Le cahier ANAPI présente le Centre culturel et artistique des pays de l’Afrique centrale comme un grand ensemble culturel à Kinshasa. Il mentionne des salles de spectacles, des amphithéâtres et un campus de l’Institut national des arts.\n\nLa fiche fait découvrir un lieu qui associe création et apprentissage. Studios d’enregistrement, espaces de danse et résidences pour artistes figurent parmi les équipements décrits dans la brochure.",
+    "sector": "Culture et musées",
+    "skills": [
+      "Spectacle vivant",
+      "Institut national des arts",
+      "Création et formation"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=48",
+        "page": "Pages imprimées 39 · PDF 48"
+      }
+    ],
+    "image": "/images/anapi/ccapac.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 39 (PDF p. 48). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=48",
+    "imageAlt": "Façade du Centre culturel et artistique des pays de l’Afrique centrale.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-stade-tata-raphael",
+    "slug": "stade-tata-raphael",
+    "title": "Stade Tata Raphaël",
+    "category": "patrimoine",
+    "location": "Kinshasa · RDC",
+    "description": "Le stade Tata Raphaël est un repère de la mémoire sportive et musicale de Kinshasa.",
+    "body": "Le document ANAPI rappelle que le stade a accueilli en 1974 le combat de boxe entre Muhammad Ali et George Foreman. Il associe également ce lieu au festival musical Zaïre 74.\n\nLa fiche explore cette rencontre entre sport, musique et histoire urbaine. Les changements de nom du stade évoqués dans la brochure témoignent aussi des différentes périodes traversées par la ville.",
+    "sector": "Villes et patrimoine",
+    "skills": [
+      "Boxe de 1974",
+      "Zaïre 74",
+      "Mémoire de Kinshasa"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=49",
+        "page": "Pages imprimées 40 · PDF 49"
+      }
+    ],
+    "image": "/images/anapi/stade-tata-raphael.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 40 (PDF p. 49). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=49",
+    "imageAlt": "Entrée du stade Tata Raphaël.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-stade-martyrs",
+    "slug": "stade-martyrs",
+    "title": "Stade des Martyrs",
+    "category": "patrimoine",
+    "location": "Kinshasa · RDC",
+    "description": "Le stade des Martyrs inscrit le sport et les grands rassemblements dans le paysage de Kinshasa.",
+    "body": "L’ANAPI présente cet équipement comme un lieu majeur du football congolais. Le cahier rappelle son ancien nom, stade Kamanyola, et le changement de dénomination intervenu en 1997.\n\nAu-delà du sport, la brochure évoque des concerts et des manifestations culturelles. La fiche aborde le stade comme un espace collectif et un repère architectural de la capitale.",
+    "sector": "Villes et patrimoine",
+    "skills": [
+      "Football congolais",
+      "Grands rassemblements",
+      "Architecture sportive"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=50",
+        "page": "Pages imprimées 41 · PDF 50"
+      }
+    ],
+    "image": "/images/anapi/stade-martyrs.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 41 (PDF p. 50). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=50",
+    "imageAlt": "Vue aérienne illustrant le stade des Martyrs.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-mausolee-lumumba",
+    "slug": "mausolee-lumumba",
+    "title": "Mausolée Patrice-Emery Lumumba",
+    "category": "patrimoine",
+    "location": "Devant la tour de l’échangeur, Kinshasa · Kinshasa · RDC",
+    "description": "Le mausolée de Lumumba forme un lieu de mémoire au pied de la tour de l’échangeur.",
+    "body": "Le cahier ANAPI situe ce monument devant la tour de l’échangeur à Kinshasa. Il décrit un édifice surmonté d’une statue de Patrice-Emery Lumumba.\n\nCette fiche propose une lecture du lieu par son architecture et sa fonction mémorielle. Elle relie le monument à un repère visible de la capitale et à la transmission de l’histoire nationale.",
+    "sector": "Villes et patrimoine",
+    "skills": [
+      "Mémoire nationale",
+      "Statue de Lumumba",
+      "Tour de l’échangeur"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=51",
+        "page": "Pages imprimées 42 · PDF 51"
+      }
+    ],
+    "image": "/images/anapi/mausolee-lumumba.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 42 (PDF p. 51). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=51",
+    "imageAlt": "Mausolée Patrice-Emery Lumumba et tour de l’échangeur.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-pont-marechal-matadi",
+    "slug": "pont-marechal-matadi",
+    "title": "Pont Maréchal à Matadi",
+    "category": "patrimoine",
+    "location": "Matadi, Kongo-Central · Kongo-Central · RDC",
+    "description": "À Matadi, le pont suspendu relie les rives du Congo dans un paysage de collines.",
+    "body": "Le pont Maréchal traverse le fleuve Congo à Matadi. La brochure ANAPI explique son rôle dans la liaison entre la ville et la route de Boma.\n\nLa fiche associe découverte du paysage fluvial et compréhension d’un ouvrage d’art. Elle met en avant les relations entre infrastructure, circulation et géographie du Kongo-Central.",
+    "sector": "Villes et patrimoine",
+    "skills": [
+      "Pont suspendu",
+      "Fleuve Congo",
+      "Liaison Matadi–Boma"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=52",
+        "page": "Pages imprimées 43 · PDF 52"
+      }
+    ],
+    "image": "/images/anapi/pont-marechal.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 43 (PDF p. 52). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=52",
+    "imageAlt": "Pont Maréchal sur le fleuve Congo, à Matadi.",
+    "preserveExistingImage": false
+  },
+  {
+    "id": "anapi-baobab-boma",
+    "slug": "baobab-boma",
+    "title": "Baobab historique de Boma",
+    "category": "patrimoine",
+    "location": "Boma, Kongo-Central · Kongo-Central · RDC",
+    "description": "À Boma, un baobab relie patrimoine naturel et récits de l’histoire de la ville.",
+    "body": "Le document ANAPI présente ce baobab sous le nom de « Baobab de Stanley ». Il l’associe au passage de l’explorateur à Boma en 1877 et le situe à proximité du fleuve Congo.\n\nLa fiche propose d’aborder cet arbre comme un repère du paysage et de la mémoire locale. Le nom conservé dans la brochure permet aussi d’interroger les récits historiques attachés aux lieux.",
+    "sector": "Villes et patrimoine",
+    "skills": [
+      "Arbre patrimonial",
+      "Boma",
+      "Histoire locale"
+    ],
+    "sources": [
+      {
+        "title": "ANAPI — Investir dans le secteur du tourisme, janvier 2026",
+        "url": "/documents/anapi-tourisme.pdf#page=53",
+        "page": "Pages imprimées 44 · PDF 53"
+      }
+    ],
+    "image": "/images/anapi/baobab-stanley.jpeg",
+    "imageCredit": "Illustration reproduite du cahier sectoriel ANAPI, janvier 2026, p. 44 (PDF p. 53). Photographe et licence non précisés.",
+    "imageSource": "/documents/anapi-tourisme.pdf#page=53",
+    "imageAlt": "Baobab historique de Boma.",
+    "preserveExistingImage": false
+  }
+]

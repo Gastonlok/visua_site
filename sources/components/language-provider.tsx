@@ -1,0 +1,6 @@
+'use client';
+import {createContext,useContext,type ReactNode} from 'react';import {languageHref,type Locale} from '@/lib/i18n/locale';
+const LanguageContext=createContext<{locale:Locale;path:string}>({locale:'fr',path:'/'});
+export function LanguageProvider({locale,path,children}:{locale:Locale;path:string;children:ReactNode}){return <LanguageContext.Provider value={{locale,path}}>{children}</LanguageContext.Provider>}
+export function useLocale(){return useContext(LanguageContext).locale}
+export function LanguageSwitch(){const {locale,path}=useContext(LanguageContext);return <nav className="language-switch" aria-label={locale==='fr'?'Choisir la langue':'Choose language'}>{([['fr','FR','Français'],['en','EN','English']] as const).map(([code,label,name])=><a key={code} href={languageHref(path.startsWith('//')?'/':path,code)} lang={code} hrefLang={code} title={name} aria-label={name} aria-current={locale===code?'page':undefined} onClick={event=>{if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();window.location.assign(languageHref((window.location.pathname.startsWith('//')?'/':window.location.pathname)+window.location.search+window.location.hash,code))}}>{label}</a>)}</nav>}

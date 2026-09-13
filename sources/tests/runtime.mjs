@@ -1,0 +1,11 @@
+import { PGlite } from '@electric-sql/pglite';
+import { setTestDatabase } from '../db/client.ts';
+process.env.NODE_ENV='test';
+process.env.AUTH_SECRET='visuaa-test-secret-with-at-least-32-characters';
+process.env.SITE_URL='https://visuaa.test';
+process.env.ADMIN_EMAILS='admin@visuaa.test';
+process.env.EDITOR_EMAILS='';
+export const sql=new PGlite();
+export const adapt=p=>({async query(text,values=[]){const r=await p.query(text,values);return {rows:r.rows,rowCount:r.affectedRows||r.rows.length}}});
+export const db={...adapt(sql),transaction:work=>sql.transaction(tx=>work(adapt(tx))),close:()=>sql.close()};
+setTestDatabase(db);

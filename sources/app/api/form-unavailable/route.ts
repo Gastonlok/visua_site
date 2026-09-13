@@ -1,0 +1,1 @@
+export function POST(){return new Response('Le formulaire n’est pas encore prêt. Revenez à la page précédente, activez JavaScript puis réessayez.',{status:400,headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store'}})}
