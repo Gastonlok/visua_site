@@ -6,20 +6,22 @@ import {VisuaLogo} from '@/components/visua-logo';
 import Link from '@/components/site-link';
 import {useState} from 'react';
 import {usePathname} from 'next/navigation';
-import {ArrowUpRight,ArrowRight,Globe2,Compass,GraduationCap,Headset,Menu,Clock,Monitor,MapPin,Pickaxe,Layers3,FlaskConical,Wrench,ShieldCheck,Truck,TreePine,Waves,Mountain,Landmark,BookOpen,Sprout,Leaf} from 'lucide-react';
+import {Users,BriefcaseBusiness,LayoutGrid,UserRound,ArrowUpRight,ArrowRight,Globe2,Compass,GraduationCap,Headset,Menu,Clock,Monitor,MapPin,Pickaxe,Layers3,FlaskConical,Wrench,ShieldCheck,Truck,TreePine,Waves,Mountain,Landmark,BookOpen,Sprout,Leaf} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {Sheet,SheetContent,SheetTitle,SheetTrigger} from '@/components/ui/sheet';
 import {categoryOf} from '@/lib/catalogue-groups';
 import {domainLabel} from '@/lib/catalogue-metadata';
 import type {Experience} from '@/lib/models';
+const menuIcons:Record<string,typeof Users>={'/qui-sommes-nous':Users,'/metiers':BriefcaseBusiness,'/destinations':Globe2,'/catalogue':LayoutGrid,'/dashboard':UserRound};
+function MenuIcon({url}:{url:string}){const Icon=menuIcons[url];return Icon?<Icon className="menu-icon" size={21} strokeWidth={1.7} aria-hidden="true"/>:null;}
 export function Header({brand='VISUAA'}:{brand?:string}) {
  const locale=useLocale(),path=usePathname(),[open,setOpen]=useState(false);
  const links=[['/qui-sommes-nous','À propos'],['/metiers','Les métiers'],['/destinations','Les territoires'],['/catalogue','Catalogue']];
  return translateNode(<><header className="header">
  <Link href="/" className="brand official-brand" aria-label={brand+', accueil'}><VisuaLogo/></Link>
- <nav aria-label="Navigation principale" className="desktop-nav">{links.map(([url,label])=><Link key={url} href={url} aria-current={path===url?'page':undefined}>{label}</Link>)}</nav>
- <div className="header-actions"><LanguageSwitch/><Link className="account-link" href="/dashboard">Mon espace</Link>
- <Sheet open={open} onOpenChange={setOpen}><SheetTrigger asChild><Button variant="ghost" className="mobile-menu" aria-label="Ouvrir le menu"><Menu/></Button></SheetTrigger><SheetContent><SheetTitle>Explorer VISUAA</SheetTitle><nav className="mobile-nav">{[...links,['/dashboard','Mon espace']].map(([url,label])=><Link key={url} href={url} onClick={()=>setOpen(false)}>{label}</Link>)}</nav></SheetContent></Sheet>
+ <nav aria-label="Navigation principale" className="desktop-nav">{links.map(([url,label])=><Link key={url} href={url} aria-current={path===url?'page':undefined}><MenuIcon url={url}/><span>{label}</span></Link>)}</nav>
+ <div className="header-actions"><LanguageSwitch/><Link className="account-link" href="/dashboard"><MenuIcon url="/dashboard"/><span>Mon espace</span></Link>
+ <Sheet open={open} onOpenChange={setOpen}><SheetTrigger asChild><Button variant="ghost" className="mobile-menu" aria-label="Ouvrir le menu"><Menu/></Button></SheetTrigger><SheetContent><SheetTitle>Explorer VISUAA</SheetTitle><nav className="mobile-nav">{[...links,['/dashboard','Mon espace']].map(([url,label])=><Link key={url} href={url} aria-current={path===url?'page':undefined} onClick={()=>setOpen(false)}><MenuIcon url={url}/><span>{label}</span></Link>)}</nav></SheetContent></Sheet>
  </div></header></>,locale);
 }
 export function Footer({brand='VISUAA'}:{brand?:string}){const locale=useLocale();return translateNode(<footer><div className="footer-top"><div><Link className="brand official-brand" href="/" aria-label="VISUA, accueil"><VisuaLogo className="footer-logo"/></Link><p>Explorez les métiers.<br/>Découvrez les territoires.<br/>Vivez l’immersion.</p><span className="small">Kinshasa · République démocratique du Congo</span></div><div><h3>Explorer</h3><Link href="/metiers">Les métiers</Link><Link href="/destinations">Les destinations</Link><Link href="/experiences">Les expériences</Link></div><div><h3>Construire ensemble</h3><Link href="/organisations">Écoles & entreprises</Link><Link href="/offres">Nos offres</Link><Link href="/contact">Nous contacter</Link></div><div><h3>À vos côtés</h3><Link href="/qui-sommes-nous">À propos</Link><Link href="/ressources">Aide & confort VR</Link><Link href="/admin">Administration</Link></div></div><div className="footer-bottom"><span>© 2026 {brand} · Voir, c’est croire.</span><div><Link href="/confidentialite">Confidentialité</Link><Link href="/mentions-legales">Mentions légales</Link><Link href="/cookies">Cookies</Link><Link href="/accessibilite">Accessibilité</Link><Link href="/credits">Crédits</Link></div></div></footer>,locale)}

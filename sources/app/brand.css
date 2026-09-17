@@ -23,3 +23,5 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .workspace-brand .workspace-logo{--logo-width:180px;margin:0;max-width:100%}
 .workspace-brand .workspace-brand-caption{margin-top:12px;color:#bee5f5;font-size:11px;font-weight:400;letter-spacing:.04em}
 @media(max-width:800px){.workspace-brand .workspace-logo-frame{width:180px}.workspace-brand .workspace-logo{--logo-width:160px}}
+/* Navigation avec pictogrammes VISUA. */
+.desktop-nav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:9px 10px;border-radius:8px;white-space:nowrap}.desktop-nav{gap:8px}.menu-icon{flex-shrink:0;color:var(--visua-blue)}.desktop-nav a:hover,.desktop-nav a[aria-current=page]{background:#edf5fb}.account-link,.mobile-nav a{display:flex;align-items:center;gap:9px}.mobile-nav a[aria-current=page]{color:var(--visua-blue);background:#edf5fb;border-radius:8px}.mobile-nav .menu-icon{width:22px;height:22px}
