@@ -12,10 +12,10 @@ import {Sheet,SheetContent,SheetTitle,SheetTrigger} from '@/components/ui/sheet'
 import {categoryOf} from '@/lib/catalogue-groups';
 import {domainLabel} from '@/lib/catalogue-metadata';
 import type {Experience} from '@/lib/models';
-export function Header({preview=false,brand='VISUAA'}:{preview?:boolean;brand?:string}) {
+export function Header({brand='VISUAA'}:{brand?:string}) {
  const locale=useLocale(),path=usePathname(),[open,setOpen]=useState(false);
  const links=[['/qui-sommes-nous','À propos'],['/metiers','Les métiers'],['/destinations','Les territoires'],['/catalogue','Catalogue']];
- return translateNode(<>{preview&&<div className="preview-bar">PRÉPRODUCTION · Version de validation</div>}<header className="header">
+ return translateNode(<><header className="header">
  <Link href="/" className="brand official-brand" aria-label={brand+', accueil'}><VisuaLogo/></Link>
  <nav aria-label="Navigation principale" className="desktop-nav">{links.map(([url,label])=><Link key={url} href={url} aria-current={path===url?'page':undefined}>{label}</Link>)}</nav>
  <div className="header-actions"><LanguageSwitch/><Link className="account-link" href="/dashboard">Mon espace</Link>
