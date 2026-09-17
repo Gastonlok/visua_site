@@ -10,7 +10,7 @@ import { Header,Footer } from './ui';
 export const dynamic='force-dynamic';
 export async function generateMetadata():Promise<Metadata>{
  const {locale,path}=await getLanguageContext(),settings=await getSettings();
- return {...pageMetadata(path.split('?')[0],settings.seoTitle,settings.seoDescription,locale),metadataBase:new URL(siteUrl()),title:{default:settings.seoTitle,template:'%s | '+settings.brand},icons:{icon:'/favicon.svg'}};
+ return {...pageMetadata(path.split('?')[0],settings.seoTitle,settings.seoDescription,locale),metadataBase:new URL(siteUrl()),title:{default:settings.seoTitle,template:'%s | '+settings.brand},icons:{icon:{url:'/images/visua-logo-officiel.png',type:'image/png'},apple:'/images/visua-logo-officiel.png'}};
 }
 export default async function RootLayout({children}:{children:React.ReactNode}){
  const {locale,path}=await getLanguageContext();const settings=await getSettings();
@@ -19,3 +19,5 @@ export default async function RootLayout({children}:{children:React.ReactNode}){
 }
 
 import './workspace.css';
+import './typography.css';
+import './brand.css';

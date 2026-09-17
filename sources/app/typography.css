@@ -1,0 +1,18 @@
+/* Noto Sans 2.015, utilisée par jw.org ; fichiers locaux sous licence OFL. */
+@font-face{font-family:'Noto Sans';src:url('/fonts/noto-sans-regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Noto Sans';src:url('/fonts/noto-sans-bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Noto Sans';src:url('/fonts/noto-sans-italic.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap}
+:root{--font-sans:'Noto Sans',Arial,sans-serif}
+body,input,textarea,select,button{font-family:var(--font-sans)}
+body{line-height:1.65}
+h1,h2,h3,.hero h1,.cover-copy h1,.careers-opening h1{font-family:var(--font-sans);letter-spacing:-.02em;line-height:1.2}
+h1,h2,.hero h1,.cover-copy h1,.careers-opening h1{font-weight:400}
+h3{font-weight:700}
+.hero h1 em,.careers-opening h1 em{font-family:var(--font-sans);font-style:normal;font-weight:400;letter-spacing:-.02em}
+.desktop-nav a{font-size:14px;font-weight:400}
+.btn,.career-domain-nav a,.workspace-nav nav a{font-weight:400}
+.page-main.prose p,.about-mission p,.about-opening p{line-height:1.75}
+.prose{max-width:1000px}
+.workspace-content h1{letter-spacing:-.02em}.workspace-content h2{line-height:1.3}
+.photo-tile strong{letter-spacing:-.015em;line-height:1.25}
+@media(max-width:800px){.careers-opening h1{font-size:clamp(2rem,7.5vw,2.6rem)}.hero h1{line-height:1.12}.desktop-nav a{font-size:13px}}

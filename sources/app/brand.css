@@ -1,0 +1,25 @@
+/* Palette officielle VISUA : bleu profond #003f72, cyan #07a3d3. */
+:root{--visua-blue:#003f72;--visua-cyan:#07a3d3;--primary:var(--visua-blue);--primary-foreground:#fff;--foreground:#15334c;--secondary:#edf5fb;--secondary-foreground:var(--visua-blue);--accent:#dff3fb;--accent-foreground:var(--visua-blue);--muted:#f1f6fa;--muted-foreground:#536b80;--border:#cfdfec;--input:#bfd2e2;--ring:#0079b4}
+body{color:var(--foreground)}p{color:#536b80}h1,h2,h3{color:inherit}
+.btn.dark,.btn.lime,.career-domain-nav>a[aria-current],.language-switch a[aria-current=page]{background:var(--visua-blue);border-color:var(--visua-blue);color:#fff}
+.btn.dark:hover,.btn.lime:hover{background:#00578f;color:#fff}
+.outline{border-color:#9dbed7;color:var(--visua-blue)}.outline:hover{background:#edf5fb}
+.desktop-nav a:hover,.desktop-nav a[aria-current],.under-link,.account-link{color:var(--visua-blue)}.account-link{border-color:var(--visua-cyan)}
+.eyebrow{color:#316a91}.eyebrow.light{color:#ddf4ff}.hero h1 em{color:#bcecff}.careers-opening h1 em{color:#006ba4}
+.hero,.organisation-band,.viewer-shell,.workspace-nav,.about-photo,.preview-bar{background:var(--visua-blue);color:#fff}
+.hero h1,.hero p,.organisation-band h2,.organisation-band p,.about-photo figcaption{color:#fff}
+.benefit-strip,.public-filters,.photo-discovery,.about-universes article,.notice,footer{background:#f0f6fb;border-color:#d5e5f1}
+.benefit-strip svg,.about-universes svg,.about-method-grid svg,.dashboard-icon,.workflow-grid .dashboard-icon,.dashboard-box h2>.dashboard-icon,.stats-grid>a>.dashboard-icon{color:#006ba4}
+.workspace-nav .dashboard-icon{color:inherit}.workspace-nav .eyebrow,.workspace-brand span{color:#bee5f5}
+.workspace-nav nav a[aria-current]{background:#d8f0fc;color:var(--visua-blue);box-shadow:inset 3px 0 var(--visua-cyan)}.workspace-nav nav a[aria-current]:hover{background:#e6f6fd}
+.workspace-content{background:#f3f7fb}.stats-grid strong{color:var(--visua-blue)}
+.workflow-grid>a,.priority-row strong,.admin-quick-actions .btn span{background:#edf5fb;color:var(--visua-blue)}.workflow-grid>a:hover{background:#dff0fb}
+.career-domain-nav>a[aria-current]>span{background:#daf0fc;color:var(--visua-blue)}
+.career-domain-nav>a:hover{background:#edf5fb}.career-domain-nav>a[aria-current]:hover{background:#00578f}
+.save-state{color:#316a91}input[type=checkbox],input[type=radio]{accent-color:var(--visua-blue)}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:#0079b4}
+/* Logo original VISUA, visible sur le fond bleu de l’administration. */
+.workspace-brand .workspace-logo-frame{display:flex;align-items:center;justify-content:center;background:#fff;border-radius:10px;padding:10px 8px;margin:0}
+.workspace-brand .workspace-logo{--logo-width:180px;margin:0;max-width:100%}
+.workspace-brand .workspace-brand-caption{margin-top:12px;color:#bee5f5;font-size:11px;font-weight:400;letter-spacing:.04em}
+@media(max-width:800px){.workspace-brand .workspace-logo-frame{width:180px}.workspace-brand .workspace-logo{--logo-width:160px}}
