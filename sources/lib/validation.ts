@@ -2,7 +2,7 @@ import { z } from 'zod';
 export const safeUrl=z.string().max(2000).refine(v=>!v||(/^\/(?!\/)/.test(v)&&!/[\\\u0000-\u0020]/.test(v))||(()=>{try{const u=new URL(v);return u.protocol==='https:'&&!u.username&&!u.password}catch{return false}})(),'URL HTTPS ou chemin local requis');
 export const experienceInput=z.object({
  id:z.string().regex(/^[a-zA-Z0-9_-]{1,80}$/),slug:z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).max(100),
- title:z.string().trim().min(3).max(120),category:z.string().max(80).optional(),domain:z.enum(['mines','agriculture','tourisme','environnement','autre']).optional(),
+ title:z.string().trim().min(3).max(120),category:z.string().max(80).optional(),domain:z.enum(['mines','agriculture','tourisme','environnement','btp','autre']).optional(),
  provinces:z.array(z.string().min(2).max(80)).max(26).optional(),provinceNote:z.string().max(1500).optional(),
  provinceSources:z.array(z.object({title:z.string().min(1).max(200),url:safeUrl,page:z.string().max(100).optional()})).max(8).optional(),
  imageAlt:z.string().max(400).optional(),sources:z.array(z.object({title:z.string().min(1).max(200),url:safeUrl,page:z.string().max(100).optional()})).max(8).optional(),

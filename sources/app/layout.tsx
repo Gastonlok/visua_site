@@ -21,3 +21,5 @@ export default async function RootLayout({children}:{children:React.ReactNode}){
 import './workspace.css';
 import './typography.css';
 import './brand.css';
+
+import './navigation.css';

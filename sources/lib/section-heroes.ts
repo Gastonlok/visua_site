@@ -1,0 +1,18 @@
+import type {HeroContent} from '@/components/section-hero';
+
+const generated='Illustration générée par IA';
+const anapi='Photographie · Document touristique ANAPI';
+export const careerHeroes:Record<string,HeroContent>={
+ mines:{title:'Les mines, au cœur des savoir-faire.',description:'De la géologie aux opérations de terrain, découvrez les métiers qui explorent, transforment et valorisent les ressources du sous-sol.',image:'/images/metier.webp',alt:'Engins au travail dans une carrière près de Goma',eyebrow:'LES MÉTIERS · MINES',credit:'Carrière près de Goma · MONUSCO / Abel Kavanagh'},
+ agriculture:{title:'Cultiver la terre. Faire grandir demain.',description:'Des premières semences à la récolte, rencontrez les savoir-faire qui nourrissent les communautés et prennent soin des cultures.',image:'/images/hero-agriculture.webp',alt:'Une agronome et un agriculteur observent leurs cultures',eyebrow:'LES MÉTIERS · AGRICULTURE',credit:generated},
+ btp:{title:'Imaginer, bâtir, transformer.',description:'Du dessin des plans au chantier, explorez les métiers qui construisent les maisons, les routes et les lieux de vie.',image:'/images/hero-btp.webp',alt:'Deux professionnels du bâtiment examinent des plans sur un chantier',eyebrow:'LES MÉTIERS · BTP',credit:generated},
+ tourisme:{title:'Accueillir. Guider. Émerveiller.',description:'Faire découvrir un paysage, raconter un lieu, accueillir un voyageur : explorez les métiers du tourisme et de l’hospitalité.',image:'/images/anapi/zongo.jpeg',alt:'Les chutes de Zongo au milieu de la végétation',eyebrow:'LES MÉTIERS · TOURISME',credit:anapi},
+ environnement:{title:'Comprendre le vivant. Préserver demain.',description:'Forêts, eau, biodiversité : découvrez les métiers qui observent les milieux naturels et participent à leur préservation.',image:'/images/anapi/mangroves.jpeg',alt:'Paysage de mangroves en RDC',eyebrow:'LES MÉTIERS · ENVIRONNEMENT',credit:anapi},
+};
+export const territoryHeroes:Record<string,HeroContent>={
+ 'parcs-reserves':{title:'Au plus près du monde sauvage.',description:'Des gorilles aux grands espaces forestiers, découvrez les parcs et réserves qui abritent la biodiversité de la RDC.',image:'/images/anapi/virunga-gorilles.jpeg',alt:'Gorilles du parc des Virunga',eyebrow:'LES TERRITOIRES · PARCS ET RÉSERVES',credit:anapi},
+ jardins:{title:'Une parenthèse au cœur du végétal.',description:'Parcourez les jardins botaniques, observez les plantes et découvrez des lieux où la nature se raconte autrement.',image:'/images/anapi/jardin-kisantu.jpeg',alt:'Végétation du jardin botanique de Kisantu',eyebrow:'LES TERRITOIRES · JARDINS BOTANIQUES',credit:anapi},
+ 'eaux-paysages':{title:'Suivre l’eau. Changer d’horizon.',description:'Chutes, rivières et paysages : laissez votre curiosité vous guider au fil des reliefs et des eaux de la RDC.',image:'/images/anapi/zongo.jpeg',alt:'Les chutes de Zongo en RDC',eyebrow:'LES TERRITOIRES · EAUX ET PAYSAGES',credit:anapi},
+ 'culture-musees':{title:'Des cultures à rencontrer. Des histoires à partager.',description:'Objets, créations et mémoire : explorez les musées et les lieux culturels qui font vivre les histoires du Congo.',image:'/images/anapi/musee-national.jpeg',alt:'Musée national de la République démocratique du Congo',eyebrow:'LES TERRITOIRES · CULTURE ET MUSÉES',credit:anapi},
+ patrimoine:{title:'Les lieux passent. Les histoires restent.',description:'Villes, monuments et patrimoine : découvrez les repères qui façonnent les territoires et leur mémoire.',image:'/images/anapi/pont-marechal.jpeg',alt:'Le pont Maréchal à Matadi',eyebrow:'LES TERRITOIRES · VILLES ET PATRIMOINE',credit:anapi},
+};
