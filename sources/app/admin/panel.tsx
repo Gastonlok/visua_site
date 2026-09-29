@@ -53,7 +53,7 @@ export default function ContentPanel({userRole,userId,initialStatus='',initialCr
   </div>:<div className="image-editor-placeholder">Aucune image sélectionnée</div>}
   <div><label>Importer une image<input type="file" accept="image/jpeg,image/png,image/webp,image/avif" disabled={uploading} onChange={e=>{const file=e.currentTarget.files?.[0];e.currentTarget.value='';if(file)void uploadImage(file)}}/></label>
   <p className="small" role={uploading?'status':undefined}>{uploading?'Import et optimisation en cours…':'JPEG, PNG, WebP ou AVIF · 4 Mo maximum. L’image est optimisée automatiquement.'}</p>
-  <label>Adresse de l’image<input value={edit.image} onChange={e=>field('image',e.target.value)}/></label></div>
+  <p className="small">Utilisez le bouton ci-dessus pour ajouter ou remplacer l’image de la fiche.</p></div>
  </div>
  <label>Description de l’image<input value={edit.imageAlt||''} onChange={e=>field('imageAlt',e.target.value)}/></label>
  <div className="form-row"><label>Crédits et licence<input value={edit.imageCredit} onChange={e=>field('imageCredit',e.target.value)}/></label><label>Page source<input value={edit.imageSource} onChange={e=>field('imageSource',e.target.value)}/></label></div>

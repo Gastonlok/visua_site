@@ -46,6 +46,7 @@ test('admin creates, submits, publishes and archives a project',async({page})=>{
  await page.getByRole('combobox',{name:'Type',exact:true}).selectOption('projet');await page.getByLabel('Secteur',{exact:true}).fill('Éducation');
  await page.getByLabel('Résumé',{exact:true}).fill('Une présentation du projet de découverte.');
  await page.getByLabel('Contenu',{exact:true}).fill('Ce projet permet de vérifier le parcours de création et de publication depuis le navigateur.');
+ await expect(page.getByLabel('Adresse de l’image')).toHaveCount(0);
  await page.getByLabel('Importer une image').setInputFiles({name:'fiche.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAEUlEQVQImWMQqdjyH4QZYAwASvQI/eVH7P4AAAAASUVORK5CYII=','base64')});
  await expect(page.locator('.image-editor-preview img')).toHaveAttribute('src',/^\/media-images\//);
  await page.getByLabel('Description de l’image').fill('Aperçu du projet navigateur');await page.getByLabel('Crédits et licence',{exact:true}).fill('Image de test autorisée');await page.getByLabel('Page source',{exact:true}).fill('https://example.test/image');
