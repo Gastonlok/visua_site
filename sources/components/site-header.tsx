@@ -31,7 +31,7 @@ export function Header({brand='VISUAA'}:{brand?:string}){
  return translateNode(<header ref={root} className="header editorial-header" onKeyDown={event=>{if(event.key==='Escape'){if(active!==null)close(true);else{setMobile(false);root.current?.querySelector<HTMLButtonElement>('.editorial-menu-toggle')?.focus();}}}} onBlur={event=>{if(event.relatedTarget&&!event.currentTarget.contains(event.relatedTarget)){setActive(null);setMobile(false);}}}>
   <div className="masthead">
    <Link href="/" className="brand official-brand" aria-label={brand+', accueil'}><VisuaLogo/></Link>
-   <div className="masthead-signature"><strong>Voir, c’est croire.</strong><span>Métiers & territoires de la RDC</span></div>
+   <div className="masthead-signature"><span>Métiers & territoires de la RDC</span></div>
    <div className="header-actions"><LanguageSwitch/><Link className="account-link" href="/dashboard"><UserRound size={19}/><span>Mon espace</span></Link><button className="editorial-menu-toggle" aria-label={mobile?'Fermer le menu':'Ouvrir le menu'} aria-expanded={mobile} aria-controls="primary-navigation" onClick={()=>{setMobile(!mobile);setActive(null);}}>{mobile?<X/>:<Menu/>}</button></div>
   </div>
   <nav id="primary-navigation" className={'editorial-navigation'+(mobile?' is-open':'')} aria-label="Navigation principale">
