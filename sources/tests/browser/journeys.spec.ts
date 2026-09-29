@@ -43,7 +43,7 @@ test('admin creates, submits, publishes and archives a project',async({page})=>{
  page.once('dialog',dialog=>dialog.dismiss());await page.getByRole('link',{name:'Vue d’ensemble',exact:true}).click();
  await expect(page.getByLabel('Titre',{exact:true})).toHaveValue('Texte à conserver');
  await page.getByLabel('Titre',{exact:true}).fill('Projet navigateur');await page.getByLabel('Adresse de la fiche').fill('projet-navigateur');
- await page.getByRole('combobox',{name:'Type',exact:true}).selectOption('projet');await page.getByLabel('Secteur',{exact:true}).fill('Éducation');
+ await page.getByRole('combobox',{name:'Type',exact:true}).selectOption('projet');await page.getByLabel('Classement de la fiche',{exact:true}).selectOption('projet-educatif');await page.getByLabel('Secteur',{exact:true}).fill('Éducation');
  await page.getByLabel('Résumé',{exact:true}).fill('Une présentation du projet de découverte.');
  await page.getByLabel('Contenu',{exact:true}).fill('Ce projet permet de vérifier le parcours de création et de publication depuis le navigateur.');
  await expect(page.getByLabel('Adresse de l’image')).toHaveCount(0);

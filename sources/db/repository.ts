@@ -43,6 +43,13 @@ async function replaceMedia(tx: SqlConnection, e: Experience) {
  for (const [i, p] of e.points.entries()) await tx.query('INSERT INTO points_of_interest (id,fiche_id,label,description,yaw,pitch,position) VALUES ($1,$2,$3,$4,$5,$6,$7)', [randomUUID(), e.id, p.title, p.text, p.yaw, p.pitch, i]);
 }
 function uploadedImageId(url: string) { return /^\/media-images\/([0-9a-f-]{36})$/i.exec(url)?.[1] || null; }
+function mediaAssetId(url: string) { return /^\/media-files\/([0-9a-f-]{36})$/i.exec(url)?.[1] || null; }
+async function validateMediaAssets(tx:SqlConnection,e:Experience){
+ const videoId=mediaAssetId(e.mediaUrl),attachments=e.attachments||[],ids=[...(videoId?[videoId]:[]),...attachments.map(item=>item.assetId)];if(!ids.length)return;
+ const rows=(await tx.query<{id:string;kind:string;mime_type:string;byte_size:number}>("SELECT id,kind,mime_type,byte_size FROM media_assets WHERE id=ANY($1::text[]) AND status='ready'",[ids])).rows,map=new Map(rows.map(row=>[row.id,row]));
+ if(videoId&&map.get(videoId)?.kind!=='video')throw new HttpError(400,'La vidéo sélectionnée est introuvable ou invalide.');
+ for(const attachment of attachments){const row=map.get(attachment.assetId);if(!row||row.kind!=='document'||row.mime_type!==attachment.mimeType||row.byte_size!==attachment.size||attachment.url!=='/media-files/'+attachment.assetId)throw new HttpError(400,'Un document joint est introuvable ou invalide.');}
+}
 async function attachUploadedImage(tx: SqlConnection, e: Experience) {
  const id=uploadedImageId(e.image);
  if(id){
@@ -66,6 +73,7 @@ export async function saveContent(e: Experience, actor: User) {
   if(!transitions[old?.status||'draft'].includes(e.status))throw new HttpError(409,'Respectez les étapes : brouillon, à vérifier, vérifié, publié, archivé.');
   if (!old && e.version !== 0) throw new HttpError(409, 'Contenu introuvable ou version périmée.');
   if ((await tx.query('SELECT id FROM fiches WHERE slug=$1 AND id<>$2', [e.slug,e.id])).rowCount) throw new HttpError(409, 'Cette adresse existe déjà.');
+  await validateMediaAssets(tx,e);
   if (old) {
    await tx.query('UPDATE fiches SET title=$1,summary=$2,body=$3,type=$4,status=$5,metadata=$6,seo_title=$7,seo_description=$8,version=version+1,updated_at=now() WHERE id=$9',
     [e.title,e.description,e.body,e.kind,e.status,metadata(e),e.seoTitle || '',e.seoDescription || '',e.id]);

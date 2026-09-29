@@ -6,6 +6,7 @@ import { translateNode } from '@/lib/i18n/tree';
 import { t } from '@/lib/i18n/text';
 import { pageMetadata,ficheJsonLd,safeJsonLd } from '@/lib/seo';
 import Viewer from '@/app/viewer';
+import {formatBytes} from '@/lib/media-assets';
 export const dynamic='force-dynamic';
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}){
  const {slug}=await params,e=await getExperience(slug);if(!e)return {title:'Fiche introuvable',robots:{index:false,follow:false}};
@@ -24,6 +25,7 @@ export default async function Page({params}:{params:Promise<{slug:string}>}){
  {e.skills.length>0&&<><h2>Les repères à retenir</h2><div className="detail-badges">{e.skills.map(s=><span key={s} className="pill">{s}</span>)}</div></>}
  {!!e.provinces?.length&&<section className="detail-provinces"><h2>Provinces</h2>{e.provinces.map(p=><Link className="province-link" key={p} href={'/destinations?province='+encodeURIComponent(p)}>{p}</Link>)}{e.provinceNote&&<p>{e.provinceNote}</p>}</section>}
  {!!e.sources?.length&&<section className="detail-sources"><h2>Pour approfondir</h2><ul>{e.sources.map((s,i)=><li key={i}><a href={s.url} target="_blank" rel="noreferrer">{s.title}</a>{s.page&&' · '+s.page}</li>)}</ul></section>}
+ {!!e.attachments?.length&&<section className="detail-sources detail-downloads"><h2>Documents à consulter</h2><ul>{e.attachments.map(attachment=><li key={attachment.assetId}><a href={attachment.url} target="_blank" rel="noreferrer">{attachment.title}</a><span>PDF · {formatBytes(attachment.size)}</span></li>)}</ul></section>}
  {!!e.provinceSources?.length&&<section className="detail-sources"><h2>Références géographiques</h2><ul>{e.provinceSources.map((s,i)=><li key={i}><a href={s.url} target="_blank" rel="noreferrer">{s.title}</a></li>)}</ul></section>}
  {e.format!=='text'&&<section id="alternative" className="detail-sources"><h2>Alternative textuelle</h2>{(e.transcript||e.body).split(/\n\s*\n/).map((p,i)=><p key={i}>{p}</p>)}<p className="small">Média : {e.mediaCredit}. <a href={e.mediaSource}>Source</a> · {e.capturedAt}</p></section>}
  </article><aside className="detail-aside"><span className="eyebrow">POUR VOTRE PUBLIC</span><h2>Prolongez la découverte.</h2><p>École, entreprise ou lieu culturel : préparons une démonstration adaptée à vos objectifs.</p><Link className="btn dark" href={'/contact?objet=demonstration&fiche='+encodeURIComponent(e.id)}>Demander une démonstration</Link><dl className="info-list"><div><dt>Accès</dt><dd>Gratuit</dd></div><div><dt>Casque</dt><dd>Non obligatoire</dd></div></dl>{e.format!=='text'&&<><p>Le média se charge à votre demande. La description reste disponible sans 3D.</p><a className="under-link" href="#alternative">Lire l’alternative textuelle</a><p className="small">Faites une pause au moindre inconfort. La compatibilité casque doit être validée sur l’appareil utilisé.</p></>}</aside></div></main>,locale);

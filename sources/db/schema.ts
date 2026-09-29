@@ -1,4 +1,4 @@
-import { pgTable, pgEnum, text, integer, timestamp, jsonb, index, uniqueIndex, real, customType } from 'drizzle-orm/pg-core';
+import { pgTable, pgEnum, text, integer, timestamp, jsonb, index, uniqueIndex, real, customType, primaryKey } from 'drizzle-orm/pg-core';
 import type { Experience } from '../lib/models';
 export const userRole = pgEnum('user_role', ['admin', 'editor', 'viewer']);
 export const userStatus = pgEnum('user_status', ['active', 'disabled']);
@@ -34,6 +34,16 @@ export const uploadedImages = pgTable('uploaded_images', {
  ficheId: text('fiche_id').references(() => fiches.id, { onDelete: 'cascade' }),
  createdBy: text('created_by').references(() => users.id, { onDelete: 'set null' }), createdAt: date('created_at'),
 }, t => [index('uploaded_images_fiche').on(t.ficheId), index('uploaded_images_created_at').on(t.createdAt)]);
+export const mediaAssets = pgTable('media_assets', {
+ id: text('id').primaryKey(), name: text('name').notNull(), kind: text('kind').notNull(), mimeType: text('mime_type').notNull(),
+ byteSize: integer('byte_size').notNull(), category: text('category').notNull(), chunkSize: integer('chunk_size').notNull(),
+ chunkCount: integer('chunk_count').notNull(), status: text('status').notNull().default('uploading'),
+ createdBy: text('created_by').references(() => users.id, { onDelete: 'set null' }), createdAt: date('created_at'),
+}, t => [index('media_assets_kind_category').on(t.kind, t.category), index('media_assets_created_at').on(t.createdAt)]);
+export const mediaAssetChunks = pgTable('media_asset_chunks', {
+ mediaId: text('media_id').notNull().references(() => mediaAssets.id, { onDelete: 'cascade' }),
+ position: integer('position').notNull(), data: bytea('data').notNull(), byteSize: integer('byte_size').notNull(),
+}, t => [primaryKey({columns:[t.mediaId,t.position]}), index('media_asset_chunks_media').on(t.mediaId)]);
 export const pointsOfInterest = pgTable('points_of_interest', {
  id: text('id').primaryKey(), ficheId: text('fiche_id').notNull().references(() => fiches.id, { onDelete: 'cascade' }),
  label: text('label').notNull(), description: text('description').notNull(), yaw: real('yaw').notNull(), pitch: real('pitch').notNull(),

@@ -6,6 +6,7 @@ export const experienceInput=z.object({
  provinces:z.array(z.string().min(2).max(80)).max(26).optional(),provinceNote:z.string().max(1500).optional(),
  provinceSources:z.array(z.object({title:z.string().min(1).max(200),url:safeUrl,page:z.string().max(100).optional()})).max(8).optional(),
  imageAlt:z.string().max(400).optional(),sources:z.array(z.object({title:z.string().min(1).max(200),url:safeUrl,page:z.string().max(100).optional()})).max(8).optional(),
+ attachments:z.array(z.object({assetId:z.string().uuid(),title:z.string().min(1).max(180),url:safeUrl,mimeType:z.literal('application/pdf'),size:z.number().int().positive().max(15_000_000)})).max(8).optional(),
  kind:z.enum(['metier','destination','demo','projet']),sector:z.string().trim().min(2).max(80),location:z.string().max(160),
  description:z.string().trim().min(10).max(400),body:z.string().trim().min(30).max(12000),image:safeUrl,imageCredit:z.string().max(500),imageSource:safeUrl,
  duration:z.string().max(80),format:z.enum(['text','panorama','video360','video']),mediaUrl:safeUrl,mediaCredit:z.string().max(500),mediaSource:safeUrl,

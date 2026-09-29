@@ -22,6 +22,10 @@ import { POST as submit } from '../app/api/demandes/route.ts';
 import { GET as getContents,POST as save,DELETE as deleteContent } from '../app/api/admin/contenus/route.ts';
 import { POST as uploadImage } from '../app/api/admin/images/route.ts';
 import { GET as getImage } from '../app/media-images/[id]/route.ts';
+import { GET as listMedia,POST as createMedia } from '../app/api/admin/media-assets/route.ts';
+import { PUT as uploadMedia,PATCH as completeMedia,DELETE as deleteMedia } from '../app/api/admin/media-assets/[id]/route.ts';
+import { GET as previewMedia } from '../app/api/admin/media-assets/[id]/content/route.ts';
+import { GET as getMedia } from '../app/media-files/[id]/route.ts';
 import { GET as getRequests,PATCH as updateRequest } from '../app/api/admin/demandes/route.ts';
 import { GET as getUsers,POST as createUser,PATCH as updateUser,DELETE as deleteUser } from '../app/api/admin/users/route.ts';
 import { GET as getSettings,PUT as putSettings } from '../app/api/admin/settings/route.ts';
@@ -44,7 +48,7 @@ const fixture=async(role,email)=>{const id=await provisionUser(email,role,role,p
 await test('Drizzle migrations apply to isolated PostgreSQL and are repeatable',async()=>{
  await migrate();await migrate();
  assert.equal(await count('visuaa_migrations'),readdirSync(new URL('../drizzle/postgres/',import.meta.url)).filter(f=>f.endsWith('.sql')).length);
- for(const table of ['users','sessions','fiches','media','uploaded_images','points_of_interest','requests','audit_log','settings','rate_limits'])assert.equal(await count(table),0);
+ for(const table of ['users','sessions','fiches','media','uploaded_images','media_assets','media_asset_chunks','points_of_interest','requests','audit_log','settings','rate_limits'])assert.equal(await count(table),0);
 });
 await test('explicit seed creates 168 profiles without overwriting content',async()=>{
  await seedContent(seed);await seedContent(seed);assert.equal(await count('fiches'),168);
@@ -77,6 +81,38 @@ await test('image upload validates access and serves an optimized immutable asse
  const uploaded=await response.json();assert.match(uploaded.url,/^\/media-images\/[0-9a-f-]{36}$/);assert.equal(uploaded.mimeType,'image/webp');
  const id=uploaded.url.split('/').pop(),served=await getImage(new Request(process.env.SITE_URL+uploaded.url),{params:Promise.resolve({id})});
  assert.equal(served.status,200);assert.equal(served.headers.get('content-type'),'image/webp');assert.match(served.headers.get('cache-control'),/immutable/);assert.ok((await served.arrayBuffer()).byteLength>0);
+});
+await test('media library uploads chunks, classifies assets and keeps previews private',async()=>{
+ const video=Buffer.from([0,0,0,12,0x66,0x74,0x79,0x70,0x69,0x73,0x6f,0x6d]);
+ assert.equal((await createMedia(request({name:'privee.mp4',mimeType:'video/mp4',size:video.length,category:'exploration'},{cookie:viewerCookie,path:'/api/admin/media-assets'}))).status,403);
+ let response=await createMedia(request({name:'visite.mp4',mimeType:'video/mp4',size:video.length,category:'exploration'},{cookie:adminCookie,path:'/api/admin/media-assets'}));assert.equal(response.status,201);
+ const upload=await response.json(),params={params:Promise.resolve({id:upload.id})};
+ const chunk=new Request(process.env.SITE_URL+'/api/admin/media-assets/'+upload.id,{method:'PUT',headers:{'Content-Type':'application/octet-stream','X-Chunk-Index':'0',Origin:process.env.SITE_URL,Cookie:adminCookie},body:video});
+ assert.equal((await uploadMedia(chunk,params)).status,200);
+ assert.equal((await completeMedia(request({},{cookie:adminCookie,path:'/api/admin/media-assets/'+upload.id,method:'PATCH'}),params)).status,200);
+ const library=await(await listMedia(get(adminCookie,'/api/admin/media-assets'))).json();assert.equal(library.items[0].category,'exploration');assert.ok(library.items[0].previewUrl.startsWith('/api/admin/media-assets/'));
+ assert.equal((await previewMedia(get(viewerCookie,library.items[0].previewUrl),params)).status,403);
+ const previewRequest=get(adminCookie,library.items[0].previewUrl);previewRequest.headers.set('Range','bytes=4-7');response=await previewMedia(previewRequest,params);
+ assert.equal(response.status,206);assert.equal(response.headers.get('content-range'),'bytes 4-7/12');assert.equal(Buffer.from(await response.arrayBuffer()).toString(),'ftyp');
+ assert.equal((await getMedia(new Request(process.env.SITE_URL+library.items[0].url),params)).status,404);
+ const original=await contentBySlug('premiers-pas-en-360');response=await save(request({...original,format:'video',mediaUrl:library.items[0].url,mediaCredit:'VISUAA test',mediaSource:library.items[0].url},{cookie:adminCookie}));assert.equal(response.status,200);
+ const linked=(await response.json()).item,publicRequest=new Request(process.env.SITE_URL+library.items[0].url,{headers:{Range:'bytes=4-7'}});response=await getMedia(publicRequest,params);
+ assert.equal(response.status,206);assert.match(response.headers.get('cache-control'),/public/);assert.equal(Buffer.from(await response.arrayBuffer()).toString(),'ftyp');
+ assert.equal((await deleteMedia(request({},{cookie:adminCookie,path:'/api/admin/media-assets/'+upload.id,method:'DELETE'}),params)).status,409);
+ response=await save(request({...original,version:linked.version},{cookie:adminCookie}));assert.equal(response.status,200);const restored=(await response.json()).item;
+ const forged={assetId:crypto.randomUUID(),title:'Faux document',url:'/media-files/'+crypto.randomUUID(),mimeType:'application/pdf',size:100};
+ assert.equal((await save(request({...restored,attachments:[forged]},{cookie:adminCookie}))).status,400);
+ assert.equal((await deleteMedia(request({},{cookie:adminCookie,path:'/api/admin/media-assets/'+upload.id,method:'DELETE'}),params)).status,200);
+ const pdf=Buffer.from('%PDF-1.7\nVISUAA test');response=await createMedia(request({name:'guide.pdf',mimeType:'application/pdf',size:pdf.length,category:'culture-musees'},{cookie:adminCookie,path:'/api/admin/media-assets'}));assert.equal(response.status,201);
+ const documentUpload=await response.json(),documentParams={params:Promise.resolve({id:documentUpload.id})},documentUrl='/media-files/'+documentUpload.id;
+ const documentChunk=new Request(process.env.SITE_URL+'/api/admin/media-assets/'+documentUpload.id,{method:'PUT',headers:{'Content-Type':'application/octet-stream','X-Chunk-Index':'0',Origin:process.env.SITE_URL,Cookie:adminCookie},body:pdf});
+ assert.equal((await uploadMedia(documentChunk,documentParams)).status,200);assert.equal((await completeMedia(request({},{cookie:adminCookie,path:'/api/admin/media-assets/'+documentUpload.id,method:'PATCH'}),documentParams)).status,200);
+ response=await save(request({...restored,attachments:[{assetId:documentUpload.id,title:'Guide PDF',url:documentUrl,mimeType:'application/pdf',size:pdf.length}]},{cookie:adminCookie}));assert.equal(response.status,200);const withDocument=(await response.json()).item;
+ response=await getMedia(new Request(process.env.SITE_URL+documentUrl),documentParams);assert.equal(response.status,200);assert.equal(Buffer.from(await response.arrayBuffer()).toString(),pdf.toString());
+ const detail=renderToStaticMarkup(await DetailPage({params:Promise.resolve({slug:'premiers-pas-en-360'})}));assert.match(detail,/Documents à consulter/);assert.match(detail,/Guide PDF/);
+ assert.equal((await deleteMedia(request({},{cookie:adminCookie,path:'/api/admin/media-assets/'+documentUpload.id,method:'DELETE'}),documentParams)).status,409);
+ response=await save(request({...withDocument,attachments:[]},{cookie:adminCookie}));assert.equal(response.status,200);
+ assert.equal((await deleteMedia(request({},{cookie:adminCookie,path:'/api/admin/media-assets/'+documentUpload.id,method:'DELETE'}),documentParams)).status,200);
 });
 await test('registration ignores requested role and reserves bootstrap addresses',async()=>{
  const response=await register(request({name:'New client',email:'new@example.test',password,role:'admin'}));assert.equal(response.status,201);
