@@ -15,6 +15,13 @@
       "when": 1789240851346,
       "tag": "0001_unknown_william_stryker",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790674739742,
+      "tag": "0002_light_synch",
+      "breakpoints": true
     }
   ]
 }

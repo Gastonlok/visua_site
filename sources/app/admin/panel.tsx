@@ -7,13 +7,24 @@ import { provinces } from '@/lib/catalogue-metadata';
 const labels={draft:'Brouillon',review:'À vérifier',verified:'Vérifié',published:'Publié',archived:'Archivé'};
 function blank():Experience{return {id:clientId(),slug:'',title:'',kind:'metier',sector:'',location:'',description:'',body:'',image:'',imageAlt:'',imageCredit:'',imageSource:'',duration:'',format:'text',mediaUrl:'',mediaCredit:'',mediaSource:'',capturedAt:'',transcript:'',points:[],skills:[],status:'draft',isDemo:true,rightsConfirmed:false,version:0,updatedAt:''}}
 export default function ContentPanel({userRole,userId,initialStatus='',initialCreate=false,initialId,mediaOnly=false}:{userRole:string;userId:string;initialStatus?:string;initialCreate?:boolean;initialId?:string;mediaOnly?:boolean}){
- const [items,setItems]=useState<Experience[]>([]),[edit,setEdit]=useState<Experience|null>(()=>initialCreate?blank():null),[message,setMessage]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false),[loading,setLoading]=useState(true),[query,setQuery]=useState(''),[dirty,setDirty]=useState(false),[mine,setMine]=useState(false),[status,setStatus]=useState(initialStatus),[kind,setKind]=useState('');
+ const [items,setItems]=useState<Experience[]>([]),[edit,setEdit]=useState<Experience|null>(()=>initialCreate?blank():null),[message,setMessage]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false),[uploading,setUploading]=useState(false),[loading,setLoading]=useState(true),[query,setQuery]=useState(''),[dirty,setDirty]=useState(false),[mine,setMine]=useState(false),[status,setStatus]=useState(initialStatus),[kind,setKind]=useState('');
  async function load(){try{const r=await fetch('/api/admin/contenus'),v=await r.json();if(!r.ok)throw Error(v.error);setItems(v.items)}catch(e){setError(e instanceof Error?e.message:'Chargement impossible.')}finally{setLoading(false)}}
  useEffect(()=>{void load()},[]);
  useEffect(()=>{if(initialId)setEdit(items.find(e=>e.id===initialId)||null)},[initialId,items]);
  function abandon(){return !dirty||confirm('Des modifications ne sont pas enregistrées. Les abandonner ?')}
  useEffect(()=>{if(!dirty)return;const before=(e:BeforeUnloadEvent)=>{e.preventDefault();e.returnValue=''};const navigate=(e:MouseEvent)=>{const link=(e.target as Element).closest('a[href]');if(link&&link.getAttribute('target')!=='_blank'&&!confirm('Des modifications ne sont pas enregistrées. Quitter cette fiche ?')){e.preventDefault();e.stopPropagation()}};window.addEventListener('beforeunload',before);document.addEventListener('click',navigate,true);return()=>{window.removeEventListener('beforeunload',before);document.removeEventListener('click',navigate,true)}},[dirty]);
  function field<K extends keyof Experience>(key:K,value:Experience[K]){setDirty(true);setEdit(e=>e?{...e,[key]:value}:e)}
+ async function uploadImage(file:File){
+  const accepted=['image/jpeg','image/png','image/webp','image/avif'];
+  if(!accepted.includes(file.type)){setError('Choisissez une image JPEG, PNG, WebP ou AVIF.');return}
+  if(file.size>4_000_000){setError('L’image dépasse la limite de 4 Mo.');return}
+  setUploading(true);setError('');setMessage('');
+  try{
+   const r=await fetch('/api/admin/images',{method:'POST',headers:{'Content-Type':file.type},body:file}),v=await r.json();
+   if(!r.ok)throw Error(v.error);
+   field('image',v.url);setMessage('Image importée. Enregistrez la fiche pour confirmer son remplacement.');
+  }catch(e){setError(e instanceof Error?e.message:'Import de l’image impossible.')}finally{setUploading(false)}
+ }
  async function save(event:React.FormEvent){event.preventDefault();if(!edit)return;setBusy(true);setError('');setMessage('');
   try{const r=await fetch('/api/admin/contenus',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(edit)}),v=await r.json();if(!r.ok)throw Error(v.error);setEdit(v.item);setDirty(false);setMessage('Fiche enregistrée.');await load()}catch(e){setError(e instanceof Error?e.message:'Enregistrement impossible.')}finally{setBusy(false)}
  }
@@ -33,7 +44,17 @@ export default function ContentPanel({userRole,userId,initialStatus='',initialCr
  <label>Résumé<textarea required minLength={10} maxLength={400} rows={3} value={edit.description} onChange={e=>field('description',e.target.value)}/></label>
  <label>Contenu<textarea required minLength={30} maxLength={12000} rows={8} value={edit.body} onChange={e=>field('body',e.target.value)}/></label>
  <div className="form-row"><label>Durée<input maxLength={80} value={edit.duration} onChange={e=>field('duration',e.target.value)}/></label><label>Repères (séparés par des virgules)<input value={edit.skills.join(', ')} onChange={e=>field('skills',e.target.value.split(',').map(x=>x.trim()).filter(Boolean))}/></label></div>
- <h3>Image de présentation</h3><label>Adresse de l’image<input value={edit.image} onChange={e=>field('image',e.target.value)}/></label>
+ <h3>Image de présentation</h3>
+ <div className="image-editor">
+  {edit.image?<div className="image-editor-preview">
+   {/* eslint-disable-next-line @next/next/no-img-element */}
+   <img src={edit.image} alt={edit.imageAlt||'Aperçu de l’image de la fiche'}/>
+   <button type="button" className="btn outline" disabled={uploading} onClick={()=>field('image','')}>Retirer l’image</button>
+  </div>:<div className="image-editor-placeholder">Aucune image sélectionnée</div>}
+  <div><label>Importer une image<input type="file" accept="image/jpeg,image/png,image/webp,image/avif" disabled={uploading} onChange={e=>{const file=e.currentTarget.files?.[0];e.currentTarget.value='';if(file)void uploadImage(file)}}/></label>
+  <p className="small" role={uploading?'status':undefined}>{uploading?'Import et optimisation en cours…':'JPEG, PNG, WebP ou AVIF · 4 Mo maximum. L’image est optimisée automatiquement.'}</p>
+  <label>Adresse de l’image<input value={edit.image} onChange={e=>field('image',e.target.value)}/></label></div>
+ </div>
  <label>Description de l’image<input value={edit.imageAlt||''} onChange={e=>field('imageAlt',e.target.value)}/></label>
  <div className="form-row"><label>Crédits et licence<input value={edit.imageCredit} onChange={e=>field('imageCredit',e.target.value)}/></label><label>Page source<input value={edit.imageSource} onChange={e=>field('imageSource',e.target.value)}/></label></div>
  <h3>Média et alternative accessible</h3>
@@ -51,7 +72,7 @@ export default function ContentPanel({userRole,userId,initialStatus='',initialCr
  <p className="small">Les modifications de texte nécessitent aussi la mise à jour de la traduction anglaise. Sans traduction, la version française est conservée.</p>
  <label className="check-label"><input type="checkbox" checked={edit.isDemo} onChange={e=>field('isDemo',e.target.checked)}/>Contenu pilote ou démonstration</label>
  <label className="check-label"><input type="checkbox" checked={edit.rightsConfirmed} onChange={e=>field('rightsConfirmed',e.target.checked)}/>Droits et informations vérifiés</label>
- <div className="admin-toolbar"><button className="btn dark" disabled={busy}>{busy?'Enregistrement…':'Enregistrer la fiche'}</button>{userRole==='admin'&&edit.version>0&&edit.status==='draft'&&<button type="button" className="btn danger" disabled={busy} onClick={()=>void remove()}>Supprimer le brouillon</button>}</div>
+ <div className="admin-toolbar"><button className="btn dark" disabled={busy||uploading}>{busy?'Enregistrement…':'Enregistrer la fiche'}</button>{userRole==='admin'&&edit.version>0&&edit.status==='draft'&&<button type="button" className="btn danger" disabled={busy} onClick={()=>void remove()}>Supprimer le brouillon</button>}</div>
  </SafeForm>:<><label className="check-label"><input type="checkbox" checked={mine} onChange={e=>setMine(e.target.checked)}/> Mes fiches uniquement</label><label className="dashboard-search">Rechercher une fiche<input value={query} onChange={e=>setQuery(e.target.value)}/></label><div className="admin-filter-row"><label>État de publication<select value={status} onChange={e=>setStatus(e.target.value)}><option value="">Tous les états</option>{Object.entries(labels).map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label><label>Type de fiche<select value={kind} onChange={e=>setKind(e.target.value)}><option value="">Tous les types</option><option value="metier">Métier</option><option value="destination">Territoire</option><option value="demo">Démonstration</option><option value="projet">Projet</option></select></label><p role="status">{selected.length} fiches affichées</p></div>{loading?<p role="status">Chargement…</p>:<div className="admin-list">{selected.map(e=><article className="admin-item" key={e.id}>{e.image&&<img className="admin-thumbnail" src={e.image} alt={e.imageAlt||''} loading="lazy" width="88" height="66"/>}<div><h3>{e.title}</h3><p>{labels[e.status]} · {e.kind} · v{e.version}</p></div><button className="btn outline" disabled={userRole!=='admin'&&['verified','published','archived'].includes(e.status)} onClick={()=>{setEdit(e);setError('');setMessage('')}}>Modifier</button>{e.status==='published'&&<a className="under-link" href={'/experiences/'+e.slug}>Voir la fiche</a>}</article>)}</div>}</>}
  </section>;
 }

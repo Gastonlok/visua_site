@@ -1,4 +1,4 @@
-import { pgTable, pgEnum, text, integer, timestamp, jsonb, index, uniqueIndex, real } from 'drizzle-orm/pg-core';
+import { pgTable, pgEnum, text, integer, timestamp, jsonb, index, uniqueIndex, real, customType } from 'drizzle-orm/pg-core';
 import type { Experience } from '../lib/models';
 export const userRole = pgEnum('user_role', ['admin', 'editor', 'viewer']);
 export const userStatus = pgEnum('user_status', ['active', 'disabled']);
@@ -6,6 +6,7 @@ export const ficheStatus = pgEnum('fiche_status', ['draft', 'review', 'verified'
 export const ficheType = pgEnum('fiche_type', ['metier', 'destination', 'demo', 'projet']);
 export const requestStatus = pgEnum('request_status', ['new', 'contacted', 'quoted', 'closed']);
 const date = (name: string) => timestamp(name, { withTimezone: true, mode: 'string' }).notNull().defaultNow();
+const bytea = customType<{ data: Buffer }>({ dataType: () => 'bytea' });
 export const users = pgTable('users', {
  id: text('id').primaryKey(), email: text('email').notNull(), name: text('name').notNull(),
  role: userRole('role').notNull().default('viewer'), status: userStatus('status').notNull().default('active'),
@@ -28,6 +29,11 @@ export const media = pgTable('media', {
  url: text('url').notNull(), type: text('type').notNull(), credits: text('credits').notNull(), source: text('source').notNull(),
  alt: text('alt').notNull().default(''), position: integer('position').notNull().default(0),
 }, t => [index('media_fiche').on(t.ficheId)]);
+export const uploadedImages = pgTable('uploaded_images', {
+ id: text('id').primaryKey(), mimeType: text('mime_type').notNull(), data: bytea('data').notNull(), byteSize: integer('byte_size').notNull(),
+ ficheId: text('fiche_id').references(() => fiches.id, { onDelete: 'cascade' }),
+ createdBy: text('created_by').references(() => users.id, { onDelete: 'set null' }), createdAt: date('created_at'),
+}, t => [index('uploaded_images_fiche').on(t.ficheId), index('uploaded_images_created_at').on(t.createdAt)]);
 export const pointsOfInterest = pgTable('points_of_interest', {
  id: text('id').primaryKey(), ficheId: text('fiche_id').notNull().references(() => fiches.id, { onDelete: 'cascade' }),
  label: text('label').notNull(), description: text('description').notNull(), yaw: real('yaw').notNull(), pitch: real('pitch').notNull(),

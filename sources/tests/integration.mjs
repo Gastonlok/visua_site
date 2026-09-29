@@ -20,6 +20,8 @@ import { POST as logout } from '../app/api/auth/logout/route.ts';
 import { POST as changePassword } from '../app/api/auth/password/route.ts';
 import { POST as submit } from '../app/api/demandes/route.ts';
 import { GET as getContents,POST as save,DELETE as deleteContent } from '../app/api/admin/contenus/route.ts';
+import { POST as uploadImage } from '../app/api/admin/images/route.ts';
+import { GET as getImage } from '../app/media-images/[id]/route.ts';
 import { GET as getRequests,PATCH as updateRequest } from '../app/api/admin/demandes/route.ts';
 import { GET as getUsers,POST as createUser,PATCH as updateUser,DELETE as deleteUser } from '../app/api/admin/users/route.ts';
 import { GET as getSettings,PUT as putSettings } from '../app/api/admin/settings/route.ts';
@@ -34,13 +36,15 @@ const password='Long-test-password-2026!';
 let admin,editor,viewer,other,adminCookie,editorCookie,viewerCookie,otherCookie;
 const request=(body,{cookie='',method='POST',path='/api/demandes',origin=process.env.SITE_URL,headers={}}={})=>new Request(process.env.SITE_URL+path,{method,headers:{'Content-Type':'application/json',Origin:origin,Cookie:cookie,...headers},...(method==='GET'?{}:{body:typeof body==='string'?body:JSON.stringify(body)})});
 const get=(cookie,path='/api/admin/demandes')=>request(null,{cookie,path,method:'GET'});
+const imageRequest=(body,{cookie='',origin=process.env.SITE_URL,type='image/png'}={})=>new Request(process.env.SITE_URL+'/api/admin/images',{method:'POST',headers:{'Content-Type':type,Origin:origin,Cookie:cookie},body});
+const pixel=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAEUlEQVQImWMQqdjyH4QZYAwASvQI/eVH7P4AAAAASUVORK5CYII=','base64');
 const valid=(extra={})=>({id:crypto.randomUUID(),name:'Client Test',email:'lead-'+crypto.randomUUID()+'@example.test',organization:'École Test',intent:'demonstration',message:'Une démonstration pour notre groupe de test.',consent:true,website:'',...extra});
 const count=async(table)=>Number((await db.query('SELECT count(*) AS n FROM '+table)).rows[0].n);
 const fixture=async(role,email)=>{const id=await provisionUser(email,role,role,password);return [id,cookieHeader(await createSession(id))]};
 await test('Drizzle migrations apply to isolated PostgreSQL and are repeatable',async()=>{
  await migrate();await migrate();
  assert.equal(await count('visuaa_migrations'),readdirSync(new URL('../drizzle/postgres/',import.meta.url)).filter(f=>f.endsWith('.sql')).length);
- for(const table of ['users','sessions','fiches','media','points_of_interest','requests','audit_log','settings','rate_limits'])assert.equal(await count(table),0);
+ for(const table of ['users','sessions','fiches','media','uploaded_images','points_of_interest','requests','audit_log','settings','rate_limits'])assert.equal(await count(table),0);
 });
 await test('explicit seed creates 168 profiles without overwriting content',async()=>{
  await seedContent(seed);await seedContent(seed);assert.equal(await count('fiches'),168);
@@ -63,6 +67,16 @@ await test('permission matrix rejects editor administration and viewer writes',a
  assert.equal((await createUser(request({},{cookie:editorCookie}))).status,403);
  assert.equal((await updateRequest(request({},{cookie:editorCookie,method:'PATCH'}))).status,403);
  assert.equal(can(await getUser(get(viewerCookie)),'content:publish'),false);
+});
+await test('image upload validates access and serves an optimized immutable asset',async()=>{
+ assert.equal((await uploadImage(imageRequest(pixel,{cookie:viewerCookie}))).status,403);
+ assert.equal((await uploadImage(imageRequest(pixel,{cookie:adminCookie,origin:'https://attacker.example'}))).status,403);
+ assert.equal((await uploadImage(imageRequest(pixel,{cookie:adminCookie,type:'text/plain'}))).status,415);
+ assert.equal((await uploadImage(imageRequest(Buffer.from('not an image'),{cookie:adminCookie}))).status,400);
+ const response=await uploadImage(imageRequest(pixel,{cookie:adminCookie}));assert.equal(response.status,201);
+ const uploaded=await response.json();assert.match(uploaded.url,/^\/media-images\/[0-9a-f-]{36}$/);assert.equal(uploaded.mimeType,'image/webp');
+ const id=uploaded.url.split('/').pop(),served=await getImage(new Request(process.env.SITE_URL+uploaded.url),{params:Promise.resolve({id})});
+ assert.equal(served.status,200);assert.equal(served.headers.get('content-type'),'image/webp');assert.match(served.headers.get('cache-control'),/immutable/);assert.ok((await served.arrayBuffer()).byteLength>0);
 });
 await test('registration ignores requested role and reserves bootstrap addresses',async()=>{
  const response=await register(request({name:'New client',email:'new@example.test',password,role:'admin'}));assert.equal(response.status,201);
@@ -108,6 +122,15 @@ await test('editor creates a draft with relational media and submits for review'
  assert.equal(draft.authorId,editor);assert.equal(await contentBySlug(draft.slug),null);assert.equal(draft.points.length,2);
  r=await save(request({...draft,status:'review'},{cookie:editorCookie}));assert.equal(r.status,200);draft=(await r.json()).item;
  assert.equal((await save(request({...draft,status:'published'},{cookie:editorCookie}))).status,403);
+});
+await test('administrator replaces the presentation image attached to a fiche',async()=>{
+ const first=await (await uploadImage(imageRequest(pixel,{cookie:adminCookie}))).json();
+ let response=await save(request({...draft,image:first.url},{cookie:adminCookie}));assert.equal(response.status,200);draft=(await response.json()).item;
+ assert.equal((await db.query('SELECT fiche_id FROM uploaded_images WHERE id=$1',[first.url.split('/').pop()])).rows[0].fiche_id,draft.id);
+ const second=await (await uploadImage(imageRequest(pixel,{cookie:adminCookie}))).json();
+ response=await save(request({...draft,image:second.url},{cookie:adminCookie}));assert.equal(response.status,200);draft=(await response.json()).item;
+ assert.equal((await getImage(new Request(process.env.SITE_URL+first.url),{params:Promise.resolve({id:first.url.split('/').pop()})})).status,404);
+ assert.equal(Number((await db.query('SELECT count(*) AS n FROM uploaded_images WHERE fiche_id=$1',[draft.id])).rows[0].n),1);
 });
 await test('publication validates credits, rights, URL protocols and text alternative',async()=>{
  assert.equal((await save(request({...draft,status:'published',isDemo:false,rightsConfirmed:false},{cookie:adminCookie}))).status,400);

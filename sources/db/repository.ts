@@ -42,6 +42,15 @@ async function replaceMedia(tx: SqlConnection, e: Experience) {
  if (e.format !== 'text') await tx.query('INSERT INTO media (id,fiche_id,url,type,credits,source,alt,position) VALUES ($1,$2,$3,$4,$5,$6,$7,1)', [randomUUID(), e.id, e.mediaUrl, e.format, e.mediaCredit, e.mediaSource, e.transcript]);
  for (const [i, p] of e.points.entries()) await tx.query('INSERT INTO points_of_interest (id,fiche_id,label,description,yaw,pitch,position) VALUES ($1,$2,$3,$4,$5,$6,$7)', [randomUUID(), e.id, p.title, p.text, p.yaw, p.pitch, i]);
 }
+function uploadedImageId(url: string) { return /^\/media-images\/([0-9a-f-]{36})$/i.exec(url)?.[1] || null; }
+async function attachUploadedImage(tx: SqlConnection, e: Experience) {
+ const id=uploadedImageId(e.image);
+ if(id){
+  const linked=await tx.query('UPDATE uploaded_images SET fiche_id=$1 WHERE id=$2 AND (fiche_id IS NULL OR fiche_id=$1)',[e.id,id]);
+  if(!linked.rowCount)throw new HttpError(400,'Image téléversée introuvable ou déjà utilisée par une autre fiche.');
+  await tx.query('DELETE FROM uploaded_images WHERE fiche_id=$1 AND id<>$2',[e.id,id]);
+ }else await tx.query('DELETE FROM uploaded_images WHERE fiche_id=$1',[e.id]);
+}
 function metadata(e: Experience) {
  const copy: Partial<Experience> = { ...e };
  for (const key of ['id','slug','title','description','body','status','authorId','seoTitle','seoDescription','image','imageCredit','imageSource','imageAlt','mediaUrl','mediaCredit','mediaSource','points','version','updatedAt'] as const) delete copy[key];
@@ -65,6 +74,7 @@ export async function saveContent(e: Experience, actor: User) {
     [e.id,e.slug,e.title,e.description,e.body,e.kind,e.status,metadata(e),actor.id,e.seoTitle || '',e.seoDescription || '']);
   }
   await replaceMedia(tx,e);
+  await attachUploadedImage(tx,e);
   await audit(tx,actor.id,'content:'+e.status,e.id);
   return (await hydrate((await tx.query<FicheRow>('SELECT * FROM fiches WHERE id=$1',[e.id])).rows,tx))[0];
  });
